@@ -7,8 +7,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ## 目录
 
-* [PC](#-PC-)
-	* [Browser](#-Browser-)
+* [PC](#-pc-)
+	* [Browser](#-browser-)
 		* [Firefox 国际版](#-Firefox-国际版-)
 		* [Google Chrome](#-Google-Chrome-)
 	* [Code](#-Code-)
@@ -24,13 +24,13 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [WinSCP](#-WinSCP-)
 		* [](#--)
 		
-## – PC –
+## PC
 
 ### Browser
 
-#### • [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
+#### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
-#### • [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
+#### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
 ### Code
 
