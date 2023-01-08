@@ -3,7 +3,7 @@ updateDate: 2023-01-08
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
-# Software
+# Software-PC
 
 ## 目录
 
@@ -60,6 +60,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [v2rayN](#v2rayn)
 		* [shadowsocks-windows](#shadowsocks-windows)
 		* [WinXray](#winxray)
+
+---
 
 ##  PC
 
