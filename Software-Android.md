@@ -61,21 +61,21 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 - ### Document 
 
-	- #### Legado<sup>[[Github](https://github.com/gedoor/legado/releases)]</sup><a id="#legado"></a>
+	- #### Legado<sup>[[Github](https://github.com/gedoor/legado/releases)]</sup><a id="legado"></a>
 
 	> [gedoor.github.io](https://gedoor.github.io/) / [legado.top](https://www.legado.top/)
 
-	- #### markor<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="#markor"></a>
+	- #### markor<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="markor"></a>
 
 - ### Media 
 
-	- #### NewPipe<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="#newpipe"></a>
+	- #### NewPipe<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
 
 	> A libre lightweight streaming front-end for Android.
 
-	- #### [VLC](https://www.videolan.org/vlc/download-android.html) <sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup><a id="#vlc"></a>
+	- #### [VLC](https://www.videolan.org/vlc/download-android.html) <sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup><a id="vlc"></a>
 
-	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><a id="#spotify"></a>
+	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><a id="spotify"></a>
 
 	- #### [网易云](https://music.163.com/)
 
@@ -87,6 +87,6 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 - ### Science
 
-	- #### ClashForAndroid<sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup><a id="#clashforandroid"></a>
+	- #### ClashForAndroid<sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup><a id="clashforandroid"></a>
 
-	- #### v2rayNG<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="#v2rayng"></a>
+	- #### v2rayNG<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="v2rayng"></a>
