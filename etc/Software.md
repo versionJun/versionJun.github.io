@@ -35,7 +35,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Internet Download Manager](#internet-download-manager)
     * [ETC](#etc)
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
-		* [UsbEAm Hosts Editor - 多平台hosts修改](#pc-usbeam-hosts-editor)
+		* [UsbEAm Hosts Editor](#pc-usbeam-hosts-editor)
 	* [](#--)
 	* [](#--)
     * [](#--)
