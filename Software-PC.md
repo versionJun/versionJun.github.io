@@ -16,7 +16,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Tomcat](#tomcat)
 		* [JDK](#jdk)
 		* [MySQL](#mysql)
-		* [redis-windows](#redis-windows)
+		* [redis-windows](#redis-windows1)
 		* [Maven](#maven)
 		* [Navicat](#navicat)
 		* [Visual Studio Code](#visual-studio-code)
@@ -81,7 +81,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [MySQL](https://downloads.mysql.com/archives/community/)
 
-	- #### <a id="#redis-windows">redis-windows</a><sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup>
+	- #### <a id="#redis-windows1">redis-windows</a><sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup>
 
 	- #### [Maven](https://maven.apache.org/download.cgi)
 
