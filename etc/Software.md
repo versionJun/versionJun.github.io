@@ -7,10 +7,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ## 目录
 
-* [PC](#-PC-)
-	* [Browser](#-Browser-)
-		* [Firefox 国际版](#-Firefox-国际版-)
-		* [Google Chrome](#-Google-Chrome-)
+* [PC](#pc)
+	* [Browser](#browser)
+		* [Firefox 国际版](#firefox-国际版)
+		* [Google Chrome](#google-chrome)
 	* [Code](#-Code-)
 		* [Eclipse](#-Eclipse-)
 		* [Tomcat](#-Tomcat-)
@@ -24,11 +24,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [WinSCP](#-WinSCP-)
 		* [](#--)
 		
-##  -PC-
+##  PC
 
-###  -Browser-
+###  Browser
 
-####  -[Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)-
+####  [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
 #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
