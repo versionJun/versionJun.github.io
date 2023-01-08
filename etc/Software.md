@@ -113,7 +113,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Watt Toolkit(Steam++)](https://steampp.net/)
 
-	- #### <a id="pc-usbeam-hosts-editor">[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改</a>
+	- #### <a id="pc-usbeam-hosts-editor"></a>[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改
 
 	- #### [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
 
