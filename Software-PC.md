@@ -81,7 +81,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [MySQL](https://downloads.mysql.com/archives/community/)
 
-	- #### redis-windows<sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup><a id="#redis-windows"></a>
+	- #### <a id="#redis-windows">redis-windows<sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup></a>
 
 	- #### [Maven](https://maven.apache.org/download.cgi)
 
