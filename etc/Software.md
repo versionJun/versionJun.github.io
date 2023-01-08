@@ -35,7 +35,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Internet Download Manager](#internet-download-manager)
     * [ETC](#etc)
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
-		* [UsbEAm Hosts Editor - 多平台hosts修改](#usbeam-hosts-editor---多平台hosts修改)
+		* [UsbEAm Hosts Editor - 多平台hosts修改](#pc-usbeam-hosts-editor)
 	* [](#--)
 	* [](#--)
     * [](#--)
@@ -113,7 +113,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Watt Toolkit(Steam++)](https://steampp.net/)
 
-	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改
+	- #### <a id="pc-usbeam-hosts-editor">[UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改</a>
 
 	- #### [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
 
