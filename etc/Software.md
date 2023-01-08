@@ -7,22 +7,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ## 目录
 
-* [PC](#-pc-)
-	* [Browser](#-browser-)
-		* [Firefox 国际版](#-Firefox-国际版-)
-		* [Google Chrome](#-Google-Chrome-)
-	* [Code](#-Code-)
-		* [Eclipse](#-Eclipse-)
-		* [Tomcat](#-Tomcat-)
-		* [JDK](#-JDK-)
-		* [MySQL](#-MySQL-)
-		* [redis-windows](#-redis-windows-)
-		* [Maven](#-Maven-)
-		* [Navicat](#-Navicat-)
-		* [Visual Studio Code](#-Visual-Studio-Code-)
-		* [PuTTY](#-PuTTY-)
-		* [WinSCP](#-WinSCP-)
-		* [](#--)
+[TOC]
 		
 ## PC
 
