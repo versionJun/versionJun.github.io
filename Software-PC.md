@@ -77,15 +77,15 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Tomcat](https://tomcat.apache.org/)
 
-	- #### [JDK](https://www.oracle.com/java/technologies/downloads/)<sup>[[Github](https://github.com/frekele/oracle-java)]</sup><span id="#jdk"></span>
+	- #### [JDK](https://www.oracle.com/java/technologies/downloads/)<sup>[[Github](https://github.com/frekele/oracle-java)]</sup><a id="#jdk"></a>
 
 	- #### [MySQL](https://downloads.mysql.com/archives/community/)
 
-	- #### <a span="#redis-windows1">redis-windows</span><sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup>
+	- #### <a id="#redis-windows">redis-windows</a><sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup>
 
 	- #### [Maven](https://maven.apache.org/download.cgi)
 
-	- #### [Navicat](https://www.navicat.com.cn/products/)<sup>[[果核](https://www.ghxi.com/?s=Navicat)]</sup><a span="#navicat"></span>
+	- #### [Navicat](https://www.navicat.com.cn/products/)<sup>[[果核](https://www.ghxi.com/?s=Navicat)]</sup><a id="#navicat"></a>
 
 	- #### [Visual Studio Code](https://code.visualstudio.com/)
     > [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
