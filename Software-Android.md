@@ -1,5 +1,4 @@
 ---
-updateDate: 2023-01-08
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -14,6 +13,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Browser](#browser)
 		* [Firefox 国际版](#firefox-国际版)
 		* [Google Chrome](#google-chrome)
+		* [X浏览器](#x浏览器)
 	* [Driver](#driver)
 		* [阿里云盘](#阿里云盘)
 		* [坚果云](#坚果云)
@@ -31,8 +31,6 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Science](#science)
 		* [ClashForAndroid](#clashforandroid)
 		* [v2rayNG](#v2rayng)
-
-
 
 ## Android
 
@@ -52,6 +50,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
+
+	- #### [X浏览器](https://www.xbext.com/)
 
 - ### Driver
 
