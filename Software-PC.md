@@ -58,6 +58,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Platform](#platform)
 		* [Steam](#steam)
 		* [EPIC](#epic)
+	* [Remote Control](#remote-control)
+		* [AnyViewer](#anyviewer)
+		* [ToDesk](#todesk)
+		* [向日葵](#向日葵)
+		* [FastLook](#fastlook)
 	* [Recording](#recording)
 		* [Bandicam](#bandicam)
 		* [BililiveRecorder](#bililiverecorder)
@@ -192,6 +197,22 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [Steam](https://store.steampowered.com)
 
 	- #### [EPIC](https://www.epicgames.com/store/zh-CN/)
+
+- ### Remote Control
+
+	- #### [AnyViewer](https://www.anyviewer.cn/)
+
+	> 免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
+	> 登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
+	> 3 年：8033-8826-8278-E404
+	> 1 年：BA24-E088-CABA-654C
+	> 1 年：AC02-9EDC-D47E-11D1
+
+	- #### [ToDesk](https://www.todesk.com/)
+
+	- #### [向日葵](https://sunlogin.oray.com/)
+
+	- #### [FastLook](http://fastlook.cn/index.html)
 
 - ### Recording
 
