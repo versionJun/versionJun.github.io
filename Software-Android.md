@@ -32,6 +32,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [ClashForAndroid](#clashforandroid)
 		* [v2rayNG](#v2rayng)
 
+---
+
 ## Android
 
 - ### App Store
@@ -90,3 +92,5 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### ClashForAndroid<sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup><a id="clashforandroid"></a>
 
 	- #### v2rayNG<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="v2rayng"></a>
+
+---
