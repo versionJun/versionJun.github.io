@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-10
+updateDate: 2023-01-19
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -114,9 +114,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     > [翻译(英汉词典)
     ](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 
-	- #### [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+	- #### [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 	- #### [WinSCP ](https://winscp.net/eng/downloads.php)
+
+	> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
 
 - ### Compression
 
@@ -142,7 +144,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 - ### ETC
 
-	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<a id="watt-toolkitsteam"></a>
+	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup><a id="watt-toolkitsteam"></a>
 
 	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改<a id="usbeam-hosts-editor"></a>
 
@@ -173,6 +175,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - ### Media 
 
 	- #### [PotPlayer](https://potplayer.daum.net/)<sup>[[果核](https://www.ghxi.com/?s=PotPlayer)]</sup><a id="potplayer"></a>
+
+	> [IPTV - m3u](https://github.com/iptv-org/iptv)
 
 	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
 
@@ -236,12 +240,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup><a id="clash-for-windows"></a>
 
-    >   **Clash_Chinese_Patch<sup>[[Github](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)]</sup>**
-    > 
-    >> Clash For Windows 汉化补丁和汉化脚本
-    >>
-    >> - 使用请自行替换下列路径中的app.asar文件 
-    >> - *Clash for Windows\resources\app.asar*
+    >   **Clash_Chinese_Patch<sup>[[Github](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)]</sup>** - Clash For Windows 汉化补丁和汉化脚本
+    >
+    > - 使用请自行替换下列路径中的app.asar文件 
+    > - *Clash for Windows\resources\app.asar*
 
 	- #### v2rayN<sup>[[Github](https://github.com/2dust/v2rayN)]</sup><a id="v2rayn"></a>
 
