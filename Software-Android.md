@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-10
+updateDate: 2023-01-19
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -21,6 +21,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Document](#document)
 		* [Legado](#legado)
 		* [markor](#markor)
+	* [ETC](#etc)
+		* [质感文件](#质感文件)
+		* [termux](#termux)
 	* [Media](#media)
 		* [NewPipe](#newpipe)
 		* [VLC](#vlc)
@@ -44,7 +47,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     >> **修改存储库为国内源**
     >> 手机访问[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/)，使用 F-Droid 打开第一行的长链接，在弹出界面中点击添加镜像。也可以复制长链接 在应用⚙设置 - 存储库中，点击右上角的加号手动添加。添加完成后，还需要选择存储库中的第二个 F-Droid 库，只保留刚才添加的用户镜像，其他镜像悉数关闭，保证软件只从国内镜像站获取更新。
     > 
-    > PS:[F-Droid 使用指南](https://sspai.com/post/63647)
+    > PS: [F-Droid 使用指南](https://sspai.com/post/63647)
 
 	- #### [酷安](https://www.coolapk.com/)
 
@@ -70,9 +73,19 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### markor<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="markor"></a>
 
+- ### ETC 
+
+	- #### 质感文件<sup>[[Github](https://github.com/zhanghai/MaterialFiles/releases)]</sup><sup>[[F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)]</sup><a id="质感文件"></a>
+
+	- #### termux<sup>[[Github](https://github.com/termux/termux-app/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.termux/)]</sup><a id="termux"></a>
+
+	> PS: [zsxwz-termux-wiki](https://termux-wiki.zsxwz.com/) 
+    >
+	>> Alist<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><sup>[[AList文档](https://alist.nn.ci/zh/)]</sup>
+	
 - ### Media 
 
-	- #### NewPipe<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
+	- #### [NewPipe](https://newpipe.net/)<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
 
 	> A libre lightweight streaming front-end for Android.
 
