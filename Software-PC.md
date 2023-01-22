@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-19
+updateDate: 2023-01-22
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -47,6 +47,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [FastStone Image Viewer](#faststone-image-viewer)
 	* [Media](#media)
 		* [PotPlayer](#potplayer)
+		* [MPV](#mpv)
 		* [Spotify](#spotify)
 		* [网易云](#网易云)
 	* [Media Processing](#media-processing)
@@ -103,22 +104,23 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [Navicat](https://www.navicat.com.cn/products/)<sup>[[果核](https://www.ghxi.com/?s=Navicat)]</sup><a id="navicat"></a>
 
 	- #### [Visual Studio Code](https://code.visualstudio.com/)
-    > [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
-    ](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
-    >
-    > [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)
-    > 
-    > [Markdown Preview Enhanced
-    ](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-    >
-    > [翻译(英汉词典)
-    ](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
+		
+		> [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+		](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
+		>
+		> [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)
+		> 
+		> [Markdown Preview Enhanced
+		](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+		>
+		> [翻译(英汉词典)
+		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 
 	- #### [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 	- #### [WinSCP ](https://winscp.net/eng/downloads.php)
 
-	> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
+		> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
 
 - ### Compression
 
@@ -128,7 +130,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [阿里云盘](https://www.aliyundrive.com/drive)
 
-	> **阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**
+		> **阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
@@ -142,6 +144,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Internet Download Manager<sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup><a id="internet-download-manager"></a>
 
+		> ef2 <sup>[[Github](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
+
+
+
 - ### ETC
 
 	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup><a id="watt-toolkitsteam"></a>
@@ -150,9 +156,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### ITELLYOU
 
-	> [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
-	> 
-	> [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
+		> [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
+		> 
+		> [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
 
 	- #### [微PE工具箱](https://www.wepe.com.cn/) - WinPE装机维护工具<a id="wepe"></a>
 
@@ -176,8 +182,75 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [PotPlayer](https://potplayer.daum.net/)<sup>[[果核](https://www.ghxi.com/?s=PotPlayer)]</sup><a id="potplayer"></a>
 
-	> [IPTV - m3u](https://github.com/iptv-org/iptv)
+		> [IPTV - m3u](https://github.com/iptv-org/iptv)
 
+	- #### [MPV](https://mpv.io)<sup>[[Github](https://github.com/mpv-player/mpv)]</sup><a id="mpv"></a>
+
+		> [mpv-lazy 懒人包](https://github.com/hooke007/MPV_lazy)
+		>
+		> [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - 粘贴链接到`mpv`与`ctrl + v`开始播放视频
+		
+		<details>
+		<summary> PS:<strong>copy-paste-URL.lua</strong> 代码</summary> 
+
+		```lua
+
+		function trim(s)
+			return (s:gsub("^%s*(%S+)%s*", "%1"))
+		end
+
+		function openURL()
+		
+			subprocess = {
+				name = "subprocess",
+				args = { "powershell", "-Command", "Get-Clipboard", "-Raw" },
+				playback_only = false,
+				capture_stdout = true,
+				capture_stderr = true
+			}
+			
+			mp.osd_message("Getting URL from clipboard...")
+			
+			r = mp.command_native(subprocess)
+			
+			--failed getting clipboard data for some reason
+			if r.status < 0 then
+				mp.osd_message("Failed getting clipboard data!")
+				print("Error(string): "..r.error_string)
+				print("Error(stderr): "..r.stderr)
+			end
+			
+			url = r.stdout
+			
+			if not url then
+				return
+			end
+			
+			--trim whitespace from string
+			url=trim(url)
+
+			if not url then
+				mp.osd_message("clipboard empty")
+				return
+			end
+			
+			--immediately resume playback after loading URL
+			if mp.get_property_bool("core-idle") then
+				if not mp.get_property_bool("idle-active") then
+					mp.command("keypress space")
+				end
+			end
+
+			--try opening url
+			--will fail if url is not valid
+			mp.osd_message("Try Opening URL:\n"..url)
+			mp.commandv("loadfile", url, "replace")
+		end
+
+		mp.add_key_binding("ctrl+v", openURL)
+		```
+		</details>
+		
 	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
 
 	- #### [网易云](https://music.163.com/)
@@ -186,7 +259,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Adobe Photoshop <sup>[[果核](https://www.ghxi.com/?s=Adobe+Photoshop+)]</sup> <a id="adobe-photoshop"></a>
 
-	> [Adobe Photoshop 2020 v21.2.12.215 绿色精简版](https://www.ghxi.com/ps2020green.html) - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
+		> [Adobe Photoshop 2020 v21.2.12.215 绿色精简版](https://www.ghxi.com/ps2020green.html) - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
 
 	- #### Adobe Collection <sup>[[vposy](https://weibo.com/n/vposy)]</sup> <a id="adobe-collection"></a>
 
@@ -206,15 +279,15 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [AnyViewer](https://www.anyviewer.cn/)
 
-	> 免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
-	> 
-	> 登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
-	> 
-	> 3 年：8033-8826-8278-E404
-	> 
-	> 1 年：BA24-E088-CABA-654C
-	> 
-	> 1 年：AC02-9EDC-D47E-11D1
+		> 免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
+		> 
+		> 登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
+		> 
+		> 3 年：8033-8826-8278-E404
+		> 
+		> 1 年：BA24-E088-CABA-654C
+		> 
+		> 1 年：AC02-9EDC-D47E-11D1
 
 	- #### [ToDesk](https://www.todesk.com/)
 
@@ -240,10 +313,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup><a id="clash-for-windows"></a>
 
-    >   **Clash_Chinese_Patch<sup>[[Github](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)]</sup>** - Clash For Windows 汉化补丁和汉化脚本
-    >
-    > - 使用请自行替换下列路径中的app.asar文件 
-    > - *Clash for Windows\resources\app.asar*
+		>   **Clash_Chinese_Patch<sup>[[Github](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)]</sup>** - Clash For Windows 汉化补丁和汉化脚本
+		>
+		> - 使用请自行替换下列路径中的app.asar文件 
+		> - *Clash for Windows\resources\app.asar*
 
 	- #### v2rayN<sup>[[Github](https://github.com/2dust/v2rayN)]</sup><a id="v2rayn"></a>
 
