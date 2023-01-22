@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-19
+updateDate: 2023-01-22
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -44,10 +44,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [F-Droid](https://f-droid.org/en/)
 
-    >> **修改存储库为国内源**
-    >> 手机访问[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/)，使用 F-Droid 打开第一行的长链接，在弹出界面中点击添加镜像。也可以复制长链接 在应用⚙设置 - 存储库中，点击右上角的加号手动添加。添加完成后，还需要选择存储库中的第二个 F-Droid 库，只保留刚才添加的用户镜像，其他镜像悉数关闭，保证软件只从国内镜像站获取更新。
-    > 
-    > PS: [F-Droid 使用指南](https://sspai.com/post/63647)
+		>> **修改存储库为国内源**
+		>> 手机访问[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/)，使用 F-Droid 打开第一行的长链接，在弹出界面中点击添加镜像。也可以复制长链接 在应用⚙设置 - 存储库中，点击右上角的加号手动添加。添加完成后，还需要选择存储库中的第二个 F-Droid 库，只保留刚才添加的用户镜像，其他镜像悉数关闭，保证软件只从国内镜像站获取更新。
+		> 
+		> PS: [F-Droid 使用指南](https://sspai.com/post/63647)
 
 	- #### [酷安](https://www.coolapk.com/)
 
@@ -69,7 +69,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Legado<sup>[[Github](https://github.com/gedoor/legado/releases)]</sup><a id="legado"></a>
 
-	> [gedoor.github.io](https://gedoor.github.io/) / [legado.top](https://www.legado.top/)
+		> [gedoor.github.io](https://gedoor.github.io/) / [legado.top](https://www.legado.top/)
 
 	- #### markor<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="markor"></a>
 
@@ -79,15 +79,15 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### termux<sup>[[Github](https://github.com/termux/termux-app/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.termux/)]</sup><a id="termux"></a>
 
-	> PS: [zsxwz-termux-wiki](https://termux-wiki.zsxwz.com/) 
-    >
-	>> Alist<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><sup>[[AList文档](https://alist.nn.ci/zh/)]</sup>
+		> PS: [zsxwz-termux-wiki](https://termux-wiki.zsxwz.com/) 
+		>
+		>> Alist<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><sup>[[AList文档](https://alist.nn.ci/zh/)]</sup>
 	
 - ### Media 
 
 	- #### [NewPipe](https://newpipe.net/)<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
 
-	> A libre lightweight streaming front-end for Android.
+		> A libre lightweight streaming front-end for Android.
 
 	- #### [VLC](https://www.videolan.org/vlc/download-android.html) <sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup><a id="vlc"></a>
 
