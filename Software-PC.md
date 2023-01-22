@@ -189,8 +189,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		> [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - 粘贴链接到`mpv`与`ctrl + v`开始播放视频
 		
 		<details>
-		
-		<summary> PS:<strong>copy-paste-URL.lua</strong> 代码</summary> 
+
+		<summary> PS:<strong>copy-paste-URL.lua</strong> 代码</summary>
 
 		```lua
 
@@ -247,8 +247,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		end
 
 		mp.add_key_binding("ctrl+v", openURL)
+
 		```
-		
+
 		</details>
 		
 	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
