@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-22
+updateDate: 2023-01-23
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -85,7 +85,31 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
+		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)
+		> - [Dark Reader](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)
+		> - [Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)<sup>[[Github](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
+		> - [Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)
+		> - [TWP - Translate Web Pages](https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/) - 使用 Google 或 Yandex 实时翻译您的页面
+		> - [SetupVPN - Lifetime Free VPN](https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/)
+		> - [视频弹出工具](https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/)<sup>[[Github](https://github.com/harytfw/popup-tool/)]</sup>
+		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)
+
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
+
+		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+		> - [Floating Player - Picture-in-Picture Mode](https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf) - 瀏覽器浮動視頻播放器
+		> - [IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
+		> - Listen 1<sup>[[Github](https://github.com/listen1/listen1_chrome_extension/releases)]</sup>
+		> - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)<sup>[[Github](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
+		> - [Reproductor M3U8 - HLS + DASH Player](https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl)
+		> - [SetupVPN - Lifetime Free VPN](https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)
+		> - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+		> - [WebRTC Leak Shield](https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl)
+		> - [二维码生成器 (Quick QR)](https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
+		> - [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
+		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)
 
 - ### Code
 
@@ -105,15 +129,12 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Visual Studio Code](https://code.visualstudio.com/)
 		
-		> [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+		> - [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
 		](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
-		>
-		> [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)
-		> 
-		> [Markdown Preview Enhanced
+		> - [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)
+		> - [Markdown Preview Enhanced
 		](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-		>
-		> [翻译(英汉词典)
+		> - [翻译(英汉词典)
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 
 	- #### [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
@@ -138,7 +159,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<sup>[[Github](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office<a id="office-tool-plus"></a>
 
-	- #### Typora<sup>[local]</sup><a id="typora"></a>
+	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup><a id="typora"></a> - Markdown 编辑器和阅读器
 
 - ### Download
 
@@ -154,9 +175,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### ITELLYOU
 
-		> [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
-		> 
-		> [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
+		> - [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
+		> - [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
 
 	- #### [微PE工具箱](https://www.wepe.com.cn/) - WinPE装机维护工具<a id="wepe"></a>
 
@@ -184,9 +204,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [MPV](https://mpv.io)<sup>[[Github](https://github.com/mpv-player/mpv)]</sup><a id="mpv"></a>
 
-		> [mpv-lazy 懒人包](https://github.com/hooke007/MPV_lazy)
-		>
-		> [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - 粘贴链接到`mpv`与`ctrl + v`开始播放视频
+		> - [mpv-lazy 懒人包](https://github.com/hooke007/MPV_lazy)
+		> - [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - 粘贴链接到`mpv`与`ctrl + v`开始播放视频
 		
 		<details>
 
@@ -284,11 +303,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		> 
 		> 登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
 		> 
-		> 3 年：8033-8826-8278-E404
+		> 3 年：`8033-8826-8278-E404`
 		> 
-		> 1 年：BA24-E088-CABA-654C
+		> 1 年：`BA24-E088-CABA-654C`
 		> 
-		> 1 年：AC02-9EDC-D47E-11D1
+		> 1 年：`AC02-9EDC-D47E-11D1`
 
 	- #### [ToDesk](https://www.todesk.com/)
 
