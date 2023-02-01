@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-22
+updateDate: 2023-02-01
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -24,6 +24,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [ETC](#etc)
 		* [质感文件](#质感文件)
 		* [termux](#termux)
+		* [李跳跳](#李跳跳)
 	* [Media](#media)
 		* [NewPipe](#newpipe)
 		* [VLC](#vlc)
@@ -83,6 +84,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		>
 		>> Alist<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><sup>[[AList文档](https://alist.nn.ci/zh/)]</sup>
 	
+	- #### 李跳跳<sup>[[weibo](https://weibo.com/u/7266690401)]</sup><a id="李跳跳"></a>
+
 - ### Media 
 
 	- #### [NewPipe](https://newpipe.net/)<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
@@ -92,6 +95,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [VLC](https://www.videolan.org/vlc/download-android.html) <sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup><a id="vlc"></a>
 
 	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
+
+		> local: 8.7.30.1221
 
 	- #### [网易云](https://music.163.com/)
 
