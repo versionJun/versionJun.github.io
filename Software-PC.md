@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-01-23
+updateDate: 2023-02-01
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -159,7 +159,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<sup>[[Github](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office<a id="office-tool-plus"></a>
 
-	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup><a id="typora"></a> - Markdown 编辑器和阅读器
+	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup> - Markdown 编辑器和阅读器
+
+		> local: 0.9.83(beta)
 
 - ### Download
 
@@ -273,6 +275,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		
 	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
 
+		> local: Spotify for Windows 1.1.67.586.gbb5ef64e
+
 	- #### [网易云](https://music.163.com/)
 
 - ### Media Processing
@@ -333,6 +337,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup><a id="clash-for-windows"></a>
 
+		> [Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup>
+		>
 		>   **Clash_Chinese_Patch<sup>[[Github](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)]</sup>** - Clash For Windows 汉化补丁和汉化脚本
 		>
 		> - 使用请自行替换下列路径中的app.asar文件 
