@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-02-01
+updateDate: 2023-02-05
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -82,7 +82,13 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 		> PS: [zsxwz-termux-wiki](https://termux-wiki.zsxwz.com/) 
 		>
-		>> Alist<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><sup>[[AList文档](https://alist.nn.ci/zh/)]</sup>
+		> - Alist<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><sup>[[AList文档](https://alist.nn.ci/zh/)]</sup>
+		> - Aria2<sup>[[Github](https://github.com/aria2/aria2/releases)]</sup>
+		>	- Aria2-Termux<sup>[[Github](https://github.com/RimuruW/Aria2-Termux)]</sup> - 面向 Android 的 Aria2 一键安装管理脚本
+		>	- aria2.conf<sup>[[Github](https://github.com/P3TERX/aria2.conf)]</sup> - Aria2 完美配置
+		>	- Aria2 UI界面
+		>		- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
+		>		- AriaNg<sup>[[Github](https://github.com/mayswind/AriaNg)]</sup>
 	
 	- #### 李跳跳<sup>[[weibo](https://weibo.com/u/7266690401)]</sup><a id="李跳跳"></a>
 
