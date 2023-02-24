@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-02-05
+updateDate: 2023-02-24
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -42,6 +42,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [IObit Uninstaller Pro](#iobit-uninstaller-pro)
 		* [图吧工具箱](#图吧工具箱)
 		* [CCleaner](#ccleaner)
+		* [TrafficMonitor](#trafficmonitor)
 	* [Image](#image)
 		* [FastStone Capture](#faststone-capture)
 		* [FastStone Image Viewer](#faststone-image-viewer)
@@ -191,6 +192,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [图吧工具箱](http://www.tbtool.cn/)
 
 	- #### CCleaner<sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理<a id="ccleaner"></a>
+
+	- #### TrafficMonitor<sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控<a id="trafficmonitor"></a>
 
 - ### Image
 
