@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-02-24
+updateDate: 2023-03-11
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -32,6 +32,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Typora](#typora)
 	* [Download](#download)
 		* [Internet Download Manager](#internet-download-manager)
+		* [Aria2](#aria2)
     * [ETC](#etc)
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
 		* [UsbEAm Hosts Editor](#usbeam-hosts-editor)
@@ -169,6 +170,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### Internet Download Manager<sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup><a id="internet-download-manager"></a>
 
 		> ef2 <sup>[[Github](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
+
+	- #### Aria2<sup>[[Github](https://github.com/aria2/aria2/releases)]</sup><a id="aria2"></a>
+
+		> - [Aria2中文网](http://aria2.baisheng999.com/) - 懒人版
+		> - aria2.conf<sup>[[Github](https://github.com/P3TERX/aria2.conf)]</sup> - Aria2 完美配置
+		> - Aria2 UI界面
+		>	- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
+		>	- AriaNg<sup>[[Github](https://github.com/mayswind/AriaNg)]</sup>
 
 - ### ETC
 
