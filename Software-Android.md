@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-03-11
+updateDate: 2023-03-23
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -25,11 +25,13 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [质感文件](#质感文件)
 		* [termux](#termux)
 		* [李跳跳](#李跳跳)
+		* [清浊](#清浊)
 	* [Media](#media)
 		* [NewPipe](#newpipe)
 		* [VLC](#vlc)
 		* [Spotify](#spotify)
 		* [网易云](#网易云)
+		* [椒盐音乐](#椒盐音乐)
 	* [Messaging](#messaging)
 		* [Telegram](#telegram)
 		* [微信](#微信)
@@ -92,6 +94,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	
 	- #### 李跳跳<sup>[[weibo](https://weibo.com/u/7266690401)]</sup><a id="李跳跳"></a>
 
+	- #### [清浊](https://www.dircleaner.com/) - 清理工具
+
 - ### Media 
 
 	- #### [NewPipe](https://newpipe.net/)<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
@@ -105,6 +109,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		> local: 8.7.30.1221
 
 	- #### [网易云](https://music.163.com/)
+
+	- #### [椒盐音乐](https://moriafly.xyz/HiMoriafly/)<sup>[[Github](https://github.com/Moriafly/SaltPlayerSource/releases)]</sup> - Android™ 本地音乐播放器
 
 - ### Messaging
 
