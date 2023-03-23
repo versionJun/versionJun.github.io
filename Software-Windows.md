@@ -81,7 +81,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Ventoy](#ventoy)
 		* [微PE工具箱](#wepe)
 		* [图吧工具箱](#图吧工具箱)
-		
+
 ---
 
 ##  Windows
@@ -191,7 +191,6 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup><a id="watt-toolkitsteam"></a>
 
 	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改<a id="usbeam-hosts-editor"></a>
-
 
 	- #### IObit Driver Booster Pro<sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a>
 
@@ -369,7 +368,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### HEU KMS Activator<sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)<a id="heu-kms-activator"></a>
 
-	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具
+	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具<a id="ventoy"></a>
 
 	- #### [微PE工具箱](https://www.wepe.com.cn/) - WinPE装机维护工具<a id="wepe"></a>
 
