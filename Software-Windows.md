@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-03-23
+updateDate: 2023-04-26
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -24,6 +24,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [WinSCP](#winscp)
 	* [Compression](#compression)
 		* [7zip](#7zip)
+		* [WinRAR](#winrar)
 	* [Driver](#driver)
 		* [阿里云盘](#阿里云盘)
 		* [坚果云](#坚果云)
@@ -102,6 +103,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
 		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)
 		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 		> - [Floating Player - Picture-in-Picture Mode](https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf) - 瀏覽器浮動視頻播放器
 		> - [IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
@@ -151,6 +153,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - ### Compression
 
 	- #### [7zip](https://sparanoid.com/lab/7z/)
+
+	- #### [WinRAR](https://www.rarlab.com/download.htm)<sup>[[果核](https://www.ghxi.com/?s=WinRAR)]</sup><a id="winrar"></a>
 
 - ### Driver
 
