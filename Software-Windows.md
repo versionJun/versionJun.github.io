@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-04-26
+updateDate: 2023-06-28
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -160,13 +160,38 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [阿里云盘](https://www.aliyundrive.com/drive)
 
-		> **阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**
+		> ~~**阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**~~
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
 	- #### [Rclone](https://rclone.org/)<sup>[[Github](https://github.com/rclone/rclone)]</sup><a id="rclone"></a>
 
 		> [WinFsp](https://winfsp.dev/)<sup>[[Github](https://github.com/winfsp/winfsp)]</sup> - 本地挂载所需安装第三方工具
+
+		<details>
+
+		<summary>Rclone本地挂载</summary>
+		
+		```
+
+		范：rclone mount <网盘名称:路径> <本地路径> --cache-dir <本地缓存路径> --vfs-cache-mode <缓存模式> --header "Referer:"
+
+		例: rclone mount alist:/ Z: --cache-dir C:\Software\Rclone\cache --vfs-cache-mode writes --header "Referer:"
+
+		PS: --header "Referer:"
+
+			现象: IO error: vfs reader: failed to write to cache file: 403 Forbidden
+
+			Why: WebDAV不支持重定向
+
+		    Fix: 当WebDAV策略为302 Rclone加上 --header "Referer:"  
+				 或者 把WebDAV策略改为本地代理
+	
+		```
+
+		- PS: [rclone mount](https://rclone.org/commands/rclone_mount/)
+
+		</details>
 
 - ### Document
 
@@ -316,15 +341,17 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [AnyViewer](https://www.anyviewer.cn/)
 
-		> 免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
-		> 
-		> 登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
-		> 
-		> 3 年：`8033-8826-8278-E404`
-		> 
-		> 1 年：`BA24-E088-CABA-654C`
-		> 
-		> 1 年：`AC02-9EDC-D47E-11D1`
+		<details>
+
+		<summary><s>PS:会员</s></summary>
+
+			> 免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
+			> 登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
+			> 3 年：`8033-8826-8278-E404`
+			> 1 年：`BA24-E088-CABA-654C`
+			> 1 年：`AC02-9EDC-D47E-11D1`
+
+		</details>
 
 	- #### [ToDesk](https://www.todesk.com/)
 
