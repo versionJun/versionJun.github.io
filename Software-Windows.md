@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-06-28
+updateDate: 2023-07-15
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -45,6 +45,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Image](#image)
 		* [FastStone Capture](#faststone-capture)
 		* [FastStone Image Viewer](#faststone-image-viewer)
+		* [Final2x](#final2x)
 	* [Media](#media)
 		* [PotPlayer](#potplayer)
 		* [MPV](#mpv)
@@ -53,6 +54,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Media Processing](#media-processing)
 		* [Adobe Photoshop](#adobe-photoshop)
 		* [Adobe Collection](#adobe-collection)
+		* [FFmpeg](#ffmpeg)
 	* [Messaging](#messaging)
 		* [Telegram](#telegram)
 		* [微信](#微信)
@@ -70,7 +72,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [BilibiliLiveRecordDownLoader](#bilibiliLiverecorddownLoader)
 		* [keyviz](#keyviz)
 		* [ZoomIt](#zoomit)
-		* [QtScrcpy](#qtscrcpy)
+		* [scrcpy](#scrcpy)
+		* [DouyinLiveRecorder](#douyinliverecorder)
 	* [Science](#science)
 		* [Clash for Windows](#clash-for-windows)
 		* [v2rayN](#v2rayn)
@@ -235,6 +238,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### FastStone Image Viewer<sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具<a id="faststone-image-viewer"></a>
 
+	- #### Final2x<sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率<a id="final2x"></a>
+
 - ### Media 
 
 	- #### [PotPlayer](https://potplayer.daum.net/)<sup>[[果核](https://www.ghxi.com/?s=PotPlayer)]</sup><a id="potplayer"></a>
@@ -325,6 +330,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### Adobe Collection <sup>[[vposy](https://weibo.com/n/vposy)]</sup> <a id="adobe-collection"></a>
 
+	- #### [FFmpeg](https://ffmpeg.org/download.html)
+	
 - ### Messaging
 
 	- #### [Telegram](https://telegram.org/)
@@ -371,7 +378,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	
 	- #### ZoomIt<sup>[[Github](https://github.com/arlionn/software)]</sup> <a id="zoomit"></a> - 屏幕缩放工具
 
-	- #### QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> <a id="qtscrcpy"></a> - Android投屏控制
+	- #### scrcpy<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
+
+		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - UI&scrcpy
+
+	- #### DouyinLiveRecorder<sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup><a id="douyinliverecorder"></a> - 抖音直播录制
 
 - ### Science
 
