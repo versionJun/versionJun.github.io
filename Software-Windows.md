@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-07-15
+updateDate: 2023-07-18
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -11,7 +11,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	* [Browser](#browser)
 		* [Firefox 国际版](#firefox-国际版)
 		* [Google Chrome](#google-chrome)
-	* [Code](#code)
+	* [Compression](#compression)
+		* [7zip](#7zip)
+		* [WinRAR](#winrar)
+	* [Driver](#driver)
+		* [阿里云盘](#阿里云盘)
+		* [坚果云](#坚果云)
+		* [Rclone](#rclone)
+	* [Develop](#develop)
 		* [Eclipse](#eclipse)
 		* [Tomcat](#tomcat)
 		* [JDK](#jdk)
@@ -22,13 +29,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Visual Studio Code](#visual-studio-code)
 		* [PuTTY](#putty)
 		* [WinSCP](#winscp)
-	* [Compression](#compression)
-		* [7zip](#7zip)
-		* [WinRAR](#winrar)
-	* [Driver](#driver)
-		* [阿里云盘](#阿里云盘)
-		* [坚果云](#坚果云)
-		* [Rclone](#rclone)
+		* [Nodejs](#nodejs)
 	* [Document](#document)
 		* [Office Tool Plus](#office-tool-plus)
 		* [Typora](#typora)
@@ -85,6 +86,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Ventoy](#ventoy)
 		* [微PE工具箱](#wepe)
 		* [图吧工具箱](#图吧工具箱)
+		* [VMware](#vmware)
+		* [CentOS](#centos)
 
 ---
 
@@ -121,7 +124,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
 		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)
 
-- ### Code
+- ### Compression
+
+	- #### [7zip](https://sparanoid.com/lab/7z/)
+
+	- #### [WinRAR](https://www.rarlab.com/download.htm)<sup>[[果核](https://www.ghxi.com/?s=WinRAR)]</sup><a id="winrar"></a>
+
+
+- ### Develop
 
 	- #### [Eclipse](https://www.eclipse.org/downloads/packages/)
 
@@ -146,18 +156,15 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 		> - [翻译(英汉词典)
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
+		> - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 	- #### [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-	- #### [WinSCP ](https://winscp.net/eng/downloads.php)
+	- #### [WinSCP](https://winscp.net/eng/downloads.php)
 
 		> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
 
-- ### Compression
-
-	- #### [7zip](https://sparanoid.com/lab/7z/)
-
-	- #### [WinRAR](https://www.rarlab.com/download.htm)<sup>[[果核](https://www.ghxi.com/?s=WinRAR)]</sup><a id="winrar"></a>
+	- #### [Nodejs](https://nodejs.org/en/download)
 
 - ### Driver
 
@@ -415,6 +422,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### [微PE工具箱](https://www.wepe.com.cn/) - WinPE装机维护工具<a id="wepe"></a>
 
 	- #### [图吧工具箱](http://www.tbtool.cn/)
+
+	- #### [VMware](https://www.vmware.com/cn/products/workstation-pro.html)<sup>[[果核](https://www.ghxi.com/?s=VMware)]</sup><a id="vmware"></a>
+
+	- #### [CentOS](https://vault.centos.org/)<sup>[[阿里云](https://mirrors.aliyun.com/centos-vault/centos/)]</sup><a id="centos"></a>
+
 
 ---
 
