@@ -1,5 +1,5 @@
 ---
-updateDate: 2023-07-18
+updateDate: 2023-07-25
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ---
 
@@ -71,10 +71,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		* [Bandicam](#bandicam)
 		* [BililiveRecorder](#bililiverecorder)
 		* [BilibiliLiveRecordDownLoader](#bilibiliLiverecorddownLoader)
+		* [DouyinLiveRecorder](#douyinliverecorder)
+	* [Recording-etc](#recording-etc)
 		* [keyviz](#keyviz)
 		* [ZoomIt](#zoomit)
 		* [scrcpy](#scrcpy)
-		* [DouyinLiveRecorder](#douyinliverecorder)
 	* [Science](#science)
 		* [Clash for Windows](#clash-for-windows)
 		* [v2rayN](#v2rayn)
@@ -130,7 +131,6 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### [WinRAR](https://www.rarlab.com/download.htm)<sup>[[果核](https://www.ghxi.com/?s=WinRAR)]</sup><a id="winrar"></a>
 
-
 - ### Develop
 
 	- #### [Eclipse](https://www.eclipse.org/downloads/packages/)
@@ -184,9 +184,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		
 		```
 
-		范：rclone mount <网盘名称:路径> <本地路径> --cache-dir <本地缓存路径> --vfs-cache-mode <缓存模式> --header "Referer:"
+		范：rclone mount <网盘名称:路径> <本地路径> --cache-dir <本地缓存路径> --network-mode --vfs-cache-mode <缓存模式> --header "Referer:"
 
-		例: rclone mount alist:/ Z: --cache-dir C:\Software\Rclone\cache --vfs-cache-mode writes --header "Referer:"
+		例: rclone mount alist:/ Z: --cache-dir C:\Software\Rclone\cache --network-mode --vfs-cache-mode writes --header "Referer:"
 
 		PS: --header "Referer:"
 
@@ -381,6 +381,10 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 	- #### BilibiliLiveRecordDownLoader<sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 <a id="bilibiliLiverecorddownLoader"></a>
 
+	- #### DouyinLiveRecorder<sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup><a id="douyinliverecorder"></a> - 抖音直播录制
+
+- ### Recording-etc
+
 	- #### keyviz<sup>[[Github](https://github.com/mulaRahul/keyviz/releases)]</sup> <a id="keyviz"></a> - 按键可视化
 	
 	- #### ZoomIt<sup>[[Github](https://github.com/arlionn/software)]</sup> <a id="zoomit"></a> - 屏幕缩放工具
@@ -388,8 +392,6 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### scrcpy<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
 
 		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - UI&scrcpy
-
-	- #### DouyinLiveRecorder<sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup><a id="douyinliverecorder"></a> - 抖音直播录制
 
 - ### Science
 
