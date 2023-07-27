@@ -1,7 +1,4 @@
----
-updateDate: 2023-03-23
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
----
+~ updateDate: 2023-03-23
 
 # Software-Android
 
@@ -125,3 +122,5 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 	- #### v2rayNG<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="v2rayng"></a>
 
 ---
+
+@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

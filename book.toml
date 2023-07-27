@@ -1,0 +1,7 @@
+[book]
+title= "versionjun.github.io"
+authors = ["versionJun"]
+description = "https://versionjun.github.io/"
+language = "en"
+multilingual = false
+src = "src"

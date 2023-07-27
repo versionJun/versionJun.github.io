@@ -1,7 +1,4 @@
----
-updateDate: 2023-07-25
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
----
+~ updateDate: 2023-07-25
 
 # Software-Windows
 
@@ -432,3 +429,4 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ---
 
+@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
