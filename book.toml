@@ -5,3 +5,6 @@ description = "https://versionjun.github.io/"
 language = "en"
 multilingual = false
 src = "src"
+
+[output.html]
+additional-css = ["./assets/css/variables.css"]
