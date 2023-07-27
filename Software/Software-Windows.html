@@ -1,0 +1,835 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Software-Windows - versionjun.github.io</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="https://versionjun.github.io/">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Software</li><li class="chapter-item expanded "><a href="../Software/Software-Windows.html" class="active"><strong aria-hidden="true">1.</strong> Software-Windows</a></li><li class="chapter-item expanded "><a href="../Software/Software-Android.html"><strong aria-hidden="true">2.</strong> Software-Android</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">杂谈</li><li class="chapter-item expanded "><a href="../杂谈/黑炮事件.html"><strong aria-hidden="true">3.</strong> 黑炮事件</a></li><li class="chapter-item expanded "><a href="../杂谈/我们都无法成为大人.html"><strong aria-hidden="true">4.</strong> 我们都无法成为大人</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">versionjun.github.io</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>~ updateDate: 2023-07-25</p>
+<h1 id="software-windows"><a class="header" href="#software-windows">Software-Windows</a></h1>
+<h2 id="目录"><a class="header" href="#目录">目录</a></h2>
+<ul>
+<li><a href="#windows">Windows</a>
+<ul>
+<li><a href="#browser">Browser</a>
+<ul>
+<li><a href="#firefox-%E5%9B%BD%E9%99%85%E7%89%88">Firefox 国际版</a></li>
+<li><a href="#google-chrome">Google Chrome</a></li>
+</ul>
+</li>
+<li><a href="#compression">Compression</a>
+<ul>
+<li><a href="#7zip">7zip</a></li>
+<li><a href="#winrar">WinRAR</a></li>
+</ul>
+</li>
+<li><a href="#driver">Driver</a>
+<ul>
+<li><a href="#%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98">阿里云盘</a></li>
+<li><a href="#%E5%9D%9A%E6%9E%9C%E4%BA%91">坚果云</a></li>
+<li><a href="#rclone">Rclone</a></li>
+</ul>
+</li>
+<li><a href="#develop">Develop</a>
+<ul>
+<li><a href="#eclipse">Eclipse</a></li>
+<li><a href="#tomcat">Tomcat</a></li>
+<li><a href="#jdk">JDK</a></li>
+<li><a href="#mysql">MySQL</a></li>
+<li><a href="#redis-windows">redis-windows</a></li>
+<li><a href="#maven">Maven</a></li>
+<li><a href="#navicat">Navicat</a></li>
+<li><a href="#visual-studio-code">Visual Studio Code</a></li>
+<li><a href="#putty">PuTTY</a></li>
+<li><a href="#winscp">WinSCP</a></li>
+<li><a href="#nodejs">Nodejs</a></li>
+</ul>
+</li>
+<li><a href="#document">Document</a>
+<ul>
+<li><a href="#office-tool-plus">Office Tool Plus</a></li>
+<li><a href="#typora">Typora</a></li>
+</ul>
+</li>
+<li><a href="#download">Download</a>
+<ul>
+<li><a href="#internet-download-manager">Internet Download Manager</a></li>
+<li><a href="#aria2">Aria2</a></li>
+</ul>
+</li>
+<li><a href="#etc">ETC</a>
+<ul>
+<li><a href="#watt-toolkitsteam">Watt Toolkit(Steam++)</a></li>
+<li><a href="#usbeam-hosts-editor">UsbEAm Hosts Editor</a></li>
+<li><a href="#iobit-driver-booster-pro">IObit Driver Booster Pro</a></li>
+<li><a href="#iobit-uninstaller-pro">IObit Uninstaller Pro</a></li>
+<li><a href="#ccleaner">CCleaner</a></li>
+<li><a href="#trafficmonitor">TrafficMonitor</a></li>
+</ul>
+</li>
+<li><a href="#image">Image</a>
+<ul>
+<li><a href="#faststone-capture">FastStone Capture</a></li>
+<li><a href="#faststone-image-viewer">FastStone Image Viewer</a></li>
+<li><a href="#final2x">Final2x</a></li>
+</ul>
+</li>
+<li><a href="#media">Media</a>
+<ul>
+<li><a href="#potplayer">PotPlayer</a></li>
+<li><a href="#mpv">MPV</a></li>
+<li><a href="#spotify">Spotify</a></li>
+<li><a href="#%E7%BD%91%E6%98%93%E4%BA%91">网易云</a></li>
+</ul>
+</li>
+<li><a href="#media-processing">Media Processing</a>
+<ul>
+<li><a href="#adobe-photoshop">Adobe Photoshop</a></li>
+<li><a href="#adobe-collection">Adobe Collection</a></li>
+<li><a href="#ffmpeg">FFmpeg</a></li>
+</ul>
+</li>
+<li><a href="#messaging">Messaging</a>
+<ul>
+<li><a href="#telegram">Telegram</a></li>
+<li><a href="#%E5%BE%AE%E4%BF%A1">微信</a></li>
+</ul>
+</li>
+<li><a href="#platform">Platform</a>
+<ul>
+<li><a href="#steam">Steam</a></li>
+<li><a href="#epic">EPIC</a></li>
+</ul>
+</li>
+<li><a href="#remote-control">Remote Control</a>
+<ul>
+<li><a href="#anyviewer">AnyViewer</a></li>
+<li><a href="#todesk">ToDesk</a></li>
+<li><a href="#%E5%90%91%E6%97%A5%E8%91%B5">向日葵</a></li>
+<li><a href="#fastlook">FastLook</a></li>
+</ul>
+</li>
+<li><a href="#recording">Recording</a>
+<ul>
+<li><a href="#bandicam">Bandicam</a></li>
+<li><a href="#bililiverecorder">BililiveRecorder</a></li>
+<li><a href="#bilibiliLiverecorddownLoader">BilibiliLiveRecordDownLoader</a></li>
+<li><a href="#douyinliverecorder">DouyinLiveRecorder</a></li>
+</ul>
+</li>
+<li><a href="#recording-etc">Recording-etc</a>
+<ul>
+<li><a href="#keyviz">keyviz</a></li>
+<li><a href="#zoomit">ZoomIt</a></li>
+<li><a href="#scrcpy">scrcpy</a></li>
+</ul>
+</li>
+<li><a href="#science">Science</a>
+<ul>
+<li><a href="#clash-for-windows">Clash for Windows</a></li>
+<li><a href="#v2rayn">v2rayN</a></li>
+<li><a href="#shadowsocks-windows">shadowsocks-windows</a></li>
+<li><a href="#winxray">WinXray</a></li>
+</ul>
+</li>
+<li><a href="#system">System</a>
+<ul>
+<li><a href="#itellyou">ITELLYOU</a></li>
+<li><a href="#heu-kms-activator">HEU KMS Activator</a></li>
+<li><a href="#ventoy">Ventoy</a></li>
+<li><a href="#wepe">微PE工具箱</a></li>
+<li><a href="#%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1">图吧工具箱</a></li>
+<li><a href="#vmware">VMware</a></li>
+<li><a href="#centos">CentOS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
+<ul>
+<li>
+<h3 id="browser"><a class="header" href="#browser">Browser</a></h3>
+<ul>
+<li>
+<h4 id="firefox-国际版"><a class="header" href="#firefox-国际版"><a href="https://www.mozilla.org/zh-CN/firefox/">Firefox 国际版</a></a></h4>
+<blockquote>
+<ul>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/">AdBlocker Ultimate</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/">Dark Reader</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/">Proxy SwitchyOmega</a><sup>[<a href="https://github.com/FelisCatus/SwitchyOmega/releases">Github</a>]</sup> - 管理&amp;切换多个代理设置</li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/">Tampermonkey</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/">TWP - Translate Web Pages</a> - 使用 Google 或 Yandex 实时翻译您的页面</li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/">SetupVPN - Lifetime Free VPN</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/">视频弹出工具</a><sup>[<a href="https://github.com/harytfw/popup-tool/">Github</a>]</sup></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/">沙拉查词-聚合词典划词翻译</a></li>
+</ul>
+</blockquote>
+</li>
+<li>
+<h4 id="google-chrome"><a class="header" href="#google-chrome"><a href="https://www.google.cn/intl/zh-CN/chrome/">Google Chrome</a></a></h4>
+<blockquote>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb">Adblock Plus</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn">Aria2 Explorer</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh">Dark Reader</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf">Floating Player - Picture-in-Picture Mode</a> - 瀏覽器浮動視頻播放器</li>
+<li><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek">IDM Integration Module</a></li>
+<li>Listen 1<sup>[<a href="https://github.com/listen1/listen1_chrome_extension/releases">Github</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif">Proxy SwitchyOmega</a><sup>[<a href="https://github.com/FelisCatus/SwitchyOmega/releases">Github</a>]</sup> - 管理&amp;切换多个代理设置</li>
+<li><a href="https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl">Reproductor M3U8 - HLS + DASH Player</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp">SetupVPN - Lifetime Free VPN</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl">WebRTC Leak Shield</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp">二维码生成器 (Quick QR)</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco">扩展管理器（Extension Manager）</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg">捕捉网页截图 - FireShot的</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg">沙拉查词-聚合词典划词翻译</a></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="compression"><a class="header" href="#compression">Compression</a></h3>
+<ul>
+<li>
+<h4 id="7zip"><a class="header" href="#7zip"><a href="https://sparanoid.com/lab/7z/">7zip</a></a></h4>
+</li>
+<li>
+<h4 id="winrar果核"><a class="header" href="#winrar果核"><a href="https://www.rarlab.com/download.htm">WinRAR</a><sup>[<a href="https://www.ghxi.com/?s=WinRAR">果核</a>]</sup><a id="winrar"></a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="develop"><a class="header" href="#develop">Develop</a></h3>
+<ul>
+<li>
+<h4 id="eclipse"><a class="header" href="#eclipse"><a href="https://www.eclipse.org/downloads/packages/">Eclipse</a></a></h4>
+</li>
+<li>
+<h4 id="tomcat"><a class="header" href="#tomcat"><a href="https://tomcat.apache.org/">Tomcat</a></a></h4>
+</li>
+<li>
+<h4 id="jdkgithub"><a class="header" href="#jdkgithub"><a href="https://www.oracle.com/java/technologies/downloads/">JDK</a><sup>[<a href="https://github.com/frekele/oracle-java">Github</a>]</sup><a id="jdk"></a></a></h4>
+</li>
+<li>
+<h4 id="mysql"><a class="header" href="#mysql"><a href="https://downloads.mysql.com/archives/community/">MySQL</a></a></h4>
+</li>
+<li>
+<h4 id="redis-windowsgithub"><a class="header" href="#redis-windowsgithub">redis-windows<sup>[<a href="https://github.com/ServiceStack/redis-windows">Github</a>]</sup><a id="redis-windows"></a></a></h4>
+</li>
+<li>
+<h4 id="maven"><a class="header" href="#maven"><a href="https://maven.apache.org/download.cgi">Maven</a></a></h4>
+</li>
+<li>
+<h4 id="navicat果核"><a class="header" href="#navicat果核"><a href="https://www.navicat.com.cn/products/">Navicat</a><sup>[<a href="https://www.ghxi.com/?s=Navicat">果核</a>]</sup><a id="navicat"></a></a></h4>
+</li>
+<li>
+<h4 id="visual-studio-code"><a class="header" href="#visual-studio-code"><a href="https://code.visualstudio.com/">Visual Studio Code</a></a></h4>
+<blockquote>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans">Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=starkwang.markdown">Markdown</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced">Markdown Preview Enhanced
+</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary">翻译(英汉词典)
+</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
+</ul>
+</blockquote>
+</li>
+<li>
+<h4 id="putty"><a class="header" href="#putty"><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a></a></h4>
+</li>
+<li>
+<h4 id="winscp"><a class="header" href="#winscp"><a href="https://winscp.net/eng/downloads.php">WinSCP</a></a></h4>
+<blockquote>
+<p><a href="https://winscp.net/eng/translations.php#chs">Simplified Chinese</a></p>
+</blockquote>
+</li>
+<li>
+<h4 id="nodejs"><a class="header" href="#nodejs"><a href="https://nodejs.org/en/download">Nodejs</a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="driver"><a class="header" href="#driver">Driver</a></h3>
+<ul>
+<li>
+<h4 id="阿里云盘"><a class="header" href="#阿里云盘"><a href="https://www.aliyundrive.com/drive">阿里云盘</a></a></h4>
+<blockquote>
+<p><del><strong>阿里云盘小白羊版<sup>[<a href="https://github.com/liupan1890/aliyunpan">Github</a>]</sup></strong></del></p>
+</blockquote>
+</li>
+<li>
+<h4 id="坚果云"><a class="header" href="#坚果云"><a href="https://www.jianguoyun.com/">坚果云</a></a></h4>
+</li>
+<li>
+<h4 id="rclonegithub"><a class="header" href="#rclonegithub"><a href="https://rclone.org/">Rclone</a><sup>[<a href="https://github.com/rclone/rclone">Github</a>]</sup><a id="rclone"></a></a></h4>
+<blockquote>
+<p><a href="https://winfsp.dev/">WinFsp</a><sup>[<a href="https://github.com/winfsp/winfsp">Github</a>]</sup> - 本地挂载所需安装第三方工具</p>
+</blockquote>
+  <details>
+  <summary>Rclone本地挂载</summary>
+<pre><code>
+范：rclone mount &lt;网盘名称:路径&gt; &lt;本地路径&gt; --cache-dir &lt;本地缓存路径&gt; --network-mode --vfs-cache-mode &lt;缓存模式&gt; --header &quot;Referer:&quot;
+
+例: rclone mount alist:/ Z: --cache-dir C:\Software\Rclone\cache --network-mode --vfs-cache-mode writes --header &quot;Referer:&quot;
+
+PS: --header &quot;Referer:&quot;
+
+	现象: IO error: vfs reader: failed to write to cache file: 403 Forbidden
+
+	Why: WebDAV不支持重定向
+
+    Fix: 当WebDAV策略为302 Rclone加上 --header &quot;Referer:&quot;  
+		 或者 把WebDAV策略改为本地代理
+
+</code></pre>
+<ul>
+<li>PS: <a href="https://rclone.org/commands/rclone_mount/">rclone mount</a></li>
+</ul>
+  </details>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="document"><a class="header" href="#document">Document</a></h3>
+<ul>
+<li>
+<h4 id="office-tool-plusgithub---轻松部署office"><a class="header" href="#office-tool-plusgithub---轻松部署office"><a href="https://otp.landian.vip/zh-cn/">Office Tool Plus</a><sup>[<a href="https://github.com/YerongAI/Office-Tool/releases/">Github</a>]</sup> - 轻松部署Office<a id="office-tool-plus"></a></a></h4>
+</li>
+<li>
+<h4 id="typoralocal---markdown-编辑器和阅读器"><a class="header" href="#typoralocal---markdown-编辑器和阅读器"><a href="https://typoraio.cn/">Typora</a><sup>[local]</sup> - Markdown 编辑器和阅读器</a></h4>
+<blockquote>
+<p>local: 0.9.83(beta)</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="download"><a class="header" href="#download">Download</a></h3>
+<ul>
+<li>
+<h4 id="internet-download-manager果核"><a class="header" href="#internet-download-manager果核">Internet Download Manager<sup>[<a href="https://www.ghxi.com/?s=+Internet+Download+Manager">果核</a>]</sup><a id="internet-download-manager"></a></a></h4>
+<blockquote>
+<p>ef2 <sup>[<a href="https://github.com/MotooriKashin/ef2">Github</a>]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)</p>
+</blockquote>
+</li>
+<li>
+<h4 id="aria2github"><a class="header" href="#aria2github">Aria2<sup>[<a href="https://github.com/aria2/aria2/releases">Github</a>]</sup><a id="aria2"></a></a></h4>
+<blockquote>
+<ul>
+<li><a href="http://aria2.baisheng999.com/">Aria2中文网</a> - 懒人版</li>
+<li>aria2.conf<sup>[<a href="https://github.com/P3TERX/aria2.conf">Github</a>]</sup> - Aria2 完美配置</li>
+<li>Aria2 UI界面
+<ul>
+<li>WebUI-Aria2<sup>[<a href="https://github.com/ziahamza/webui-aria2">Github</a>]</sup></li>
+<li>AriaNg<sup>[<a href="https://github.com/mayswind/AriaNg">Github</a>]</sup></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="etc"><a class="header" href="#etc">ETC</a></h3>
+<ul>
+<li>
+<h4 id="watt-toolkitsteamgithub"><a class="header" href="#watt-toolkitsteamgithub"><a href="https://steampp.net/">Watt Toolkit(Steam++)</a><sup>[<a href="https://github.com/BeyondDimension/SteamTools/releases">Github</a>]</sup><a id="watt-toolkitsteam"></a></a></h4>
+</li>
+<li>
+<h4 id="usbeam-hosts-editor---多平台hosts修改"><a class="header" href="#usbeam-hosts-editor---多平台hosts修改"><a href="https://www.dogfight360.com/blog/475/">UsbEAm Hosts Editor</a> - 多平台hosts修改<a id="usbeam-hosts-editor"></a></a></h4>
+</li>
+<li>
+<h4 id="iobit-driver-booster-pro果核---驱动管理"><a class="header" href="#iobit-driver-booster-pro果核---驱动管理">IObit Driver Booster Pro<sup>[<a href="https://www.ghxi.com/?s=IObit+Driver+Booster+Pro">果核</a>]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a></a></h4>
+</li>
+<li>
+<h4 id="iobit-uninstaller-pro果核---卸载管理"><a class="header" href="#iobit-uninstaller-pro果核---卸载管理">IObit Uninstaller Pro<sup>[<a href="https://www.ghxi.com/?s=IObit+Uninstaller+Pro">果核</a>]</sup> - 卸载管理<a id="iobit-uninstaller-pro"></a></a></h4>
+</li>
+<li>
+<h4 id="ccleaner果核---清理"><a class="header" href="#ccleaner果核---清理">CCleaner<sup>[<a href="https://www.ghxi.com/?s=CCleaner">果核</a>]</sup> - 清理<a id="ccleaner"></a></a></h4>
+</li>
+<li>
+<h4 id="trafficmonitorgithub---流量监控"><a class="header" href="#trafficmonitorgithub---流量监控">TrafficMonitor<sup>[<a href="https://github.com/zhongyang219/TrafficMonitor">Github</a>]</sup> - 流量监控<a id="trafficmonitor"></a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="image"><a class="header" href="#image">Image</a></h3>
+<ul>
+<li>
+<h4 id="faststone-capture果核---屏幕截图"><a class="header" href="#faststone-capture果核---屏幕截图">FastStone Capture<sup>[<a href="https://www.ghxi.com/?s=FastStone+Capture">果核</a>]</sup> - 屏幕截图<a id="faststone-capture"></a></a></h4>
+</li>
+<li>
+<h4 id="faststone-image-viewer果核---图片查看工具"><a class="header" href="#faststone-image-viewer果核---图片查看工具">FastStone Image Viewer<sup>[<a href="https://www.ghxi.com/?s=FastStone+Image+Viewer">果核</a>]</sup> - 图片查看工具<a id="faststone-image-viewer"></a></a></h4>
+</li>
+<li>
+<h4 id="final2xgithub---图像超分辨率"><a class="header" href="#final2xgithub---图像超分辨率">Final2x<sup>[<a href="https://github.com/Tohrusky/Final2x/releases">Github</a>]</sup> - 图像超分辨率<a id="final2x"></a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="media"><a class="header" href="#media">Media</a></h3>
+<ul>
+<li>
+<h4 id="potplayer果核"><a class="header" href="#potplayer果核"><a href="https://potplayer.daum.net/">PotPlayer</a><sup>[<a href="https://www.ghxi.com/?s=PotPlayer">果核</a>]</sup><a id="potplayer"></a></a></h4>
+<blockquote>
+<ul>
+<li><a href="https://iptv-org.github.io/">iptv-org</a><sup>[<a href="https://github.com/iptv-org/iptv">Github</a>]</sup></li>
+<li><a href="https://live.fanmingming.com/">live</a><sup>[<a href="https://github.com/fanmingming/live">Github</a>]</sup> - 国内直播源支持IPv4/IPv6双栈访问</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<h4 id="mpvgithub"><a class="header" href="#mpvgithub"><a href="https://mpv.io">MPV</a><sup>[<a href="https://github.com/mpv-player/mpv">Github</a>]</sup><a id="mpv"></a></a></h4>
+<blockquote>
+<ul>
+<li><a href="https://github.com/hooke007/MPV_lazy">mpv-lazy 懒人包</a></li>
+<li><a href="https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua">copy-paste-URL.lua</a> - 粘贴链接到<code>mpv</code>与<code>ctrl + v</code>开始播放视频</li>
+</ul>
+</blockquote>
+  <details>
+  <summary> PS:<strong>copy-paste-URL.lua</strong> 代码</summary>
+<pre><code class="language-lua">
+function trim(s)
+	return (s:gsub(&quot;^%s*(%S+)%s*&quot;, &quot;%1&quot;))
+end
+
+function openURL()
+
+	subprocess = {
+		name = &quot;subprocess&quot;,
+		args = { &quot;powershell&quot;, &quot;-Command&quot;, &quot;Get-Clipboard&quot;, &quot;-Raw&quot; },
+		playback_only = false,
+		capture_stdout = true,
+		capture_stderr = true
+	}
+	
+	mp.osd_message(&quot;Getting URL from clipboard...&quot;)
+	
+	r = mp.command_native(subprocess)
+	
+	--failed getting clipboard data for some reason
+	if r.status &lt; 0 then
+		mp.osd_message(&quot;Failed getting clipboard data!&quot;)
+		print(&quot;Error(string): &quot;..r.error_string)
+		print(&quot;Error(stderr): &quot;..r.stderr)
+	end
+	
+	url = r.stdout
+	
+	if not url then
+		return
+	end
+	
+	--trim whitespace from string
+	url=trim(url)
+
+	if not url then
+		mp.osd_message(&quot;clipboard empty&quot;)
+		return
+	end
+	
+	--immediately resume playback after loading URL
+	if mp.get_property_bool(&quot;core-idle&quot;) then
+		if not mp.get_property_bool(&quot;idle-active&quot;) then
+			mp.command(&quot;keypress space&quot;)
+		end
+	end
+
+	--try opening url
+	--will fail if url is not valid
+	mp.osd_message(&quot;Try Opening URL:\n&quot;..url)
+	mp.commandv(&quot;loadfile&quot;, url, &quot;replace&quot;)
+end
+
+mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
+
+</code></pre>
+  </details>
+</li>
+<li>
+<h4 id="spotifylocal吾爱"><a class="header" href="#spotifylocal吾爱"><a href="https://www.spotify.com/">Spotify</a><sup>[local]</sup><sup>[<a href="http://zhannei.baidu.com/cse/site?q=Spotify&amp;cc=52pojie.cn&amp;ie=gbk">吾爱</a>]</sup><a id="spotify"></a></a></h4>
+<blockquote>
+<p>local: Spotify for Windows 1.1.67.586.gbb5ef64e</p>
+</blockquote>
+</li>
+<li>
+<h4 id="网易云"><a class="header" href="#网易云"><a href="https://music.163.com/">网易云</a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="media-processing"><a class="header" href="#media-processing">Media Processing</a></h3>
+<ul>
+<li>
+<h4 id="adobe-photoshop-果核"><a class="header" href="#adobe-photoshop-果核">Adobe Photoshop <sup>[<a href="https://www.ghxi.com/?s=Adobe+Photoshop+">果核</a>]</sup> <a id="adobe-photoshop"></a></a></h4>
+<blockquote>
+<p><a href="https://www.ghxi.com/ps2020green.html">Adobe Photoshop 2020 v21.2.12.215 绿色精简版</a> - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) </p>
+</blockquote>
+</li>
+<li>
+<h4 id="adobe-collection-vposy"><a class="header" href="#adobe-collection-vposy">Adobe Collection <sup>[<a href="https://weibo.com/n/vposy">vposy</a>]</sup> <a id="adobe-collection"></a></a></h4>
+</li>
+<li>
+<h4 id="ffmpeg"><a class="header" href="#ffmpeg"><a href="https://ffmpeg.org/download.html">FFmpeg</a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="messaging"><a class="header" href="#messaging">Messaging</a></h3>
+<ul>
+<li>
+<h4 id="telegram"><a class="header" href="#telegram"><a href="https://telegram.org/">Telegram</a></a></h4>
+</li>
+<li>
+<h4 id="微信"><a class="header" href="#微信"><a href="https://weixin.qq.com/">微信</a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="platform"><a class="header" href="#platform">Platform</a></h3>
+<ul>
+<li>
+<h4 id="steam"><a class="header" href="#steam"><a href="https://store.steampowered.com">Steam</a></a></h4>
+</li>
+<li>
+<h4 id="epic"><a class="header" href="#epic"><a href="https://www.epicgames.com/store/zh-CN/">EPIC</a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="remote-control"><a class="header" href="#remote-control">Remote Control</a></h3>
+<ul>
+<li>
+<h4 id="anyviewer"><a class="header" href="#anyviewer"><a href="https://www.anyviewer.cn/">AnyViewer</a></a></h4>
+  <details>
+  <summary><s>PS:会员</s></summary>
+<blockquote>
+<p>免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
+登录后，点击账户名称 右边的箭头，有个 &quot; 输入激活码 &quot; 的选项 依次输入下方激活码，可获取 5 年会员。
+3 年：<code>8033-8826-8278-E404</code>
+1 年：<code>BA24-E088-CABA-654C</code>
+1 年：<code>AC02-9EDC-D47E-11D1</code></p>
+</blockquote>
+  </details>
+</li>
+<li>
+<h4 id="todesk"><a class="header" href="#todesk"><a href="https://www.todesk.com/">ToDesk</a></a></h4>
+</li>
+<li>
+<h4 id="向日葵"><a class="header" href="#向日葵"><a href="https://sunlogin.oray.com/">向日葵</a></a></h4>
+</li>
+<li>
+<h4 id="fastlook"><a class="header" href="#fastlook"><a href="http://fastlook.cn/index.html">FastLook</a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="recording"><a class="header" href="#recording">Recording</a></h3>
+<ul>
+<li>
+<h4 id="bandicam果核"><a class="header" href="#bandicam果核"><a href="https://www.bandicam.cn/">Bandicam</a><sup>[<a href="https://www.ghxi.com/?s=Bandicam+">果核</a>]</sup><a id="bandicam"></a></a></h4>
+</li>
+<li>
+<h4 id="bililiverecordergithub---b站录播姬--bilibili-stream-recorder--哔哩哔哩直播录制"><a class="header" href="#bililiverecordergithub---b站录播姬--bilibili-stream-recorder--哔哩哔哩直播录制"><a href="https://rec.danmuji.org/">BililiveRecorder</a><sup>[<a href="https://github.com/BililiveRecorder/BililiveRecorder/releases">Github</a>]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 <a id="bililiverecorder"></a></a></h4>
+</li>
+<li>
+<h4 id="bilibililiverecorddownloadergithub---bilibili-直播录制与回放下载"><a class="header" href="#bilibililiverecorddownloadergithub---bilibili-直播录制与回放下载">BilibiliLiveRecordDownLoader<sup>[<a href="https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases">Github</a>]</sup> - Bilibili 直播录制与回放下载 <a id="bilibiliLiverecorddownLoader"></a></a></h4>
+</li>
+<li>
+<h4 id="douyinliverecordergithub---抖音直播录制"><a class="header" href="#douyinliverecordergithub---抖音直播录制">DouyinLiveRecorder<sup>[<a href="https://github.com/LyzenX/DouyinLiveRecorder/releases">Github</a>]</sup><a id="douyinliverecorder"></a> - 抖音直播录制</a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="recording-etc"><a class="header" href="#recording-etc">Recording-etc</a></h3>
+<ul>
+<li>
+<h4 id="keyvizgithub----按键可视化"><a class="header" href="#keyvizgithub----按键可视化">keyviz<sup>[<a href="https://github.com/mulaRahul/keyviz/releases">Github</a>]</sup> <a id="keyviz"></a> - 按键可视化</a></h4>
+</li>
+<li>
+<h4 id="zoomitgithub----屏幕缩放工具"><a class="header" href="#zoomitgithub----屏幕缩放工具">ZoomIt<sup>[<a href="https://github.com/arlionn/software">Github</a>]</sup> <a id="zoomit"></a> - 屏幕缩放工具</a></h4>
+</li>
+<li>
+<h4 id="scrcpygithub----displaycontrol-android-device"><a class="header" href="#scrcpygithub----displaycontrol-android-device">scrcpy<sup>[<a href="https://github.com/Genymobile/scrcpy/releases">Github</a>]</sup> <a id="scrcpy"></a> - Display&amp;control Android device</a></h4>
+<blockquote>
+<ul>
+<li>QtScrcpy<sup>[<a href="https://github.com/barry-ran/QtScrcpy/releases">Github</a>]</sup> - UI&amp;scrcpy</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="science"><a class="header" href="#science">Science</a></h3>
+<ul>
+<li>
+<h4 id="clash-for-windowsgithub"><a class="header" href="#clash-for-windowsgithub">Clash for Windows<sup>[<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Github</a>]</sup><a id="clash-for-windows"></a></a></h4>
+<blockquote>
+<p><a href="https://docs.cfw.lbyczf.com/">Clash for Windows 文档</a><sup>[<a href="https://github.com/Fndroid/clash-win-docs-new">Github</a>]</sup></p>
+<p><strong>Clash_Chinese_Patch<sup>[<a href="https://github.com/BoyceLig/Clash_Chinese_Patch/releases">Github</a>]</sup></strong> - Clash For Windows 汉化补丁和汉化脚本</p>
+<ul>
+<li>使用请自行替换下列路径中的app.asar文件 </li>
+<li><em>Clash for Windows\resources\app.asar</em></li>
+</ul>
+</blockquote>
+</li>
+<li>
+<h4 id="v2rayngithub"><a class="header" href="#v2rayngithub">v2rayN<sup>[<a href="https://github.com/2dust/v2rayN">Github</a>]</sup><a id="v2rayn"></a></a></h4>
+</li>
+<li>
+<h4 id="shadowsocks-windowsgithub"><a class="header" href="#shadowsocks-windowsgithub">shadowsocks-windows<sup>[<a href="https://github.com/shadowsocks/shadowsocks-windows">Github</a>]</sup><a id="shadowsocks-windows"></a></a></h4>
+</li>
+<li>
+<h4 id="winxraygithub"><a class="header" href="#winxraygithub">WinXray<sup>[<a href="https://github.com/TheMRLL/WinXray">Github</a>]</sup><a id="winxray"></a></a></h4>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="system"><a class="header" href="#system">System</a></h3>
+<ul>
+<li>
+<h4 id="itellyou"><a class="header" href="#itellyou">ITELLYOU</a></h4>
+<blockquote>
+<ul>
+<li><a href="https://next.itellyou.cn/">ITELLYOU新版</a> - WINDOWS11系统原版</li>
+<li><a href="https://msdn.itellyou.cn/">ITELLYOU旧版</a> - WINDOWS系统原版</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<h4 id="heu-kms-activator果核github---winoffice激活"><a class="header" href="#heu-kms-activator果核github---winoffice激活">HEU KMS Activator<sup>[<a href="https://www.ghxi.com/heukmsactivator.html">果核</a>]</sup><sup>[<a href="https://github.com/zbezj/HEU_KMS_Activator">Github</a>]</sup> - (WIN&amp;Office激活)<a id="heu-kms-activator"></a></a></h4>
+</li>
+<li>
+<h4 id="ventoygithub---多启动u盘的开源工具"><a class="header" href="#ventoygithub---多启动u盘的开源工具"><a href="https://www.ventoy.net/cn/index.html">Ventoy</a><sup>[<a href="https://github.com/ventoy/Ventoy">Github</a>]</sup> - 多启动U盘的开源工具<a id="ventoy"></a></a></h4>
+</li>
+<li>
+<h4 id="微pe工具箱---winpe装机维护工具"><a class="header" href="#微pe工具箱---winpe装机维护工具"><a href="https://www.wepe.com.cn/">微PE工具箱</a> - WinPE装机维护工具<a id="wepe"></a></a></h4>
+</li>
+<li>
+<h4 id="图吧工具箱"><a class="header" href="#图吧工具箱"><a href="http://www.tbtool.cn/">图吧工具箱</a></a></h4>
+</li>
+<li>
+<h4 id="vmware果核"><a class="header" href="#vmware果核"><a href="https://www.vmware.com/cn/products/workstation-pro.html">VMware</a><sup>[<a href="https://www.ghxi.com/?s=VMware">果核</a>]</sup><a id="vmware"></a></a></h4>
+</li>
+<li>
+<h4 id="centos阿里云"><a class="header" href="#centos阿里云"><a href="https://vault.centos.org/">CentOS</a><sup>[<a href="https://mirrors.aliyun.com/centos-vault/centos/">阿里云</a>]</sup><a id="centos"></a></a></h4>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<p>@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+                            <a rel="next" href="../Software/Software-Android.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+                    <a rel="next" href="../Software/Software-Android.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
