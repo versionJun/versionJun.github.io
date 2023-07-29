@@ -1,4 +1,4 @@
-~ updateDate: 2023-03-23
+~ updateDate: 2023-07-29
 
 # Software-Android
 
@@ -67,17 +67,17 @@
 
 - ### Document 
 
-	- #### Legado<sup>[[Github](https://github.com/gedoor/legado/releases)]</sup><a id="legado"></a>
+	- #### [Legado](#)<sup>[[Github](https://github.com/gedoor/legado/releases)]</sup><a id="legado"></a>
 
 		> [gedoor.github.io](https://gedoor.github.io/) / [legado.top](https://www.legado.top/)
 
-	- #### markor<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="markor"></a>
+	- #### [markor](#)<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="markor"></a>
 
 - ### ETC 
 
-	- #### 质感文件<sup>[[Github](https://github.com/zhanghai/MaterialFiles/releases)]</sup><sup>[[F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)]</sup><a id="质感文件"></a>
+	- #### [质感文件](#)<sup>[[Github](https://github.com/zhanghai/MaterialFiles/releases)]</sup><sup>[[F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)]</sup><a id="质感文件"></a>
 
-	- #### termux<sup>[[Github](https://github.com/termux/termux-app/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.termux/)]</sup><a id="termux"></a>
+	- #### [termux](#)<sup>[[Github](https://github.com/termux/termux-app/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.termux/)]</sup><a id="termux"></a>
 
 		> PS: [zsxwz-termux-wiki](https://termux-wiki.zsxwz.com/) 
 		>
@@ -89,7 +89,7 @@
 		>		- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
 		>		- AriaNg<sup>[[Github](https://github.com/mayswind/AriaNg)]</sup>
 	
-	- #### 李跳跳<sup>[[weibo](https://weibo.com/u/7266690401)]</sup><a id="李跳跳"></a>
+	- #### [李跳跳](#)<sup>[[weibo](https://weibo.com/u/7266690401)]</sup><a id="李跳跳"></a>
 
 	- #### [清浊](https://www.dircleaner.com/) - 清理工具
 
@@ -117,9 +117,9 @@
 
 - ### Science
 
-	- #### ClashForAndroid<sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup><a id="clashforandroid"></a>
+	- #### [ClashForAndroid](#)<sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup><a id="clashforandroid"></a>
 
-	- #### v2rayNG<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="v2rayng"></a>
+	- #### [v2rayNG](#)<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="v2rayng"></a>
 
 ---
 
