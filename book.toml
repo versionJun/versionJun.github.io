@@ -7,5 +7,5 @@ multilingual = false
 src = "src"
 
 [output.html]
-additional-css = ["./assets/css/variables.css"]
+additional-css = ["./assets/css/variables.css","./assets/css/general.css"]
 git-repository-url = "https://github.com/versionJun/versionJun.github.io"
