@@ -5,6 +5,7 @@
 - [Software-Windows](./Software/Software-Windows.md)
     - [nodejs](./Software/nodejs.md)
 - [Software-Android](./Software/Software-Android.md)
+    - [Termux+Docker](./Software/Termux+QEMU+linux_alpine+Docker.md)
 # []()
 
 ---
