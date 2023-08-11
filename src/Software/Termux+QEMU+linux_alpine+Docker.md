@@ -268,3 +268,8 @@
     }
 
     ```
+
+## 参考资料：
+- [https://stageguard.top/2019/08/15/run-docker-on-qemu-alpine/](https://stageguard.top/2019/08/15/run-docker-on-qemu-alpine/)
+- [https://ivonblog.com/posts/run-docker-in-qemu-android/](https://ivonblog.com/posts/run-docker-in-qemu-android/)
+
