@@ -1,4 +1,4 @@
-~ updateDate: 2023-07-29
+~ updateDate: 2023-08-14
 
 # Software-Windows
 
@@ -24,9 +24,11 @@
 		* [Maven](#maven)
 		* [Navicat](#navicat)
 		* [Visual Studio Code](#visual-studio-code)
+		* [Nodejs](#nodejs)
+	* [Develop SSH](#develop-ssh)
 		* [PuTTY](#putty)
 		* [WinSCP](#winscp)
-		* [Nodejs](#nodejs)
+		* [1Remote](#1remote)
 	* [Document](#document)
 		* [Office Tool Plus](#office-tool-plus)
 		* [Typora](#typora)
@@ -155,19 +157,24 @@
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 		> - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
+	- #### [Nodejs](https://nodejs.org/en/download)
+
+  ### Develop SSH	
+
 	- #### [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 	- #### [WinSCP](https://winscp.net/eng/downloads.php)
 
 		> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
-
-	- #### [Nodejs](https://nodejs.org/en/download)
+	
+	- #### [1Remote](http://1remote.org/zh-cn/)<sup>[[Github](https://github.com/1Remote/1Remote/releases)]</sup><a id="1remote"></a>
 
 - ### Driver
 
 	- #### [阿里云盘](https://www.aliyundrive.com/drive)
 
 		> ~~**阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**~~
+		> [阿里云盘开放平台-文档](https://www.yuque.com/aliyundrive/zpfszx)
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
