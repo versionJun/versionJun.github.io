@@ -1,4 +1,4 @@
-~ updateDate: 2023-08-14
+~ updateDate: 2023-08-27
 
 # Software-Windows
 
@@ -105,6 +105,7 @@
 		> - [SetupVPN - Lifetime Free VPN](https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/)
 		> - [视频弹出工具](https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/)<sup>[[Github](https://github.com/harytfw/popup-tool/)]</sup>
 		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)
+		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
 
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
@@ -123,6 +124,8 @@
 		> - [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
 		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
 		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)
+		> - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu)<sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+
 
 - ### Compression
 
