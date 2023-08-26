@@ -176,8 +176,8 @@
 
 	- #### [阿里云盘](https://www.aliyundrive.com/drive)
 
-		> ~~**阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**~~
-		> [阿里云盘开放平台-文档](https://www.yuque.com/aliyundrive/zpfszx)
+		> - ~~**阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**~~
+		> - [阿里云盘开放平台-文档](https://www.yuque.com/aliyundrive/zpfszx)
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
