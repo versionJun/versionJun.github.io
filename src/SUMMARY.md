@@ -6,6 +6,8 @@
     - [nodejs](./Software/nodejs.md)
 - [Software-Android](./Software/Software-Android.md)
     - [Termux+Docker](./Software/Termux+QEMU+linux_alpine+Docker.md)
+- [Linux-Command](./Software/Linux-Command.md)
+
 # []()
 
 ---
@@ -14,3 +16,9 @@
 
 - [黑炮事件](./杂谈/黑炮事件.md)
 - [我们都无法成为大人](./杂谈/我们都无法成为大人.md)
+
+# []()
+
+---
+
+[About](./About/mdbook-site.md)
