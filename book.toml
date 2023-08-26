@@ -9,4 +9,5 @@ src = "src"
 [output.html]
 additional-css = ["./assets/css/variables.css","./assets/css/general.css"]
 git-repository-url = "https://github.com/versionJun/versionJun.github.io"
-edit-url-template = "https://github.com/rust-lang/mdBook/edit/main/{path}"
+edit-url-template = "https://github.com/versionJun/versionJun.github.io/edit/main/{path}"
+
