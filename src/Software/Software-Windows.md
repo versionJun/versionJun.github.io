@@ -1,4 +1,4 @@
-~ updateDate: 2023-08-27
+~ updateDate: 2023-09-06
 
 # Software-Windows
 
@@ -214,7 +214,7 @@
 
 	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<sup>[[Github](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office<a id="office-tool-plus"></a>
 
-	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup> - Markdown 编辑器和阅读器
+	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup> - Markdown 编辑器和阅读器<a id="typora"></a>
 
 		> local: 0.9.83(beta)
 
@@ -237,6 +237,8 @@
 	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup><a id="watt-toolkitsteam"></a>
 
 	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改<a id="usbeam-hosts-editor"></a>
+
+		> - hosts `C:\Windows\System32\drivers\etc`
 
 	- #### [IObit Driver Booster Pro](#)<sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a>
 
