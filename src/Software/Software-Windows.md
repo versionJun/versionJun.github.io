@@ -1,4 +1,4 @@
-~ updateDate: 2023-09-06
+~ updateDate: 2023-09-13
 
 # Software-Windows
 
@@ -46,6 +46,7 @@
 		* [FastStone Capture](#faststone-capture)
 		* [FastStone Image Viewer](#faststone-image-viewer)
 		* [Final2x](#final2x)
+		* [Umi-OCR](#umi-ocr)
 	* [Media](#media)
 		* [PotPlayer](#potplayer)
 		* [MPV](#mpv)
@@ -177,7 +178,7 @@
 	- #### [阿里云盘](https://www.aliyundrive.com/drive)
 
 		> - ~~**阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**~~
-		> - [阿里云盘开放平台-文档](https://www.yuque.com/aliyundrive/zpfszx)
+		> - [阿里云盘开放平台 - 文档](https://www.yuque.com/aliyundrive/zpfszx)
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
@@ -255,6 +256,8 @@
 	- #### [FastStone Image Viewer](#)<sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具<a id="faststone-image-viewer"></a>
 
 	- #### [Final2x](#)<sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率<a id="final2x"></a>
+
+	- #### [Umi-OCR](#)<sup>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具<a id="umi-ocr"></a>
 
 - ### Media 
 
@@ -401,6 +404,17 @@
 	- #### [scrcpy](#)<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
 
 		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - UI&scrcpy
+		
+		<details>
+
+		<summary>scrcpy无线连接</summary>
+
+		```shell
+			adb connect 192.168.x.x:5555
+			scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+		```
+
+		</details>
 
 - ### Science
 
@@ -435,6 +449,8 @@
 	- #### [图吧工具箱](http://www.tbtool.cn/)
 
 	- #### [VMware](https://www.vmware.com/cn/products/workstation-pro.html)<sup>[[果核](https://www.ghxi.com/?s=VMware)]</sup><a id="vmware"></a>
+
+		> - [windows-virtual-machines](https://developer.microsoft.com/zh-cn/windows/downloads/virtual-machines/)
 
 	- #### [CentOS](https://vault.centos.org/)<sup>[[阿里云](https://mirrors.aliyun.com/centos-vault/centos/)]</sup><a id="centos"></a>
 
