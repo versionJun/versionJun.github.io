@@ -239,6 +239,7 @@
 <li><a href="#iobit-uninstaller-pro">IObit Uninstaller Pro</a></li>
 <li><a href="#ccleaner">CCleaner</a></li>
 <li><a href="#trafficmonitor">TrafficMonitor</a></li>
+<li><a href="#DNS-Speed-Benchmark">Domain Name Speed Benchmark</a></li>
 </ul>
 </li>
 <li><a href="#image">Image</a>
@@ -548,6 +549,9 @@ PS: --header &quot;Referer:&quot;
 <li>
 <h4 id="trafficmonitorgithub---流量监控"><a class="header" href="#trafficmonitorgithub---流量监控"><a href="#">TrafficMonitor</a><sup>[<a href="https://github.com/zhongyang219/TrafficMonitor">Github</a>]</sup> - 流量监控<a id="trafficmonitor"></a></a></h4>
 </li>
+<li>
+<h4 id="domain-name-speed-benchmark"><a class="header" href="#domain-name-speed-benchmark"><a href="https://www.grc.com/dns/benchmark.htm">Domain Name Speed Benchmark</a><a id="DNS-Speed-Benchmark"></a></a></h4>
+</li>
 </ul>
 </li>
 <li>
@@ -759,10 +763,49 @@ mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
 </blockquote>
   <details>
   <summary>scrcpy无线连接</summary>
-<pre><code class="language-shell">	adb connect 192.168.x.x:5555
-	scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
-</code></pre>
+<ul>
+<li>参考官方文档: <a href="https://www.genymotion.com/blog/open-source-project-scrcpy-now-works-wirelessly/">Open Source Project - Scrcpy now works wirelessly</a></li>
+</ul>
+<ol>
+<li>
+<p>确保PC和手机在同一Wifi中</p>
+</li>
+<li>
+<p>手机先通过USB与PC相连</p>
+</li>
+<li>
+<p>PC运行 adb tcpip 服务端口：<code>adb tcpip 5555</code></p>
+</li>
+<li>
+<p>拔下你的设备，断开USB连接</p>
+</li>
+<li>
+<p>PC运行 adb connect 手机IP:服务端口: <code>adb connect 192.168.x.x:5555</code></p>
+</li>
+<li>
+<p>PC运行 scrcpy：<code>scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842</code></p>
+</li>
+</ol>
   </details>
+  <details>
+  <summary>常用快捷键</summary>
+<ul>
+<li>更多快捷键可通过 <code>scrcpy -h</code></li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">描述</th><th style="text-align: left">快捷键</th></tr></thead><tbody>
+<tr><td style="text-align: left">切换全屏模式</td><td style="text-align: left"><code>Alt</code>+<code>f</code></td></tr>
+<tr><td style="text-align: left">点击手机电源</td><td style="text-align: left"><code>Alt</code>+<code>p</code></td></tr>
+<tr><td style="text-align: left">返回</td><td style="text-align: left"><code>Alt</code>+<code>b</code> 或 Right-click²</td></tr>
+<tr><td style="text-align: left">返回到HOME</td><td style="text-align: left"><code>Alt</code>+<code>h</code> 或 Middle-click</td></tr>
+<tr><td style="text-align: left">多任务</td><td style="text-align: left"><code>Alt</code>+<code>s</code></td></tr>
+<tr><td style="text-align: left">显示最佳窗口</td><td style="text-align: left"><code>Alt</code>+<code>g</code></td></tr>
+<tr><td style="text-align: left">调节音量</td><td style="text-align: left"><code>Alt</code>+(<code>↑</code>或<code>↓</code>)</td></tr>
+<tr><td style="text-align: left">关闭设备屏幕（保持镜像）</td><td style="text-align: left"><code>Alt</code>+<code>o</code></td></tr>
+<tr><td style="text-align: left">打开设备屏幕</td><td style="text-align: left"><code>Alt</code>+<code>Shift</code>+<code>o</code></td></tr>
+<tr><td style="text-align: left">将设备剪贴板复制到计算机</td><td style="text-align: left"><code>Alt</code>+<code>c</code></td></tr>
+<tr><td style="text-align: left">将计算机剪贴板粘贴到设备</td><td style="text-align: left"><code>Alt</code>+<code>v</code></td></tr>
+</tbody></table>
+</div>  </details>
 </li>
 </ul>
 </li>
