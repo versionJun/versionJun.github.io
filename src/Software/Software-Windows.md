@@ -42,6 +42,7 @@
 		* [IObit Uninstaller Pro](#iobit-uninstaller-pro)
 		* [CCleaner](#ccleaner)
 		* [TrafficMonitor](#trafficmonitor)
+		* [Domain Name Speed Benchmark](#DNS-Speed-Benchmark)
 	* [Image](#image)
 		* [FastStone Capture](#faststone-capture)
 		* [FastStone Image Viewer](#faststone-image-viewer)
@@ -249,6 +250,8 @@
 
 	- #### [TrafficMonitor](#)<sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控<a id="trafficmonitor"></a>
 
+	- #### [Domain Name Speed Benchmark](https://www.grc.com/dns/benchmark.htm)<a id="DNS-Speed-Benchmark"></a>
+
 - ### Image
 
 	- #### [FastStone Capture](#)<sup>[[果核](https://www.ghxi.com/?s=FastStone+Capture)]</sup> - 屏幕截图<a id="faststone-capture"></a>
@@ -409,10 +412,41 @@
 
 		<summary>scrcpy无线连接</summary>
 
-		```shell
-			adb connect 192.168.x.x:5555
-			scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
-		```
+		- 参考官方文档: [Open Source Project - Scrcpy now works wirelessly](https://www.genymotion.com/blog/open-source-project-scrcpy-now-works-wirelessly/)
+
+		1. 确保PC和手机在同一Wifi中
+
+		2. 手机先通过USB与PC相连
+
+		3. PC运行 adb tcpip 服务端口：`adb tcpip 5555`
+
+		4. 拔下你的设备，断开USB连接
+
+		5. PC运行 adb connect 手机IP:服务端口: `adb connect 192.168.x.x:5555`
+
+		6. PC运行 scrcpy：`scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842`
+
+		</details>
+
+		<details>
+
+		<summary>常用快捷键</summary>
+
+		- 更多快捷键可通过 `scrcpy -h`
+
+		描述|快捷键
+		:-|:-|
+		切换全屏模式|`Alt`+`f`
+		点击手机电源|`Alt`+`p`
+		返回|`Alt`+`b` 或 Right-click²
+		返回到HOME|`Alt`+`h` 或 Middle-click
+		多任务|`Alt`+`s`
+		显示最佳窗口|`Alt`+`g`
+		调节音量|`Alt`+(`↑`或`↓`)
+		关闭设备屏幕（保持镜像）|`Alt`+`o`
+		打开设备屏幕|`Alt`+`Shift`+`o`
+		将设备剪贴板复制到计算机|`Alt`+`c`
+		将计算机剪贴板粘贴到设备|`Alt`+`v`
 
 		</details>
 
