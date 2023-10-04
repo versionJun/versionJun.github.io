@@ -1,4 +1,4 @@
-~ updateDate: 2023-09-13
+~ updateDate: 2023-10-05
 
 # Software-Windows
 
@@ -14,6 +14,7 @@
 	* [Driver](#driver)
 		* [阿里云盘](#阿里云盘)
 		* [坚果云](#坚果云)
+		* [Alist](#alist)
 		* [Rclone](#rclone)
 	* [Develop](#develop)
 		* [Eclipse](#eclipse)
@@ -99,34 +100,36 @@
 
 	- #### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
-		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)
-		> - [Dark Reader](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)
+		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)<sup>[[Official](https://adblockultimate.net/browsers)]</sup><sup>[[Github](https://github.com/adblockultimate/)]</sup>
+		> - [Dark Reader](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)<sup>[[Github](https://github.com/darkreader/darkreader/releases)]</sup>
 		> - [Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)<sup>[[Github](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
-		> - [Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)
+		> - [SetupVPN - Lifetime Free VPN](https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/)<sup>[[Official](https://setupvpn.com/)]</sup>
+		> - [Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
 		> - [TWP - Translate Web Pages](https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/) - 使用 Google 或 Yandex 实时翻译您的页面
-		> - [SetupVPN - Lifetime Free VPN](https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/)
+		> - [WebRTC Leak Shield](https://addons.mozilla.org/zh-CN/firefox/addon/webrtc-leak-shield/)
 		> - [视频弹出工具](https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/)<sup>[[Github](https://github.com/harytfw/popup-tool/)]</sup>
-		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)
-		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[Github](https://github.com/crimx/ext-saladict/releases)]</sup>
+		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
 
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
-		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
-		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)
-		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)<sup>[[Official](https://blog.adblockplus.org/releases)]</sup>
+		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)<sup>[[Github](https://github.com/alexhua/Aria2-Explorer/releases)]</sup>
+		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)<sup>[[Github](https://github.com/darkreader/darkreader/releases)]</sup>
 		> - [Floating Player - Picture-in-Picture Mode](https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf) - 瀏覽器浮動視頻播放器
 		> - [IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
 		> - Listen 1<sup>[[Github](https://github.com/listen1/listen1_chrome_extension/releases)]</sup>
 		> - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)<sup>[[Github](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
 		> - [Reproductor M3U8 - HLS + DASH Player](https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl)
-		> - [SetupVPN - Lifetime Free VPN](https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)
-		> - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+		> - [SetupVPN - Lifetime Free VPN](https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)<sup>[[Official](https://setupvpn.com/)]</sup>
+		> - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
 		> - [WebRTC Leak Shield](https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl)
 		> - [二维码生成器 (Quick QR)](https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
 		> - [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
-		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)
-		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)
-		> - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu)<sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+		> - [扩展管理器（Extension Manager）by ext.jgrass.cc ](https://chrome.google.com/webstore/detail/extension-manager/efajbgpnlnobnkgdcgcnclngeolnmggp)<sup>[[Official](https://ext.jgrass.cc/)]</sup><sup>[[Github](https://github.com/JasonGrass/auto-extension-manager/releases)]</sup>
+		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)<sup>[[Official](https://getfireshot.com/)]</sup>
+		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[Github](https://github.com/crimx/ext-saladict/releases)]</sup>
+		> - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
 
 
 - ### Compression
@@ -182,6 +185,8 @@
 		> - [阿里云盘开放平台 - 文档](https://www.yuque.com/aliyundrive/zpfszx)
 
 	- #### [坚果云](https://www.jianguoyun.com/)
+
+	- #### [Alist](https://alist.nn.ci/zh/)<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><a id="alist"></a>
 
 	- #### [Rclone](https://rclone.org/)<sup>[[Github](https://github.com/rclone/rclone)]</sup><a id="rclone"></a>
 
