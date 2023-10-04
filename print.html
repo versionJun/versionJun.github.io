@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>versionjun.github.io</title>
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="noindex">
 
 
         <!-- Custom HTML head -->
         
         <meta name="description" content="https://versionjun.github.io/">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
@@ -34,7 +34,7 @@
         <link rel="stylesheet" href="./assets/css/general.css">
 
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -64,24 +64,29 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
+            var body = document.querySelector('body');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -119,9 +124,9 @@
                                 <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -172,7 +177,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>~ updateDate: 2023-09-13</p>
+                        <p>~ updateDate: 2023-10-05</p>
 <h1 id="software-windows"><a class="header" href="#software-windows">Software-Windows</a></h1>
 <h2 id="目录"><a class="header" href="#目录">目录</a></h2>
 <ul>
@@ -194,6 +199,7 @@
 <ul>
 <li><a href="Software/Software-Windows.html#%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98">阿里云盘</a></li>
 <li><a href="Software/Software-Windows.html#%E5%9D%9A%E6%9E%9C%E4%BA%91">坚果云</a></li>
+<li><a href="Software/Software-Windows.html#alist">Alist</a></li>
 <li><a href="Software/Software-Windows.html#rclone">Rclone</a></li>
 </ul>
 </li>
@@ -330,15 +336,16 @@
 <h4 id="firefox-国际版"><a class="header" href="#firefox-国际版"><a href="https://www.mozilla.org/zh-CN/firefox/">Firefox 国际版</a></a></h4>
 <blockquote>
 <ul>
-<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/">AdBlocker Ultimate</a></li>
-<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/">Dark Reader</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/">AdBlocker Ultimate</a><sup>[<a href="https://adblockultimate.net/browsers">Official</a>]</sup><sup>[<a href="https://github.com/adblockultimate/">Github</a>]</sup></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/">Dark Reader</a><sup>[<a href="https://github.com/darkreader/darkreader/releases">Github</a>]</sup></li>
 <li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/">Proxy SwitchyOmega</a><sup>[<a href="https://github.com/FelisCatus/SwitchyOmega/releases">Github</a>]</sup> - 管理&amp;切换多个代理设置</li>
-<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/">Tampermonkey</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/">SetupVPN - Lifetime Free VPN</a><sup>[<a href="https://setupvpn.com/">Official</a>]</sup></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/">Tampermonkey</a><sup>[<a href="https://www.tampermonkey.net/">Official</a>]</sup></li>
 <li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/">TWP - Translate Web Pages</a> - 使用 Google 或 Yandex 实时翻译您的页面</li>
-<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/">SetupVPN - Lifetime Free VPN</a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/webrtc-leak-shield/">WebRTC Leak Shield</a></li>
 <li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/">视频弹出工具</a><sup>[<a href="https://github.com/harytfw/popup-tool/">Github</a>]</sup></li>
-<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/">沙拉查词-聚合词典划词翻译</a></li>
-<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/">沉浸式翻译</a><sup>[<a href="https://github.com/immersive-translate/immersive-translate/releases">Github</a>]</sup></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/">沙拉查词-聚合词典划词翻译</a><sup>[<a href="https://saladict.crimx.com/">Official</a>]</sup><sup>[<a href="https://github.com/crimx/ext-saladict/releases">Github</a>]</sup></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/">沉浸式翻译</a><sup>[<a href="https://immersivetranslate.com/">Official</a>]</sup><sup>[<a href="https://github.com/immersive-translate/immersive-translate/releases">Github</a>]</sup></li>
 </ul>
 </blockquote>
 </li>
@@ -346,22 +353,23 @@
 <h4 id="google-chrome"><a class="header" href="#google-chrome"><a href="https://www.google.cn/intl/zh-CN/chrome/">Google Chrome</a></a></h4>
 <blockquote>
 <ul>
-<li><a href="https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb">Adblock Plus</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn">Aria2 Explorer</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh">Dark Reader</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb">Adblock Plus</a><sup>[<a href="https://blog.adblockplus.org/releases">Official</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn">Aria2 Explorer</a><sup>[<a href="https://github.com/alexhua/Aria2-Explorer/releases">Github</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh">Dark Reader</a><sup>[<a href="https://github.com/darkreader/darkreader/releases">Github</a>]</sup></li>
 <li><a href="https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf">Floating Player - Picture-in-Picture Mode</a> - 瀏覽器浮動視頻播放器</li>
 <li><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek">IDM Integration Module</a></li>
 <li>Listen 1<sup>[<a href="https://github.com/listen1/listen1_chrome_extension/releases">Github</a>]</sup></li>
 <li><a href="https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif">Proxy SwitchyOmega</a><sup>[<a href="https://github.com/FelisCatus/SwitchyOmega/releases">Github</a>]</sup> - 管理&amp;切换多个代理设置</li>
 <li><a href="https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl">Reproductor M3U8 - HLS + DASH Player</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp">SetupVPN - Lifetime Free VPN</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp">SetupVPN - Lifetime Free VPN</a><sup>[<a href="https://setupvpn.com/">Official</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a><sup>[<a href="https://www.tampermonkey.net/">Official</a>]</sup></li>
 <li><a href="https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl">WebRTC Leak Shield</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp">二维码生成器 (Quick QR)</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco">扩展管理器（Extension Manager）</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg">捕捉网页截图 - FireShot的</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg">沙拉查词-聚合词典划词翻译</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu">沉浸式翻译</a><sup>[<a href="https://github.com/immersive-translate/immersive-translate/releases">Github</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/extension-manager/efajbgpnlnobnkgdcgcnclngeolnmggp">扩展管理器（Extension Manager）by ext.jgrass.cc </a><sup>[<a href="https://ext.jgrass.cc/">Official</a>]</sup><sup>[<a href="https://github.com/JasonGrass/auto-extension-manager/releases">Github</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg">捕捉网页截图 - FireShot的</a><sup>[<a href="https://getfireshot.com/">Official</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg">沙拉查词-聚合词典划词翻译</a><sup>[<a href="https://saladict.crimx.com/">Official</a>]</sup><sup>[<a href="https://github.com/crimx/ext-saladict/releases">Github</a>]</sup></li>
+<li><a href="https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu">沉浸式翻译</a><sup>[<a href="https://immersivetranslate.com/">Official</a>]</sup><sup>[<a href="https://github.com/immersive-translate/immersive-translate/releases">Github</a>]</sup></li>
 </ul>
 </blockquote>
 </li>
@@ -451,6 +459,9 @@
 </li>
 <li>
 <h4 id="坚果云"><a class="header" href="#坚果云"><a href="https://www.jianguoyun.com/">坚果云</a></a></h4>
+</li>
+<li>
+<h4 id="alistgithub"><a class="header" href="#alistgithub"><a href="https://alist.nn.ci/zh/">Alist</a><sup>[<a href="https://github.com/alist-org/alist/releases">Github</a>]</sup><a id="alist"></a></a></h4>
 </li>
 <li>
 <h4 id="rclonegithub"><a class="header" href="#rclonegithub"><a href="https://rclone.org/">Rclone</a><sup>[<a href="https://github.com/rclone/rclone">Github</a>]</sup><a id="rclone"></a></a></h4>
