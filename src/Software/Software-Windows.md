@@ -227,8 +227,8 @@
 
 	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup> - Markdown 编辑器和阅读器<a id="typora"></a>
 
-		> local: 0.9.83(beta)
-		> [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example) - Typora Activate 
+		> - local: 0.9.83(beta)
+		> - [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example) - Typora Activate 
 
 - ### Download
 
