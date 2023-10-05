@@ -161,11 +161,9 @@
 		
 		> - [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
 		](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
-		<s>
-		> - [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)
-		> - [Markdown Preview Enhanced
-		](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-		</s>
+		> - <s>[Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)</s>
+		> - <s>[Markdown Preview Enhanced
+		](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)</s>
 		> - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 		> - [翻译(英汉词典)
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
