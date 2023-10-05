@@ -40,7 +40,6 @@
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
 		* [UsbEAm Hosts Editor](#usbeam-hosts-editor)
 		* [IObit Driver Booster Pro](#iobit-driver-booster-pro)
-		* [IObit Uninstaller Pro](#iobit-uninstaller-pro)
 		* [CCleaner](#ccleaner)
 		* [TrafficMonitor](#trafficmonitor)
 		* [Domain Name Speed Benchmark](#DNS-Speed-Benchmark)
@@ -78,6 +77,10 @@
 		* [keyviz](#keyviz)
 		* [ZoomIt](#zoomit)
 		* [scrcpy](#scrcpy)
+	* [Uninstaller](#uninstaller)
+		* [Display Driver Uninstaller](#display-ddriver-uninstaller)
+		* [IObit Uninstaller Pro](#iobit-uninstaller-pro)
+		* [Revo Uninstaller Pro](#revo-uninstaller-pro)
 	* [Science](#science)
 		* [Clash for Windows](#clash-for-windows)
 		* [v2rayN](#v2rayn)
@@ -158,9 +161,12 @@
 		
 		> - [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
 		](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
+		<s>
 		> - [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown)
 		> - [Markdown Preview Enhanced
 		](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+		</s>
+		> - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 		> - [翻译(英汉词典)
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 		> - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
@@ -224,6 +230,7 @@
 	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup> - Markdown 编辑器和阅读器<a id="typora"></a>
 
 		> local: 0.9.83(beta)
+		> [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example) - Typora Activate 
 
 - ### Download
 
@@ -234,6 +241,7 @@
 	- #### Aria2<sup>[[Github](https://github.com/aria2/aria2/releases)]</sup><a id="aria2"></a>
 
 		> - [Aria2中文网](http://aria2.baisheng999.com/) - 懒人版
+		> - [https://github.com/sjh0020/aria2/](https://github.com/sjh0020/aria2/) - 懒人合集包
 		> - aria2.conf<sup>[[Github](https://github.com/P3TERX/aria2.conf)]</sup> - Aria2 完美配置
 		> - Aria2 UI界面
 		>	- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
@@ -248,8 +256,6 @@
 		> - hosts `C:\Windows\System32\drivers\etc`
 
 	- #### [IObit Driver Booster Pro](#)<sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a>
-
-	- #### [IObit Uninstaller Pro](#)<sup>[[果核](https://www.ghxi.com/?s=IObit+Uninstaller+Pro)]</sup> - 卸载管理<a id="iobit-uninstaller-pro"></a>
 	
 	- #### [CCleaner](#)<sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理<a id="ccleaner"></a>
 
@@ -454,6 +460,14 @@
 		将计算机剪贴板粘贴到设备|`Alt`+`v`
 
 		</details>
+
+- ### Uninstaller
+
+	- #### [Display Driver Uninstaller](#)<sup>[[果核](https://www.ghxi.com/?s=Display+Driver+Uninstaller)]</sup><a id="display-driver-uninstaller"></a> - 显卡驱动程序卸载工具
+
+	- #### [IObit Uninstaller Pro](https://www.iobit.com/en/advanceduninstallerpro.php)<sup>[[果核](https://www.ghxi.com/?s=IObit+Uninstaller+Pro)]</sup><a id="iobit-uninstaller-pro"></a>
+
+	- #### [Revo Uninstaller Pro](https://www.revouninstaller.com/revo-uninstaller-free-download/)<sup>[[果核](https://www.ghxi.com/?s=Revo+Uninstaller+Pro)]</sup><a id="revo-uninstaller-pro"></a>
 
 - ### Science
 
