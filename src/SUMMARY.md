@@ -2,11 +2,12 @@
 
 # Software
 
-- [Software-Windows](./Software/Software-Windows.md)
+- [Windows-Software](./Software/Windows-Software.md)
     - [nodejs](./Software/nodejs.md)
-- [Software-Android](./Software/Software-Android.md)
+- [Android-Software](./Software/Android-Software.md)
     - [Termux+Docker](./Software/Termux+QEMU+linux_alpine+Docker.md)
-- [Linux-Command](./Software/Linux-Command.md)
+- [Linux-Software](./Software/Linux-Software.md)
+    - [Command](./Software/Linux-Command.md)
 
 # []()
 
