@@ -1,6 +1,6 @@
 # Publish a Website with mdBook and GitHub Pages
 
-## mdbook init
+## mdbook<sup>[[Github](https://github.com/rust-lang/mdBook/releases)]</sup><sup>[[文档](https://rust-lang.github.io/mdBook/)]</sup> init
 
 ```
 $ mkdir mdbook-site
