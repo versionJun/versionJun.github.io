@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>About - versionjun.github.io</title>
+        <title>Android-Software - versionjun.github.io</title>
 
 
         <!-- Custom HTML head -->
@@ -90,7 +90,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Software</li><li class="chapter-item expanded "><a href="../Software/Windows-Software.html"><strong aria-hidden="true">1.</strong> Windows-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Software/nodejs.html"><strong aria-hidden="true">1.1.</strong> nodejs</a></li></ol></li><li class="chapter-item expanded "><a href="../Software/Android-Software.html"><strong aria-hidden="true">2.</strong> Android-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Software/Termux+QEMU+linux_alpine+Docker.html"><strong aria-hidden="true">2.1.</strong> Termux+Docker</a></li></ol></li><li class="chapter-item expanded "><a href="../Software/Linux-Software.html"><strong aria-hidden="true">3.</strong> Linux-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Software/Linux-Command.html"><strong aria-hidden="true">3.1.</strong> Command</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">杂谈</li><li class="chapter-item expanded "><a href="../杂谈/黑炮事件.html"><strong aria-hidden="true">4.</strong> 黑炮事件</a></li><li class="chapter-item expanded "><a href="../杂谈/我们都无法成为大人.html"><strong aria-hidden="true">5.</strong> 我们都无法成为大人</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../About/mdbook-site.html" class="active">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Software</li><li class="chapter-item expanded "><a href="../Software/Windows-Software.html"><strong aria-hidden="true">1.</strong> Windows-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Software/nodejs.html"><strong aria-hidden="true">1.1.</strong> nodejs</a></li></ol></li><li class="chapter-item expanded "><a href="../Software/Android-Software.html" class="active"><strong aria-hidden="true">2.</strong> Android-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Software/Termux+QEMU+linux_alpine+Docker.html"><strong aria-hidden="true">2.1.</strong> Termux+Docker</a></li></ol></li><li class="chapter-item expanded "><a href="../Software/Linux-Software.html"><strong aria-hidden="true">3.</strong> Linux-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Software/Linux-Command.html"><strong aria-hidden="true">3.1.</strong> Command</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">杂谈</li><li class="chapter-item expanded "><a href="../杂谈/黑炮事件.html"><strong aria-hidden="true">4.</strong> 黑炮事件</a></li><li class="chapter-item expanded "><a href="../杂谈/我们都无法成为大人.html"><strong aria-hidden="true">5.</strong> 我们都无法成为大人</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../About/mdbook-site.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -150,7 +150,7 @@
                         <a href="https://github.com/versionJun/versionJun.github.io" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/versionJun/versionJun.github.io/edit/main/src/About/mdbook-site.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/versionJun/versionJun.github.io/edit/main/src/Software/Android-Software.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
 
@@ -179,114 +179,19 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="publish-a-website-with-mdbook-and-github-pages"><a class="header" href="#publish-a-website-with-mdbook-and-github-pages">Publish a Website with mdBook and GitHub Pages</a></h1>
-<h2 id="mdbook-init"><a class="header" href="#mdbook-init">mdbook init</a></h2>
-<pre><code>$ mkdir mdbook-site
-$ cd mdbook-site
-$ mdbook init
-
-Do you want a .gitignore to be created? (y/n)
-y
-What title would you like to give the book?
-my-book
-2022-05-21 17:50:25 [INFO] (mdbook::book::init): Creating a new book with stub content
-
-All done, no errors...
-</code></pre>
-<pre><code>$ tree -a
-.
-├── .gitignore
-├── book
-├── book.toml
-└── src
-    ├── SUMMARY.md
-    └── chapter_1.md
-</code></pre>
-<h2 id="add-github-workflow"><a class="header" href="#add-github-workflow">Add GitHub Workflow</a></h2>
-<pre><code>$ mkdir .github
-$ cd .github
-$ mkdir workflows
-$ cd workflows
-$ vim PublishMySite.yml
-</code></pre>
-<pre><code class="language-yml">name: PublishMySite
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called &quot;build&quot;
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Build markdown files to a static site.
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1
-        with:
-          mdbook-version: &quot;latest&quot;
-      - run: mdbook build . --dest-dir ./book # --dest-dir is relative to &lt;dir&gt;
-      
-      # Publish the static site to gh-pages branch.
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN}}
-          publish_dir: ./book
-          publish_branch: gh-pages
-</code></pre>
-<pre><code>$ tree -a
-.
-├── .github
-│   └── workflows
-│       └── PublishMySite.yml
-├── .gitignore
-├── book.toml
-└── src
-    ├── SUMMARY.md
-    └── chapter_1.md
-</code></pre>
-<h2 id="git-and-github"><a class="header" href="#git-and-github">Git and GitHub</a></h2>
-<h3 id="git-init"><a class="header" href="#git-init">git init</a></h3>
-<pre><code>$ git init
-$ git add .
-$ git commit -m &quot;init&quot;
-</code></pre>
-<h3 id="github---new-repository"><a class="header" href="#github---new-repository">GitHub - New Repository</a></h3>
-<p>GitHub &gt; New Repository</p>
-<p>GitHub &gt; Repository &gt; Settings &gt; Actions &gt; General &gt; </p>
-<ul>
-<li>Actions permissions: Allow all actions and reusable workflows</li>
-<li>Workflow permissions: Read and write permissions</li>
-<li>Click Save</li>
-</ul>
-<pre><code>$ git remote add origin git@github.com:Yang-Xijie/mdbook-site.git # change to your github repo
-$ git branch -M main
-$ git push -u origin main
-</code></pre>
-<p>GitHub &gt; Repository &gt; Settings &gt; Pages &gt; Source &gt; gh-pages &gt; Click Save</p>
+                        <h1 id="android-software"><a class="header" href="#android-software">Android-Software</a></h1>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../杂谈/我们都无法成为大人.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../Software/nodejs.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../Software/Termux+QEMU+linux_alpine+Docker.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -294,10 +199,13 @@ $ git push -u origin main
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../杂谈/我们都无法成为大人.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../Software/nodejs.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../Software/Termux+QEMU+linux_alpine+Docker.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
