@@ -1,4 +1,4 @@
-~ updateDate: 2023-10-12
+~ updateDate: 2023-10-23
 
 # Windows-Software
 
@@ -426,7 +426,7 @@
 
 	- #### [scrcpy](#)<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
 
-		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - UI&scrcpy
+		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - GUI for scrcpy
 		
 		<details>
 
