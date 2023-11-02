@@ -484,14 +484,14 @@
 
 	- #### [Clash](#)<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup>
 
-		> [Clash.Meta]()<sup>[[Github](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
+		> Clash.Meta<sup>[[Github](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
 		>	- [Clash.Meta Docs](https://wiki.metacubex.one/)<sup>[[Github](https://github.com/MetaCubeX/Meta-Docs/)]</sup>
 		
 		> GUI for Clash
-		> - [Clash Verge](#)<sup>[[Github](https://github.com/zzzgydi/clash-verge/releases)]</sup>
+		> - Clash Verge<sup>[[Github](https://github.com/zzzgydi/clash-verge/releases)]</sup>
 		>	- [使用指南](https://github.com/zzzgydi/clash-verge/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
 		<s>
-		> - [Clash for Windows](#)<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup>
+		> - Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup>
 		> 	- [Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup>
 		</s>
 
