@@ -1,4 +1,4 @@
-~ updateDate: 2023-10-23
+~ updateDate: 2023-11-03
 
 # Windows-Software
 
@@ -84,7 +84,7 @@
 		* [Revo Uninstaller Pro](#revo-uninstaller-pro)
 		* [Bulk Crap Uninstaller](#bulk-crap-uninstaller)
 	* [Science](#science)
-		* [Clash for Windows](#clash-for-windows)
+		* [Clash](#clash)
 		* [v2rayN](#v2rayn)
 		* [shadowsocks-windows](#shadowsocks-windows)
 		* [WinXray](#winxray)
@@ -482,14 +482,18 @@
 
 - ### Science
 
-	- #### [Clash for Windows](#)<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup><a id="clash-for-windows"></a>
+	- #### [Clash](#)<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup>
 
-		> [Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup>
-		>
-		>   **Clash_Chinese_Patch<sup>[[Github](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)]</sup>** - Clash For Windows 汉化补丁和汉化脚本
-		>
-		> - 使用请自行替换下列路径中的app.asar文件 
-		> - *Clash for Windows\resources\app.asar*
+		> [Clash.Meta]()<sup>[[Github](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
+		>	- [Clash.Meta Docs](https://wiki.metacubex.one/)<sup>[[Github](https://github.com/MetaCubeX/Meta-Docs/)]</sup>
+		
+		> GUI for Clash
+		> - [Clash Verge](#)<sup>[[Github](https://github.com/zzzgydi/clash-verge/releases)]</sup>
+		>	- [使用指南](https://github.com/zzzgydi/clash-verge/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
+		<s>
+		> - [Clash for Windows](#)<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup>
+		> 	- [Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup>
+		</s>
 
 	- #### [v2rayN](#)<sup>[[Github](https://github.com/2dust/v2rayN)]</sup><a id="v2rayn"></a>
 
