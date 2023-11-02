@@ -19,7 +19,7 @@
 
 ### 下载解压
 
-[nodejs](https://nodejs.org/zh-cn/download/)下载解压目录 例: `D:\Develop\node\node-v18.16.1-win-x64\`
+[nodejs](https://nodejs.org/en/download/)下载解压目录 例: `D:\Develop\node\node-v18.16.1-win-x64\`
 
 ### 配置环境
 
