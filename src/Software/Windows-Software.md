@@ -1,4 +1,4 @@
-~ updateDate: 2023-11-03
+~ updateDate: 2023-11-04
 
 # Windows-Software
 
@@ -85,8 +85,9 @@
 		* [Bulk Crap Uninstaller](#bulk-crap-uninstaller)
 	* [Science](#science)
 		* [Clash](#clash)
-		* [v2rayN](#v2rayn)
+		* [NekoRay](#nekoray)
 		* [shadowsocks-windows](#shadowsocks-windows)
+		* [v2rayN](#v2rayn)
 		* [WinXray](#winxray)
 	* [System](#system)
 		* [ITELLYOU](#itellyou)
@@ -482,33 +483,34 @@
 
 - ### Science
 
-	- #### [Clash](#)<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup>
+	- #### <s>Clash]<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup></s> `作者删库:2023-11-03`
+
+		> - <s>Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup></s> `作者删库:2023-11-02`
+		> 	- <s>[Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup></s>
 
 		> Clash.Meta<sup>[[Github](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
 		>	- [Clash.Meta Docs](https://wiki.metacubex.one/)<sup>[[Github](https://github.com/MetaCubeX/Meta-Docs/)]</sup>
-		
+		>
 		> GUI for Clash
 		> - Clash Verge<sup>[[Github](https://github.com/zzzgydi/clash-verge/releases)]</sup>
 		>	- [使用指南](https://github.com/zzzgydi/clash-verge/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
-		<s>
-		> - Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup>
-		> 	- [Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup>
-		</s>
+		
+	- #### NekoRay<a id="nekoray"></a><sup>[[Github](https://github.com/MatsuriDayo/nekoray/releases)]</sup>
 
-	- #### [v2rayN](#)<sup>[[Github](https://github.com/2dust/v2rayN)]</sup><a id="v2rayn"></a>
+	- #### shadowsocks-windows<a id="shadowsocks-windows"></a><sup>[[Github](https://github.com/shadowsocks/shadowsocks-windows)]</sup>
 
-	- #### [shadowsocks-windows](#)<sup>[[Github](https://github.com/shadowsocks/shadowsocks-windows)]</sup><a id="shadowsocks-windows"></a>
+	- #### v2rayN<a id="v2rayn"></a><sup>[[Github](https://github.com/2dust/v2rayN)]</sup>
 
-	- #### [WinXray](#)<sup>[[Github](https://github.com/TheMRLL/WinXray)]</sup><a id="winxray"></a>
+	- #### WinXray<a id="winxray"></a><sup>[[Github](https://github.com/TheMRLL/WinXray/releases)]</sup>
 
 - ### System
 
-	- #### [ITELLYOU](#)
+	- #### ITELLYOU
 
 		> - [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
 		> - [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
 
-	- #### [HEU KMS Activator](#)<sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)<a id="heu-kms-activator"></a>
+	- #### HEU KMS Activator<sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)<a id="heu-kms-activator"></a>
 
 	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具<a id="ventoy"></a>
 
