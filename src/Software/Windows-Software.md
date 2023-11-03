@@ -195,7 +195,7 @@
 
 	- #### [MySQL](https://downloads.mysql.com/archives/community/)
 
-	- #### [redis-windows](#)<sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup><a id="redis-windows"></a>
+	- #### redis-windows<sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup><a id="redis-windows"></a>
 
 	- #### [Maven](https://maven.apache.org/download.cgi)<sup>[[Github](https://github.com/apache/maven)]</sup><a id="maven"></a>
 
@@ -259,25 +259,25 @@
 
 		> - hosts `C:\Windows\System32\drivers\etc`
 
-	- #### [IObit Driver Booster Pro](#)<sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a>
+	- #### IObit Driver Booster Pro<sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a>
 	
-	- #### [CCleaner](#)<sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理<a id="ccleaner"></a>
+	- #### CCleaner<sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理<a id="ccleaner"></a>
 
-	- #### [TrafficMonitor](#)<sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控<a id="trafficmonitor"></a>
+	- #### TrafficMonitor<sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控<a id="trafficmonitor"></a>
 
 	- #### [Domain Name Speed Benchmark](https://www.grc.com/dns/benchmark.htm)<a id="DNS-Speed-Benchmark"></a>
 
-	- #### [Optimizer](#)<a id="optimizer"></a><sup>[[Github](https://github.com/hellzerg/optimizer)]</sup> - Windows优化器
+	- #### Optimizer<a id="optimizer"></a><sup>[[Github](https://github.com/hellzerg/optimizer)]</sup> - Windows优化器
 
 - ### Image
 
-	- #### [FastStone Capture](#)<sup>[[果核](https://www.ghxi.com/?s=FastStone+Capture)]</sup> - 屏幕截图<a id="faststone-capture"></a>
+	- #### FastStone Capture<sup>[[果核](https://www.ghxi.com/?s=FastStone+Capture)]</sup> - 屏幕截图<a id="faststone-capture"></a>
 
-	- #### [FastStone Image Viewer](#)<sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具<a id="faststone-image-viewer"></a>
+	- #### FastStone Image Viewer<sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具<a id="faststone-image-viewer"></a>
 
-	- #### [Final2x](#)<sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率<a id="final2x"></a>
+	- #### Final2x<sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率<a id="final2x"></a>
 
-	- #### [Umi-OCR](#)<sup>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具<a id="umi-ocr"></a>
+	- #### Umi-OCR<sup>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具<a id="umi-ocr"></a>
 
 - ### Media 
 
@@ -285,8 +285,8 @@
 
 		> - [iptv-org](https://iptv-org.github.io/)<sup>[[Github](https://github.com/iptv-org/iptv)]</sup>
 		> - [live](https://live.fanmingming.com/)<sup>[[Github](https://github.com/fanmingming/live)]</sup> - 国内直播源支持IPv4/IPv6双栈访问
-		> - [imDazui/Tvlist-awesome-m3u-m3u8](#)<sup>[[Github](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)]</sup>
-		> - [lylehust/Chinese-IPTV](#)<sup>[[Github](https://github.com/lylehust/Chinese-IPTV)]</sup> -  Chinese CCTV List (IPV6)
+		> - imDazui/Tvlist-awesome-m3u-m3u8<sup>[[Github](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)]</sup>
+		> - lylehust/Chinese-IPTV<sup>[[Github](https://github.com/lylehust/Chinese-IPTV)]</sup> -  Chinese CCTV List (IPV6)
 
 	- #### [MPV](https://mpv.io)<sup>[[Github](https://github.com/mpv-player/mpv)]</sup><a id="mpv"></a>
 
@@ -365,11 +365,11 @@
 
 - ### Media Processing
 
-	- #### [Adobe Photoshop](#)<sup>[[果核](https://www.ghxi.com/?s=Adobe+Photoshop+)]</sup> <a id="adobe-photoshop"></a>
+	- #### Adobe Photoshop<sup>[[果核](https://www.ghxi.com/?s=Adobe+Photoshop+)]</sup> <a id="adobe-photoshop"></a>
 
 		> [Adobe Photoshop 2020 v21.2.12.215 绿色精简版](https://www.ghxi.com/ps2020green.html) - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
 
-	- #### [Adobe Collection](#)<sup>[[vposy](https://weibo.com/n/vposy)]</sup> <a id="adobe-collection"></a>
+	- #### Adobe Collection<sup>[[vposy](https://weibo.com/n/vposy)]</sup> <a id="adobe-collection"></a>
 
 	- #### [FFmpeg](https://ffmpeg.org/download.html)
 
@@ -415,17 +415,17 @@
 	
 	- #### [BililiveRecorder](https://rec.danmuji.org/)<sup>[[Github](https://github.com/BililiveRecorder/BililiveRecorder/releases)]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 <a id="bililiverecorder"></a>
 
-	- #### [BilibiliLiveRecordDownLoader](#)<sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 <a id="bilibiliLiverecorddownLoader"></a>
+	- #### BilibiliLiveRecordDownLoader<sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 <a id="bilibiliLiverecorddownLoader"></a>
 
-	- #### [DouyinLiveRecorder](#)<sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup><a id="douyinliverecorder"></a> - 抖音直播录制
+	- #### DouyinLiveRecorder<sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup><a id="douyinliverecorder"></a> - 抖音直播录制
 
 - ### Recording-etc
 
 	- #### [keyviz](https://mularahul.github.io/keyviz/)<sup>[[Github](https://github.com/mulaRahul/keyviz/releases)]</sup> <a id="keyviz"></a> - 按键可视化
 	
-	- #### [ZoomIt](#)<sup>[[Github](https://github.com/arlionn/software)]</sup> <a id="zoomit"></a> - 屏幕缩放工具
+	- #### ZoomIt<sup>[[Github](https://github.com/arlionn/software)]</sup> <a id="zoomit"></a> - 屏幕缩放工具
 
-	- #### [scrcpy](#)<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
+	- #### scrcpy<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
 
 		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - GUI for scrcpy
 		
@@ -473,7 +473,7 @@
 
 - ### Uninstaller
 
-	- #### [Display Driver Uninstaller](#)<sup>[[果核](https://www.ghxi.com/?s=Display+Driver+Uninstaller)]</sup><a id="display-driver-uninstaller"></a> - 显卡驱动程序卸载工具
+	- #### Display Driver Uninstaller<sup>[[果核](https://www.ghxi.com/?s=Display+Driver+Uninstaller)]</sup><a id="display-driver-uninstaller"></a> - 显卡驱动程序卸载工具
 
 	- #### [IObit Uninstaller Pro](https://www.iobit.com/en/advanceduninstallerpro.php)<sup>[[果核](https://www.ghxi.com/?s=IObit+Uninstaller+Pro)]</sup><a id="iobit-uninstaller-pro"></a>
 
