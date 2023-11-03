@@ -142,7 +142,7 @@
 
 	- #### [7zip](https://sparanoid.com/lab/7z/)
 
-	- #### [WinRAR](https://www.rarlab.com/download.htm)<sup>[[果核](https://www.ghxi.com/?s=WinRAR)]</sup><a id="winrar"></a>
+	- #### [WinRAR](https://www.rarlab.com/download.htm)<a id="winrar"></a><sup>[[果核](https://www.ghxi.com/?s=WinRAR)]</sup>
 
 
 - ### Cloud Driver
@@ -154,9 +154,9 @@
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
-	- #### [Alist](https://alist.nn.ci/zh/)<sup>[[Github](https://github.com/alist-org/alist/releases)]</sup><a id="alist"></a>
+	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[Github](https://github.com/alist-org/alist/releases)]</sup>
 
-	- #### [Rclone](https://rclone.org/)<sup>[[Github](https://github.com/rclone/rclone)]</sup><a id="rclone"></a>
+	- #### [Rclone](https://rclone.org/)<a id="rclone"></a><sup>[[Github](https://github.com/rclone/rclone)]</sup>
 
 		> [WinFsp](https://winfsp.dev/)<sup>[[Github](https://github.com/winfsp/winfsp)]</sup> - 本地挂载所需安装第三方工具
 
@@ -189,17 +189,17 @@
 
 	- #### [Eclipse](https://www.eclipse.org/downloads/packages/)
 
-	- #### [Tomcat](https://tomcat.apache.org/)<sup>[[Github](https://github.com/apache/tomcat)]</sup><a id="tomcat"></a>
+	- #### [Tomcat](https://tomcat.apache.org/)<a id="tomcat"></a><sup>[[Github](https://github.com/apache/tomcat)]</sup>
 
-	- #### [JDK](https://www.oracle.com/java/technologies/downloads/)<sup>[[Github](https://github.com/frekele/oracle-java)]</sup><a id="jdk"></a>
+	- #### [JDK](https://www.oracle.com/java/technologies/downloads/)<a id="jdk"></a><sup>[[Github](https://github.com/frekele/oracle-java)]</sup>
 
 	- #### [MySQL](https://downloads.mysql.com/archives/community/)
 
-	- #### redis-windows<sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup><a id="redis-windows"></a>
+	- #### redis-windows<a id="redis-windows"></a><sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup>
 
-	- #### [Maven](https://maven.apache.org/download.cgi)<sup>[[Github](https://github.com/apache/maven)]</sup><a id="maven"></a>
+	- #### [Maven](https://maven.apache.org/download.cgi)<a id="maven"></a><sup>[[Github](https://github.com/apache/maven)]</sup>
 
-	- #### [Navicat](https://www.navicat.com.cn/products/)<sup>[[果核](https://www.ghxi.com/?s=Navicat)]</sup><a id="navicat"></a>
+	- #### [Navicat](https://www.navicat.com.cn/products/)<a id="navicat"></a><sup>[[果核](https://www.ghxi.com/?s=Navicat)]</sup>
 
 	- #### [Visual Studio Code](https://code.visualstudio.com/)
 		
@@ -213,7 +213,7 @@
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 		> - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
-	- #### [Nodejs](https://nodejs.org/en/download)<sup>[[Github](https://github.com/nodejs/node)]</sup><a id="nodejs"></a>
+	- #### [Nodejs](https://nodejs.org/en/download)<a id="nodejs"></a><sup>[[Github](https://github.com/nodejs/node)]</sup>
 
   ### Develop SSH	
 
@@ -223,26 +223,26 @@
 
 		> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
 	
-	- #### [1Remote](http://1remote.org/zh-cn/)<sup>[[Github](https://github.com/1Remote/1Remote/releases)]</sup><a id="1remote"></a>
+	- #### [1Remote](http://1remote.org/zh-cn/)<a id="1remote"></a><sup>[[Github](https://github.com/1Remote/1Remote/releases)]</sup>
 
-	- #### [WindTerm](https://kingtoolbox.github.io/)<sup><a id="windterm"></a>[[Github](https://github.com/kingToolbox/WindTerm/releases)]</sup>
+	- #### [WindTerm](https://kingtoolbox.github.io/)<a id="windterm"></a><sup>[[Github](https://github.com/kingToolbox/WindTerm/releases)]</sup>
 
 - ### Document
 
-	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<sup>[[Github](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office<a id="office-tool-plus"></a>
+	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<a id="office-tool-plus"></a><sup>[[Github](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office
 
-	- #### [Typora](https://typoraio.cn/)<sup>[local]</sup> - Markdown 编辑器和阅读器<a id="typora"></a>
+	- #### [Typora](https://typoraio.cn/)<a id="typora"></a><sup>[local]</sup> - Markdown 编辑器和阅读器
 
 		> - local: 0.9.83(beta)
 		> - [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example) - Typora Activate 
 
 - ### Download
 
-	- #### Internet Download Manager<sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup><a id="internet-download-manager"></a>
+	- #### Internet Download Manager<a id="internet-download-manager"></a><sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup>
 
 		> ef2 <sup>[[Github](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
 
-	- #### Aria2<sup>[[Github](https://github.com/aria2/aria2/releases)]</sup><a id="aria2"></a>
+	- #### Aria2</sup><a id="aria2"></a><sup>[[Github](https://github.com/aria2/aria2/releases)]
 
 		> - [Aria2中文网](http://aria2.baisheng999.com/) - 懒人版
 		> - [https://github.com/sjh0020/aria2/](https://github.com/sjh0020/aria2/) - 懒人合集包
@@ -253,17 +253,17 @@
 
 - ### ETC
 
-	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup><a id="watt-toolkitsteam"></a>
-
-	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - 多平台hosts修改<a id="usbeam-hosts-editor"></a>
+	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<a id="watt-toolkitsteam"></a><sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup>
+	
+	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/)<a id="usbeam-hosts-editor"></a> - 多平台hosts修改
 
 		> - hosts `C:\Windows\System32\drivers\etc`
 
-	- #### IObit Driver Booster Pro<sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理<a id="iobit-driver-booster-pro"></a>
+	- #### IObit Driver Booster Pro<a id="iobit-driver-booster-pro"></a><sup>[[果核](https://www.ghxi.com/?s=IObit+Driver+Booster+Pro)]</sup> - 驱动管理
 	
-	- #### CCleaner<sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理<a id="ccleaner"></a>
+	- #### CCleaner<a id="ccleaner"></a><sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理
 
-	- #### TrafficMonitor<sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控<a id="trafficmonitor"></a>
+	- #### TrafficMonitor<a id="trafficmonitor"></a><sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控
 
 	- #### [Domain Name Speed Benchmark](https://www.grc.com/dns/benchmark.htm)<a id="DNS-Speed-Benchmark"></a>
 
@@ -271,13 +271,13 @@
 
 - ### Image
 
-	- #### FastStone Capture<sup>[[果核](https://www.ghxi.com/?s=FastStone+Capture)]</sup> - 屏幕截图<a id="faststone-capture"></a>
+	- #### FastStone Capture<a id="faststone-capture"></a><sup>[[果核](https://www.ghxi.com/?s=FastStone+Capture)]</sup> - 屏幕截图
 
-	- #### FastStone Image Viewer<sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具<a id="faststone-image-viewer"></a>
+	- #### FastStone Image Viewer<a id="faststone-image-viewer"></a><sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具
 
-	- #### Final2x<sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率<a id="final2x"></a>
+	- #### Final2x<a id="final2x"></a><sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率
 
-	- #### Umi-OCR<sup>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具<a id="umi-ocr"></a>
+	- #### Umi-OCR<sup><a id="umi-ocr"></a>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具
 
 - ### Media 
 
@@ -365,11 +365,11 @@
 
 - ### Media Processing
 
-	- #### Adobe Photoshop<sup>[[果核](https://www.ghxi.com/?s=Adobe+Photoshop+)]</sup> <a id="adobe-photoshop"></a>
+	- #### Adobe Photoshop<a id="adobe-photoshop"></a><sup>[[果核](https://www.ghxi.com/?s=Adobe+Photoshop+)]</sup>
 
 		> [Adobe Photoshop 2020 v21.2.12.215 绿色精简版](https://www.ghxi.com/ps2020green.html) - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) 
 
-	- #### Adobe Collection<sup>[[vposy](https://weibo.com/n/vposy)]</sup> <a id="adobe-collection"></a>
+	- #### Adobe Collection<a id="adobe-collection"></a><sup>[[vposy](https://weibo.com/n/vposy)]</sup>
 
 	- #### [FFmpeg](https://ffmpeg.org/download.html)
 
@@ -415,17 +415,17 @@
 	
 	- #### [BililiveRecorder](https://rec.danmuji.org/)<sup>[[Github](https://github.com/BililiveRecorder/BililiveRecorder/releases)]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 <a id="bililiverecorder"></a>
 
-	- #### BilibiliLiveRecordDownLoader<sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 <a id="bilibiliLiverecorddownLoader"></a>
+	- #### BilibiliLiveRecordDownLoader<a id="bilibiliLiverecorddownLoader"></a><sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 
 
-	- #### DouyinLiveRecorder<sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup><a id="douyinliverecorder"></a> - 抖音直播录制
+	- #### DouyinLiveRecorder<a id="douyinliverecorder"></a><sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup> - 抖音直播录制
 
 - ### Recording-etc
 
-	- #### [keyviz](https://mularahul.github.io/keyviz/)<sup>[[Github](https://github.com/mulaRahul/keyviz/releases)]</sup> <a id="keyviz"></a> - 按键可视化
+	- #### [keyviz](https://mularahul.github.io/keyviz/)<a id="keyviz"></a><sup>[[Github](https://github.com/mulaRahul/keyviz/releases)]</sup>  - 按键可视化
 	
-	- #### ZoomIt<sup>[[Github](https://github.com/arlionn/software)]</sup> <a id="zoomit"></a> - 屏幕缩放工具
+	- #### ZoomIt<a id="zoomit"></a><sup>[[Github](https://github.com/arlionn/software)]</sup> - 屏幕缩放工具
 
-	- #### scrcpy<sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> <a id="scrcpy"></a> - Display&control Android device
+	- #### scrcpy<a id="scrcpy"></a><sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> - Display&control Android device
 
 		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - GUI for scrcpy
 		
@@ -473,11 +473,11 @@
 
 - ### Uninstaller
 
-	- #### Display Driver Uninstaller<sup>[[果核](https://www.ghxi.com/?s=Display+Driver+Uninstaller)]</sup><a id="display-driver-uninstaller"></a> - 显卡驱动程序卸载工具
+	- #### Display Driver Uninstaller<a id="display-driver-uninstaller"></a><sup>[[果核](https://www.ghxi.com/?s=Display+Driver+Uninstaller)]</sup> - 显卡驱动程序卸载工具
 
-	- #### [IObit Uninstaller Pro](https://www.iobit.com/en/advanceduninstallerpro.php)<sup>[[果核](https://www.ghxi.com/?s=IObit+Uninstaller+Pro)]</sup><a id="iobit-uninstaller-pro"></a>
+	- #### [IObit Uninstaller Pro](https://www.iobit.com/en/advanceduninstallerpro.php)<a id="iobit-uninstaller-pro"></a><sup>[[果核](https://www.ghxi.com/?s=IObit+Uninstaller+Pro)]</sup>
 
-	- #### [Revo Uninstaller Pro](https://www.revouninstaller.com/revo-uninstaller-free-download/)<sup>[[果核](https://www.ghxi.com/?s=Revo+Uninstaller+Pro)]</sup><a id="revo-uninstaller-pro"></a>
+	- #### [Revo Uninstaller Pro](https://www.revouninstaller.com/revo-uninstaller-free-download/)<a id="revo-uninstaller-pro"></a><sup>[[果核](https://www.ghxi.com/?s=Revo+Uninstaller+Pro)]</sup>
 
 	- #### [Bulk Crap Uninstaller](https://www.bcuninstaller.com/)<a id="bulk-crap-uninstaller"></a><sup>[[Github](https://github.com/Klocman/Bulk-Crap-Uninstaller/releases)]</sup>
 
@@ -510,19 +510,19 @@
 		> - [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
 		> - [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
 
-	- #### HEU KMS Activator<sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)<a id="heu-kms-activator"></a>
+	- #### HEU KMS Activator<a id="heu-kms-activator"></a><sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)
 
 	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具<a id="ventoy"></a>
 
-	- #### [微PE工具箱](https://www.wepe.com.cn/) - WinPE装机维护工具<a id="wepe"></a>
+	- #### [微PE工具箱](https://www.wepe.com.cn/)<a id="wepe"></a> - WinPE装机维护工具
 
 	- #### [图吧工具箱](http://www.tbtool.cn/)
 
-	- #### [VMware](https://www.vmware.com/cn/products/workstation-pro.html)<sup>[[果核](https://www.ghxi.com/?s=VMware)]</sup><a id="vmware"></a>
+	- #### [VMware](https://www.vmware.com/cn/products/workstation-pro.html)<a id="vmware"></a><sup>[[果核](https://www.ghxi.com/?s=VMware)]</sup>
 
 		> - [windows-virtual-machines](https://developer.microsoft.com/zh-cn/windows/downloads/virtual-machines/)
 
-	- #### [CentOS](https://vault.centos.org/)<sup>[[阿里云](https://mirrors.aliyun.com/centos-vault/centos/)]</sup><a id="centos"></a>
+	- #### [CentOS](https://vault.centos.org/)<a id="centos"></a><sup>[[阿里云](https://mirrors.aliyun.com/centos-vault/centos/)]</sup>
 
 
 ---
