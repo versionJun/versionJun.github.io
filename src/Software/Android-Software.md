@@ -71,17 +71,17 @@
 
 - ### Document 
 
-	- #### Legado<sup>[[Github](https://github.com/gedoor/legado/releases)]</sup><a id="legado"></a>
+	- #### Legado<a id="legado"></a><sup>[[Github](https://github.com/gedoor/legado/releases)]</sup>
 
 		> [gedoor.github.io](https://gedoor.github.io/) / [legado.top](https://www.legado.top/)
 
-	- #### markor<sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="markor"></a>
+	- #### markor<a id="markor"></a><sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup>
 
 - ### ETC 
 
-	- #### 质感文件<sup>[[Github](https://github.com/zhanghai/MaterialFiles/releases)]</sup><sup>[[F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)]</sup><a id="质感文件"></a>
+	- #### 质感文件<a id="质感文件"></a><sup>[[Github](https://github.com/zhanghai/MaterialFiles/releases)]</sup><sup>[[F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)]</sup>
 
-	- #### termux<sup>[[Github](https://github.com/termux/termux-app/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.termux/)]</sup><a id="termux"></a>
+	- #### termux<a id="termux"></a><sup>[[Github](https://github.com/termux/termux-app/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.termux/)]</sup>
 
 		> PS: [zsxwz-termux-wiki](https://termux-wiki.zsxwz.com/) 
 		>
@@ -93,29 +93,29 @@
 		>		- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
 		>		- AriaNg<sup>[[Github](https://github.com/mayswind/AriaNg)]</sup>
 	
-	- #### 李跳跳<sup>[[weibo](https://weibo.com/u/7266690401)]</sup><a id="李跳跳"></a>
+	- #### 李跳跳<a id="李跳跳"></a><sup>[[weibo](https://weibo.com/u/7266690401)]</sup>
 
 	- #### [清浊](https://www.dircleaner.com/) - 清理工具
 
 - ### Map
 
-	- Organic Maps<sup>[[Github](https://github.com/organicmaps/organicmaps/releases)]</sup><sup>[[F-Droid](https://f-droid.org/en/packages/app.organicmaps/)]</sup><a id="organicmaps"></a>
+	- Organic Maps<a id="organicmaps"></a><sup>[[Github](https://github.com/organicmaps/organicmaps/releases)]</sup><sup>[[F-Droid](https://f-droid.org/en/packages/app.organicmaps/)]</sup>
 
 - ### Media 
 
-	- #### [NewPipe](https://newpipe.net/)<sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup><a id="newpipe"></a>
+	- #### [NewPipe](https://newpipe.net/)<a id="newpipe"></a><sup>[[Github](https://github.com/TeamNewPipe/NewPipe)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup>
 
 		> A libre lightweight streaming front-end for Android.
 
-	- #### [VLC](https://www.videolan.org/vlc/download-android.html) <sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup><a id="vlc"></a>
+	- #### [VLC](https://www.videolan.org/vlc/download-android.html)<a id="vlc"></a><sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup>
 
-	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
+	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup>
 
 		> local: 8.7.30.1221
 
 	- #### [网易云](https://music.163.com/)
 
-	- #### [椒盐音乐](https://moriafly.xyz/HiMoriafly/)<sup>[[Github](https://github.com/Moriafly/SaltPlayerSource/releases)]</sup> - Android™ 本地音乐播放器
+	- #### [椒盐音乐](https://moriafly.xyz/HiMoriafly/)<a id="椒盐音乐"></a><sup>[[Github](https://github.com/Moriafly/SaltPlayerSource/releases)]</sup> - Android™ 本地音乐播放器
 
 - ### Messaging
 
@@ -125,13 +125,13 @@
 
 - ### Science
 
-	- #### <s>ClashForAndroid<sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup><a id="clashforandroid"></a></s> `作者删库:2023-11-03`
+	- #### <s>ClashForAndroid<a id="clashforandroid"></a><sup>[[Github](https://github.com/Kr328/ClashForAndroid)]</sup></s> `作者删库:2023-11-03`
 
 	- #### ClashMetaForAndroid<a id="clashmetaforandroid"></a><sup>[[Github](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)]</sup>
 
 	- #### NekoBoxForAndroid<a id="nekoboxforandroid"></a><sup>[[Github](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)]</sup>
 
-	- #### v2rayNG<sup>[[Github](https://github.com/2dust/v2rayNG)]</sup><a id="v2rayng"></a>
+	- #### v2rayNG<a id="v2rayng"></a><sup>[[Github](https://github.com/2dust/v2rayNG)]</sup>
 
 ---
 
