@@ -277,7 +277,7 @@
 
 	- #### Final2x<a id="final2x"></a><sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率
 
-	- #### Umi-OCR<sup><a id="umi-ocr"></a>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具
+	- #### Umi-OCR<a id="umi-ocr"></a><sup>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具
 
 - ### Media 
 
