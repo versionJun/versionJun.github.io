@@ -1,4 +1,4 @@
-~ updateDate: 2023-11-04
+~ updateDate: 2023-11-06
 
 # Windows-Software
 
@@ -281,14 +281,14 @@
 
 - ### Media 
 
-	- #### [PotPlayer](https://potplayer.daum.net/)<sup>[[果核](https://www.ghxi.com/?s=PotPlayer)]</sup><a id="potplayer"></a>
+	- #### [PotPlayer](https://potplayer.daum.net/)<a id="potplayer"></a><sup>[[果核](https://www.ghxi.com/?s=PotPlayer)]</sup>
 
 		> - [iptv-org](https://iptv-org.github.io/)<sup>[[Github](https://github.com/iptv-org/iptv)]</sup>
 		> - [live](https://live.fanmingming.com/)<sup>[[Github](https://github.com/fanmingming/live)]</sup> - 国内直播源支持IPv4/IPv6双栈访问
 		> - imDazui/Tvlist-awesome-m3u-m3u8<sup>[[Github](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)]</sup>
 		> - lylehust/Chinese-IPTV<sup>[[Github](https://github.com/lylehust/Chinese-IPTV)]</sup> -  Chinese CCTV List (IPV6)
 
-	- #### [MPV](https://mpv.io)<sup>[[Github](https://github.com/mpv-player/mpv)]</sup><a id="mpv"></a>
+	- #### [MPV](https://mpv.io)<a id="mpv"></a><sup>[[Github](https://github.com/mpv-player/mpv)]</sup>
 
 		> - [mpv-lazy 懒人包](https://github.com/hooke007/MPV_lazy)
 		> - [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - 粘贴链接到`mpv`与`ctrl + v`开始播放视频
@@ -357,7 +357,7 @@
 
 		</details>
 		
-	- #### [Spotify](https://www.spotify.com/)<sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><a id="spotify"></a>
+	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup>
 
 		> local: Spotify for Windows 1.1.67.586.gbb5ef64e
 
@@ -411,9 +411,9 @@
 
 - ### Recording
 
-	- #### [Bandicam](https://www.bandicam.cn/)<sup>[[果核](https://www.ghxi.com/?s=Bandicam+)]</sup><a id="bandicam"></a>
+	- #### [Bandicam](https://www.bandicam.cn/)<a id="bandicam"></a><sup>[[果核](https://www.ghxi.com/?s=Bandicam+)]</sup>
 	
-	- #### [BililiveRecorder](https://rec.danmuji.org/)<sup>[[Github](https://github.com/BililiveRecorder/BililiveRecorder/releases)]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 <a id="bililiverecorder"></a>
+	- #### [BililiveRecorder](https://rec.danmuji.org/)<a id="bililiverecorder"></a><sup>[[Github](https://github.com/BililiveRecorder/BililiveRecorder/releases)]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 
 
 	- #### BilibiliLiveRecordDownLoader<a id="bilibiliLiverecorddownLoader"></a><sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 
 
@@ -483,7 +483,7 @@
 
 - ### Science
 
-	- #### <s>Clash]<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup></s> `作者删库:2023-11-03`
+	- #### <s>Clash<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup></s> `作者删库:2023-11-03`
 
 		> - <s>Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup></s> `作者删库:2023-11-02`
 		> 	- <s>[Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup></s>
@@ -512,7 +512,7 @@
 
 	- #### HEU KMS Activator<a id="heu-kms-activator"></a><sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)
 
-	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具<a id="ventoy"></a>
+	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<a id="ventoy"></a><sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具
 
 	- #### [微PE工具箱](https://www.wepe.com.cn/)<a id="wepe"></a> - WinPE装机维护工具
 
