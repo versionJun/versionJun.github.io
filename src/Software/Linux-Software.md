@@ -3,6 +3,8 @@
 
 ## 目录
 
+* [Help](#help)
+    * [Tutorial](#tutorial)
 * [管理面板](#管理面板)
 	* [1Panel](#1panel)
 * [Cloud Driver](#cloud-driver)
@@ -12,6 +14,14 @@
 ---
 
 ## Software
+
+- ### Help
+
+  - #### Tutorial
+      
+      > - [dunwu/linux-tutorial](#https://dunwu.github.io/linux-tutorial/)<sup>[[Github](https://github.com/dunwu/linux-tutorial)]</sup>
+      > - judasn/Linux-Tutorial<sup>[[Github](https://github.com/judasn/Linux-Tutorial)]</sup>
+
 
 - ### 管理面板
 
