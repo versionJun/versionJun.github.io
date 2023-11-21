@@ -14,6 +14,7 @@
 > - [playwright](https://www.npmjs.com/package/playwright) - 浏览器自动化
 > - [@octokit/core](https://www.npmjs.com/package/@octokit/core) - Extendable client for GitHub's REST & GraphQL APIs
 > - [libsodium-wrappers](https://www.npmjs.com/package/libsodium-wrappers) - The sodium crypto library
+> - [log4js](https://www.npmjs.com/package/log4js) - 日志
 
 ## Windows二进制文件(.zip)安装方式
 
