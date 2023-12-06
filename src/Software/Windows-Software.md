@@ -1,4 +1,4 @@
-~ updateDate: 2023-11-06
+~ updateDate: 2023-12-06
 
 # Windows-Software
 
@@ -37,6 +37,7 @@
 	* [Download](#download)
 		* [Internet Download Manager](#internet-download-manager)
 		* [Aria2](#aria2)
+		* [qBittorrent-Enhanced-Edition](#qbittorrent-enhanced-edition)
     * [ETC](#etc)
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
 		* [UsbEAm Hosts Editor](#usbeam-hosts-editor)
@@ -242,7 +243,7 @@
 
 		> ef2 <sup>[[Github](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
 
-	- #### Aria2</sup><a id="aria2"></a><sup>[[Github](https://github.com/aria2/aria2/releases)]
+	- #### Aria2<a id="aria2"></a><sup>[[Github](https://github.com/aria2/aria2/releases)]</sup>
 
 		> - [Aria2中文网](http://aria2.baisheng999.com/) - 懒人版
 		> - [https://github.com/sjh0020/aria2/](https://github.com/sjh0020/aria2/) - 懒人合集包
@@ -250,6 +251,12 @@
 		> - Aria2 GUI
 		>	- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
 		>	- AriaNg<sup>[[Github](https://github.com/mayswind/AriaNg)]</sup>
+
+	- #### qBittorrent-Enhanced-Edition<a id="qbittorrent-enhanced-edition"></a><sup>[[Github](https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases)]</sup>
+
+		> - tracker
+		> 	- [ngosang/trackerslist](https://ngosang.github.io/trackerslist/)<sup>[[Github](https://github.com/ngosang/trackerslist)]</sup>
+		> 	- [XIU2/TrackersListCollectionsup](https://trackerslist.com/#/zh)<sup>[[Github](https://github.com/XIU2/TrackersListCollection)]</sup>
 
 - ### ETC
 
