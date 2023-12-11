@@ -1,4 +1,4 @@
-~ updateDate: 2023-12-06
+~ updateDate: 2023-12-12
 
 # Windows-Software
 
@@ -156,6 +156,24 @@
 	- #### [坚果云](https://www.jianguoyun.com/)
 
 	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[Github](https://github.com/alist-org/alist/releases)]</sup>
+
+		<details>
+
+		<summary>alist proxy</summary>
+		
+		```cmd
+
+			set http_proxy=http://127.0.0.1:7890/
+			set https_proxy=http://127.0.0.1:7890/
+			set ftp_proxy=http://127.0.0.1:7890/
+			set no_proxy=localhost,127.0.0.1,::1
+			alist.exe server
+		
+		```
+
+		- PS: [alist如何-使用-吃到-代理-proxy](https://anwen-anyi.github.io/index/07-wenti.html#_41-alist%E5%A6%82%E4%BD%95-%E4%BD%BF%E7%94%A8-%E5%90%83%E5%88%B0-%E4%BB%A3%E7%90%86-proxy)
+
+		</details>
 
 	- #### [Rclone](https://rclone.org/)<a id="rclone"></a><sup>[[Github](https://github.com/rclone/rclone)]</sup>
 
