@@ -1,4 +1,4 @@
-~ updateDate: 2023-12-12
+~ updateDate: 2024-01-09
 
 # Windows-Software
 
@@ -316,7 +316,7 @@
 	- #### [MPV](https://mpv.io)<a id="mpv"></a><sup>[[Github](https://github.com/mpv-player/mpv)]</sup>
 
 		> - [mpv-lazy 懒人包](https://github.com/hooke007/MPV_lazy)
-		> - [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - 粘贴链接到`mpv`与`ctrl + v`开始播放视频
+		> - [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - `ctrl + v`到`mpv`播放视频
 		
 		<details>
 
@@ -399,6 +399,36 @@
 	- #### [FFmpeg](https://ffmpeg.org/download.html)
 
 		> - [HandBrake](https://handbrake.fr/downloads.php)<sup>[[Github](https://github.com/HandBrake/HandBrake/releases)]</sup> - GUI for ffmpeg   
+
+		<details>
+
+		<summary>to[hevc_nvenc][qp18].bat</summary>
+		
+		```cmd
+
+			:softshare
+			if "%~1"=="" goto:eof
+			ffmpeg -hide_banner -i "%~1" -c:v hevc_nvenc -qp 18 -acodec copy "%~dpn1_[hevc_nvenc][qp18].mp4"
+			shift&goto:softshare
+		
+		```
+
+		</details>
+
+		<details>
+
+		<summary>to[libx265][crf18].bat</summary>
+		
+		```cmd
+
+			:softshare
+			if "%~1"=="" goto:eof
+			ffmpeg -hide_banner -i "%~1" -c:v libx265 -crf 18 -acodec copy "%~dpn1_[x265][crf18].mp4"
+			shift&goto:softshare
+		
+		```
+
+		</details>
 	
 - ### Messaging
 
