@@ -179,7 +179,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>~ updateDate: 2023-12-12</p>
+                        <p>~ updateDate: 2024-01-09</p>
 <h1 id="windows-software"><a class="header" href="#windows-software">Windows-Software</a></h1>
 <h2 id="目录"><a class="header" href="#目录">目录</a></h2>
 <ul>
@@ -646,7 +646,7 @@ PS: --header &quot;Referer:&quot;
 <blockquote>
 <ul>
 <li><a href="https://github.com/hooke007/MPV_lazy">mpv-lazy 懒人包</a></li>
-<li><a href="https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua">copy-paste-URL.lua</a> - 粘贴链接到<code>mpv</code>与<code>ctrl + v</code>开始播放视频</li>
+<li><a href="https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua">copy-paste-URL.lua</a> - <code>ctrl + v</code>到<code>mpv</code>播放视频</li>
 </ul>
 </blockquote>
   <details>
@@ -739,6 +739,26 @@ mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
 <li><a href="https://handbrake.fr/downloads.php">HandBrake</a><sup>[<a href="https://github.com/HandBrake/HandBrake/releases">Github</a>]</sup> - GUI for ffmpeg</li>
 </ul>
 </blockquote>
+  <details>
+  <summary>to[hevc_nvenc][qp18].bat</summary>
+<pre><code class="language-cmd">
+	:softshare
+	if &quot;%~1&quot;==&quot;&quot; goto:eof
+	ffmpeg -hide_banner -i &quot;%~1&quot; -c:v hevc_nvenc -qp 18 -acodec copy &quot;%~dpn1_[hevc_nvenc][qp18].mp4&quot;
+	shift&amp;goto:softshare
+
+</code></pre>
+  </details>
+  <details>
+  <summary>to[libx265][crf18].bat</summary>
+<pre><code class="language-cmd">
+	:softshare
+	if &quot;%~1&quot;==&quot;&quot; goto:eof
+	ffmpeg -hide_banner -i &quot;%~1&quot; -c:v libx265 -crf 18 -acodec copy &quot;%~dpn1_[x265][crf18].mp4&quot;
+	shift&amp;goto:softshare
+
+</code></pre>
+  </details>
 </li>
 </ul>
 </li>
