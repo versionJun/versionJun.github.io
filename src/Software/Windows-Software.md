@@ -1,4 +1,4 @@
-~ updateDate: 2024-01-09
+~ updateDate: 2024-01-10
 
 # Windows-Software
 
@@ -107,36 +107,36 @@
 
 	- #### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
-		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)<sup>[[Official](https://adblockultimate.net/browsers)]</sup><sup>[[Github](https://github.com/adblockultimate/)]</sup>
-		> - [Dark Reader](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)<sup>[[Github](https://github.com/darkreader/darkreader/releases)]</sup>
-		> - [Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)<sup>[[Github](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
+		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)<sup>[[Official](https://adblockultimate.net/browsers)]</sup><sup>[[GitHub](https://github.com/adblockultimate/)]</sup>
+		> - [Dark Reader](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)<sup>[[GitHub](https://github.com/darkreader/darkreader/releases)]</sup>
+		> - [Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)<sup>[[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
 		> - [SetupVPN - Lifetime Free VPN](https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/)<sup>[[Official](https://setupvpn.com/)]</sup>
 		> - [Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
 		> - [TWP - Translate Web Pages](https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/) - 使用 Google 或 Yandex 实时翻译您的页面
 		> - [WebRTC Leak Shield](https://addons.mozilla.org/zh-CN/firefox/addon/webrtc-leak-shield/)
-		> - [视频弹出工具](https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/)<sup>[[Github](https://github.com/harytfw/popup-tool/)]</sup>
-		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[Github](https://github.com/crimx/ext-saladict/releases)]</sup>
-		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+		> - [视频弹出工具](https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/)<sup>[[GitHub](https://github.com/harytfw/popup-tool/)]</sup>
+		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[GitHub](https://github.com/crimx/ext-saladict/releases)]</sup>
+		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[GitHub](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
 
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
 		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)<sup>[[Official](https://blog.adblockplus.org/releases)]</sup>
-		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)<sup>[[Github](https://github.com/alexhua/Aria2-Explorer/releases)]</sup>
-		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)<sup>[[Github](https://github.com/darkreader/darkreader/releases)]</sup>
+		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)<sup>[[GitHub](https://github.com/alexhua/Aria2-Explorer/releases)]</sup>
+		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)<sup>[[GitHub](https://github.com/darkreader/darkreader/releases)]</sup>
 		> - [Floating Player - Picture-in-Picture Mode](https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf) - 瀏覽器浮動視頻播放器
 		> - [IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
-		> - Listen 1<sup>[[Github](https://github.com/listen1/listen1_chrome_extension/releases)]</sup>
-		> - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)<sup>[[Github](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
+		> - Listen 1<sup>[[GitHub](https://github.com/listen1/listen1_chrome_extension/releases)]</sup>
+		> - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)<sup>[[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
 		> - [Reproductor M3U8 - HLS + DASH Player](https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl)
 		> - [SetupVPN - Lifetime Free VPN](https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)<sup>[[Official](https://setupvpn.com/)]</sup>
 		> - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
 		> - [WebRTC Leak Shield](https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl)
 		> - [二维码生成器 (Quick QR)](https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
 		> - [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
-		> - [扩展管理器（Extension Manager）by ext.jgrass.cc ](https://chrome.google.com/webstore/detail/extension-manager/efajbgpnlnobnkgdcgcnclngeolnmggp)<sup>[[Official](https://ext.jgrass.cc/)]</sup><sup>[[Github](https://github.com/JasonGrass/auto-extension-manager/releases)]</sup>
+		> - [扩展管理器（Extension Manager）by ext.jgrass.cc ](https://chrome.google.com/webstore/detail/extension-manager/efajbgpnlnobnkgdcgcnclngeolnmggp)<sup>[[Official](https://ext.jgrass.cc/)]</sup><sup>[[GitHub](https://github.com/JasonGrass/auto-extension-manager/releases)]</sup>
 		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)<sup>[[Official](https://getfireshot.com/)]</sup>
-		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[Github](https://github.com/crimx/ext-saladict/releases)]</sup>
-		> - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[Github](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[GitHub](https://github.com/crimx/ext-saladict/releases)]</sup>
+		> - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[GitHub](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
 
 
 - ### Compression
@@ -150,12 +150,12 @@
 
 	- #### [阿里云盘](https://www.aliyundrive.com/)
 
-		> - ~~**阿里云盘小白羊版<sup>[[Github](https://github.com/liupan1890/aliyunpan)]</sup>**~~
+		> - ~~**阿里云盘小白羊版<sup>[[GitHub](https://github.com/liupan1890/aliyunpan)]</sup>**~~
 		> - [阿里云盘开放平台 - 文档](https://www.yuque.com/aliyundrive/zpfszx)
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
-	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[Github](https://github.com/alist-org/alist/releases)]</sup>
+	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist/releases)]</sup>
 
 		<details>
 
@@ -175,9 +175,9 @@
 
 		</details>
 
-	- #### [Rclone](https://rclone.org/)<a id="rclone"></a><sup>[[Github](https://github.com/rclone/rclone)]</sup>
+	- #### [Rclone](https://rclone.org/)<a id="rclone"></a><sup>[[GitHub](https://github.com/rclone/rclone)]</sup>
 
-		> [WinFsp](https://winfsp.dev/)<sup>[[Github](https://github.com/winfsp/winfsp)]</sup> - 本地挂载所需安装第三方工具
+		> [WinFsp](https://winfsp.dev/)<sup>[[GitHub](https://github.com/winfsp/winfsp)]</sup> - 本地挂载所需安装第三方工具
 
 		<details>
 
@@ -208,15 +208,15 @@
 
 	- #### [Eclipse](https://www.eclipse.org/downloads/packages/)
 
-	- #### [Tomcat](https://tomcat.apache.org/)<a id="tomcat"></a><sup>[[Github](https://github.com/apache/tomcat)]</sup>
+	- #### [Tomcat](https://tomcat.apache.org/)<a id="tomcat"></a><sup>[[GitHub](https://github.com/apache/tomcat)]</sup>
 
-	- #### [JDK](https://www.oracle.com/java/technologies/downloads/)<a id="jdk"></a><sup>[[Github](https://github.com/frekele/oracle-java)]</sup>
+	- #### [JDK](https://www.oracle.com/java/technologies/downloads/)<a id="jdk"></a><sup>[[GitHub](https://github.com/frekele/oracle-java)]</sup>
 
 	- #### [MySQL](https://downloads.mysql.com/archives/community/)
 
-	- #### redis-windows<a id="redis-windows"></a><sup>[[Github](https://github.com/ServiceStack/redis-windows)]</sup>
+	- #### redis-windows<a id="redis-windows"></a><sup>[[GitHub](https://github.com/ServiceStack/redis-windows)]</sup>
 
-	- #### [Maven](https://maven.apache.org/download.cgi)<a id="maven"></a><sup>[[Github](https://github.com/apache/maven)]</sup>
+	- #### [Maven](https://maven.apache.org/download.cgi)<a id="maven"></a><sup>[[GitHub](https://github.com/apache/maven)]</sup>
 
 	- #### [Navicat](https://www.navicat.com.cn/products/)<a id="navicat"></a><sup>[[果核](https://www.ghxi.com/?s=Navicat)]</sup>
 
@@ -232,7 +232,7 @@
 		](https://marketplace.visualstudio.com/items?itemName=CodeInChinese.EnglishChineseDictionary)
 		> - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
-	- #### [Nodejs](https://nodejs.org/en/download)<a id="nodejs"></a><sup>[[Github](https://github.com/nodejs/node)]</sup>
+	- #### [Nodejs](https://nodejs.org/en/download)<a id="nodejs"></a><sup>[[GitHub](https://github.com/nodejs/node)]</sup>
 
   ### Develop SSH	
 
@@ -242,13 +242,13 @@
 
 		> [Simplified Chinese](https://winscp.net/eng/translations.php#chs)
 	
-	- #### [1Remote](http://1remote.org/zh-cn/)<a id="1remote"></a><sup>[[Github](https://github.com/1Remote/1Remote/releases)]</sup>
+	- #### [1Remote](http://1remote.org/zh-cn/)<a id="1remote"></a><sup>[[GitHub](https://github.com/1Remote/1Remote/releases)]</sup>
 
-	- #### [WindTerm](https://kingtoolbox.github.io/)<a id="windterm"></a><sup>[[Github](https://github.com/kingToolbox/WindTerm/releases)]</sup>
+	- #### [WindTerm](https://kingtoolbox.github.io/)<a id="windterm"></a><sup>[[GitHub](https://github.com/kingToolbox/WindTerm/releases)]</sup>
 
 - ### Document
 
-	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<a id="office-tool-plus"></a><sup>[[Github](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office
+	- #### [Office Tool Plus](https://otp.landian.vip/zh-cn/)<a id="office-tool-plus"></a><sup>[[GitHub](https://github.com/YerongAI/Office-Tool/releases/)]</sup> - 轻松部署Office
 
 	- #### [Typora](https://typoraio.cn/)<a id="typora"></a><sup>[local]</sup> - Markdown 编辑器和阅读器
 
@@ -259,26 +259,26 @@
 
 	- #### Internet Download Manager<a id="internet-download-manager"></a><sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup>
 
-		> ef2 <sup>[[Github](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
+		> ef2 <sup>[[GitHub](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
 
-	- #### Aria2<a id="aria2"></a><sup>[[Github](https://github.com/aria2/aria2/releases)]</sup>
+	- #### Aria2<a id="aria2"></a><sup>[[GitHub](https://github.com/aria2/aria2/releases)]</sup>
 
 		> - [Aria2中文网](http://aria2.baisheng999.com/) - 懒人版
 		> - [https://github.com/sjh0020/aria2/](https://github.com/sjh0020/aria2/) - 懒人合集包
-		> - aria2.conf<sup>[[Github](https://github.com/P3TERX/aria2.conf)]</sup> - Aria2 完美配置
+		> - aria2.conf<sup>[[GitHub](https://github.com/P3TERX/aria2.conf)]</sup> - Aria2 完美配置
 		> - Aria2 GUI
-		>	- WebUI-Aria2<sup>[[Github](https://github.com/ziahamza/webui-aria2)]</sup>
-		>	- AriaNg<sup>[[Github](https://github.com/mayswind/AriaNg)]</sup>
+		>	- WebUI-Aria2<sup>[[GitHub](https://github.com/ziahamza/webui-aria2)]</sup>
+		>	- AriaNg<sup>[[GitHub](https://github.com/mayswind/AriaNg)]</sup>
 
-	- #### qBittorrent-Enhanced-Edition<a id="qbittorrent-enhanced-edition"></a><sup>[[Github](https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases)]</sup>
+	- #### qBittorrent-Enhanced-Edition<a id="qbittorrent-enhanced-edition"></a><sup>[[GitHub](https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases)]</sup>
 
 		> - tracker
-		> 	- [ngosang/trackerslist](https://ngosang.github.io/trackerslist/)<sup>[[Github](https://github.com/ngosang/trackerslist)]</sup>
-		> 	- [XIU2/TrackersListCollectionsup](https://trackerslist.com/#/zh)<sup>[[Github](https://github.com/XIU2/TrackersListCollection)]</sup>
+		> 	- [ngosang/trackerslist](https://ngosang.github.io/trackerslist/)<sup>[[GitHub](https://github.com/ngosang/trackerslist)]</sup>
+		> 	- [XIU2/TrackersListCollectionsup](https://trackerslist.com/#/zh)<sup>[[GitHub](https://github.com/XIU2/TrackersListCollection)]</sup>
 
 - ### ETC
 
-	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<a id="watt-toolkitsteam"></a><sup>[[Github](https://github.com/BeyondDimension/SteamTools/releases)]</sup>
+	- #### [Watt Toolkit(Steam++)](https://steampp.net/)<a id="watt-toolkitsteam"></a><sup>[[GitHub](https://github.com/BeyondDimension/SteamTools/releases)]</sup>
 	
 	- #### [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/)<a id="usbeam-hosts-editor"></a> - 多平台hosts修改
 
@@ -288,11 +288,11 @@
 	
 	- #### CCleaner<a id="ccleaner"></a><sup>[[果核](https://www.ghxi.com/?s=CCleaner)]</sup> - 清理
 
-	- #### TrafficMonitor<a id="trafficmonitor"></a><sup>[[Github](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控
+	- #### TrafficMonitor<a id="trafficmonitor"></a><sup>[[GitHub](https://github.com/zhongyang219/TrafficMonitor)]</sup> - 流量监控
 
 	- #### [Domain Name Speed Benchmark](https://www.grc.com/dns/benchmark.htm)<a id="DNS-Speed-Benchmark"></a>
 
-	- #### Optimizer<a id="optimizer"></a><sup>[[Github](https://github.com/hellzerg/optimizer)]</sup> - Windows优化器
+	- #### Optimizer<a id="optimizer"></a><sup>[[GitHub](https://github.com/hellzerg/optimizer)]</sup> - Windows优化器
 
 - ### Image
 
@@ -300,20 +300,20 @@
 
 	- #### FastStone Image Viewer<a id="faststone-image-viewer"></a><sup>[[果核](https://www.ghxi.com/?s=FastStone+Image+Viewer)]</sup> - 图片查看工具
 
-	- #### Final2x<a id="final2x"></a><sup>[[Github](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率
+	- #### Final2x<a id="final2x"></a><sup>[[GitHub](https://github.com/Tohrusky/Final2x/releases)]</sup> - 图像超分辨率
 
-	- #### Umi-OCR<a id="umi-ocr"></a><sup>[[Github](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具
+	- #### Umi-OCR<a id="umi-ocr"></a><sup>[[GitHub](https://github.com/hiroi-sora/Umi-OCR/releases)]</sup> - 文字识别工具
 
 - ### Media 
 
 	- #### [PotPlayer](https://potplayer.daum.net/)<a id="potplayer"></a><sup>[[果核](https://www.ghxi.com/?s=PotPlayer)]</sup>
 
-		> - [iptv-org](https://iptv-org.github.io/)<sup>[[Github](https://github.com/iptv-org/iptv)]</sup>
-		> - [live](https://live.fanmingming.com/)<sup>[[Github](https://github.com/fanmingming/live)]</sup> - 国内直播源支持IPv4/IPv6双栈访问
-		> - imDazui/Tvlist-awesome-m3u-m3u8<sup>[[Github](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)]</sup>
-		> - lylehust/Chinese-IPTV<sup>[[Github](https://github.com/lylehust/Chinese-IPTV)]</sup> -  Chinese CCTV List (IPV6)
+		> - [iptv-org](https://iptv-org.github.io/)<sup>[[GitHub](https://github.com/iptv-org/iptv)]</sup>
+		> - [live](https://live.fanmingming.com/)<sup>[[GitHub](https://github.com/fanmingming/live)]</sup> - 国内直播源支持IPv4/IPv6双栈访问
+		> - imDazui/Tvlist-awesome-m3u-m3u8<sup>[[GitHub](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)]</sup>
+		> - lylehust/Chinese-IPTV<sup>[[GitHub](https://github.com/lylehust/Chinese-IPTV)]</sup> -  Chinese CCTV List (IPV6)
 
-	- #### [MPV](https://mpv.io)<a id="mpv"></a><sup>[[Github](https://github.com/mpv-player/mpv)]</sup>
+	- #### [MPV](https://mpv.io)<a id="mpv"></a><sup>[[GitHub](https://github.com/mpv-player/mpv)]</sup>
 
 		> - [mpv-lazy 懒人包](https://github.com/hooke007/MPV_lazy)
 		> - [copy-paste-URL.lua](https://github.com/zenyd/mpv-scripts/blob/master/copy-paste-URL.lua) - `ctrl + v`到`mpv`播放视频
@@ -398,7 +398,7 @@
 
 	- #### [FFmpeg](https://ffmpeg.org/download.html)
 
-		> - [HandBrake](https://handbrake.fr/downloads.php)<sup>[[Github](https://github.com/HandBrake/HandBrake/releases)]</sup> - GUI for ffmpeg   
+		> - [HandBrake](https://handbrake.fr/downloads.php)<sup>[[GitHub](https://github.com/HandBrake/HandBrake/releases)]</sup> - GUI for ffmpeg   
 
 		<details>
 
@@ -468,21 +468,21 @@
 
 	- #### [Bandicam](https://www.bandicam.cn/)<a id="bandicam"></a><sup>[[果核](https://www.ghxi.com/?s=Bandicam+)]</sup>
 	
-	- #### [BililiveRecorder](https://rec.danmuji.org/)<a id="bililiverecorder"></a><sup>[[Github](https://github.com/BililiveRecorder/BililiveRecorder/releases)]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 
+	- #### [BililiveRecorder](https://rec.danmuji.org/)<a id="bililiverecorder"></a><sup>[[GitHub](https://github.com/BililiveRecorder/BililiveRecorder/releases)]</sup> - B站录播姬 | BiliBili Stream Recorder | 哔哩哔哩直播录制 
 
-	- #### BilibiliLiveRecordDownLoader<a id="bilibiliLiverecorddownLoader"></a><sup>[[Github](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 
+	- #### BilibiliLiveRecordDownLoader<a id="bilibiliLiverecorddownLoader"></a><sup>[[GitHub](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases)]</sup> - Bilibili 直播录制与回放下载 
 
-	- #### DouyinLiveRecorder<a id="douyinliverecorder"></a><sup>[[Github](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup> - 抖音直播录制
+	- #### DouyinLiveRecorder<a id="douyinliverecorder"></a><sup>[[GitHub](https://github.com/LyzenX/DouyinLiveRecorder/releases)]</sup> - 抖音直播录制
 
 - ### Recording-etc
 
-	- #### [keyviz](https://mularahul.github.io/keyviz/)<a id="keyviz"></a><sup>[[Github](https://github.com/mulaRahul/keyviz/releases)]</sup>  - 按键可视化
+	- #### [keyviz](https://mularahul.github.io/keyviz/)<a id="keyviz"></a><sup>[[GitHub](https://github.com/mulaRahul/keyviz/releases)]</sup>  - 按键可视化
 	
-	- #### ZoomIt<a id="zoomit"></a><sup>[[Github](https://github.com/arlionn/software)]</sup> - 屏幕缩放工具
+	- #### ZoomIt<a id="zoomit"></a><sup>[[GitHub](https://github.com/arlionn/software)]</sup> - 屏幕缩放工具
 
-	- #### scrcpy<a id="scrcpy"></a><sup>[[Github](https://github.com/Genymobile/scrcpy/releases)]</sup> - Display&control Android device
+	- #### scrcpy<a id="scrcpy"></a><sup>[[GitHub](https://github.com/Genymobile/scrcpy/releases)]</sup> - Display&control Android device
 
-		> - QtScrcpy<sup>[[Github](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - GUI for scrcpy
+		> - QtScrcpy<sup>[[GitHub](https://github.com/barry-ran/QtScrcpy/releases)]</sup> - GUI for scrcpy
 		
 		<details>
 
@@ -534,29 +534,29 @@
 
 	- #### [Revo Uninstaller Pro](https://www.revouninstaller.com/revo-uninstaller-free-download/)<a id="revo-uninstaller-pro"></a><sup>[[果核](https://www.ghxi.com/?s=Revo+Uninstaller+Pro)]</sup>
 
-	- #### [Bulk Crap Uninstaller](https://www.bcuninstaller.com/)<a id="bulk-crap-uninstaller"></a><sup>[[Github](https://github.com/Klocman/Bulk-Crap-Uninstaller/releases)]</sup>
+	- #### [Bulk Crap Uninstaller](https://www.bcuninstaller.com/)<a id="bulk-crap-uninstaller"></a><sup>[[GitHub](https://github.com/Klocman/Bulk-Crap-Uninstaller/releases)]</sup>
 
 - ### Science
 
-	- #### <s>Clash<a id="clash"></a><sup>[[Github](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup></s> `作者删库:2023-11-03`
+	- #### <s>Clash<a id="clash"></a><sup>[[GitHub](https://github.com/Dreamacro/clash/releases)]</sup><sup>[[Wiki](https://dreamacro.github.io/clash/zh_CN/)]</sup></s> `作者删库:2023-11-03`
 
-		> - <s>Clash for Windows<sup>[[Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup></s> `作者删库:2023-11-02`
-		> 	- <s>[Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[Github](https://github.com/Fndroid/clash-win-docs-new)]</sup></s>
+		> - <s>Clash for Windows<sup>[[GitHub](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup></s> `作者删库:2023-11-02`
+		> 	- <s>[Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[GitHub](https://github.com/Fndroid/clash-win-docs-new)]</sup></s>
 
-		> Clash.Meta<sup>[[Github](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
-		>	- [Clash.Meta Docs](https://wiki.metacubex.one/)<sup>[[Github](https://github.com/MetaCubeX/Meta-Docs/)]</sup>
+		> Clash.Meta<sup>[[GitHub](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
+		>	- [Clash.Meta Docs](https://wiki.metacubex.one/)<sup>[[GitHub](https://github.com/MetaCubeX/Meta-Docs/)]</sup>
 		>
 		> GUI for Clash
-		> - Clash Verge<sup>[[Github](https://github.com/zzzgydi/clash-verge/releases)]</sup>
+		> - Clash Verge<sup>[[GitHub](https://github.com/zzzgydi/clash-verge/releases)]</sup>
 		>	- [使用指南](https://github.com/zzzgydi/clash-verge/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
 		
-	- #### NekoRay<a id="nekoray"></a><sup>[[Github](https://github.com/MatsuriDayo/nekoray/releases)]</sup>
+	- #### NekoRay<a id="nekoray"></a><sup>[[GitHub](https://github.com/MatsuriDayo/nekoray/releases)]</sup>
 
-	- #### shadowsocks-windows<a id="shadowsocks-windows"></a><sup>[[Github](https://github.com/shadowsocks/shadowsocks-windows)]</sup>
+	- #### shadowsocks-windows<a id="shadowsocks-windows"></a><sup>[[GitHub](https://github.com/shadowsocks/shadowsocks-windows)]</sup>
 
-	- #### v2rayN<a id="v2rayn"></a><sup>[[Github](https://github.com/2dust/v2rayN)]</sup>
+	- #### v2rayN<a id="v2rayn"></a><sup>[[GitHub](https://github.com/2dust/v2rayN)]</sup>
 
-	- #### WinXray<a id="winxray"></a><sup>[[Github](https://github.com/TheMRLL/WinXray/releases)]</sup>
+	- #### WinXray<a id="winxray"></a><sup>[[GitHub](https://github.com/TheMRLL/WinXray/releases)]</sup>
 
 - ### System
 
@@ -565,9 +565,9 @@
 		> - [ITELLYOU新版](https://next.itellyou.cn/) - WINDOWS11系统原版
 		> - [ITELLYOU旧版](https://msdn.itellyou.cn/) - WINDOWS系统原版
 
-	- #### HEU KMS Activator<a id="heu-kms-activator"></a><sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[Github](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)
+	- #### HEU KMS Activator<a id="heu-kms-activator"></a><sup>[[果核](https://www.ghxi.com/heukmsactivator.html)]</sup><sup>[[GitHub](https://github.com/zbezj/HEU_KMS_Activator)]</sup> - (WIN&Office激活)
 
-	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<a id="ventoy"></a><sup>[[Github](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具
+	- #### [Ventoy](https://www.ventoy.net/cn/index.html)<a id="ventoy"></a><sup>[[GitHub](https://github.com/ventoy/Ventoy)]</sup> - 多启动U盘的开源工具
 
 	- #### [微PE工具箱](https://www.wepe.com.cn/)<a id="wepe"></a> - WinPE装机维护工具
 
