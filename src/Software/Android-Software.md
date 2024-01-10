@@ -1,4 +1,4 @@
-~ updateDate: 2023-11-04
+~ updateDate: 2024-01-10
 
 # Android-Software
 
@@ -8,6 +8,7 @@
 	* [App Store](#app-store)
 		* [F-Droid](#f-droid)
 		* [酷安](#酷安)
+		* [Aurora Store](#aurora-store)
 	* [Browser](#browser)
 		* [Firefox 国际版](#firefox-国际版)
 		* [Google Chrome](#google-chrome)
@@ -55,6 +56,10 @@
 
 	- #### [酷安](https://www.coolapk.com/)
 
+	- #### [Aurora Store](https://gitlab.com/AuroraOSS/AuroraStore)<a id="aurora-store"></a><sup>[[F-Droid](https://f-droid.org/en/packages/com.aurora.store)]</sup> - 谷歌商店第三方客户端
+      
+		> 在不安装谷歌框架的情况下，可以用这个安装谷歌商店的软件。它会用一个临时账号帮你下载，因此不会向谷歌暴露自己的个人信息。
+
 - ### Browser
 
 	- #### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
@@ -71,9 +76,7 @@
 
 - ### Document 
 
-	- #### Legado<a id="legado"></a><sup>[[Github](https://github.com/gedoor/legado/releases)]</sup>
-
-		> [gedoor.github.io](https://gedoor.github.io/) / [legado.top](https://www.legado.top/)
+	- #### [Legado](https://gedoor.github.io/)<a id="legado"></a><sup>[[Github](https://github.com/gedoor/legado/releases)]</sup>
 
 	- #### markor<a id="markor"></a><sup>[[Github](https://github.com/gsantner/markor)]</sup><sup>[[F-Droid](https://f-droid.org/app/net.gsantner.markor)]</sup>
 
