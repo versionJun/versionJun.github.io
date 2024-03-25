@@ -323,7 +323,7 @@ setup-alpine
 <p>在Termux &gt; alpine 中：</p>
 <pre><code class="language-bash">
 #讓開機時能輸出訊息
-sed -i -E 's/(local kernel_opts)=.*/\1=&quot;console=ttyS0&quot;/' /sbin/setup-disk
+sed -i -E 's/(local kernel_opts)=.*/\1="console=ttyS0"/' /sbin/setup-disk
 
 poweroff
 
@@ -414,7 +414,7 @@ docker info
 <li>阿里云：https://pee6w651.mirror.aliyuncs.com</li>
 </ul>
 <pre><code>{
-    &quot;registry-mirrors&quot;:[&quot;https://pee6w651.mirror.aliyuncs.com&quot;]
+    "registry-mirrors":["https://pee6w651.mirror.aliyuncs.com"]
 }
 
 </code></pre>

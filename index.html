@@ -440,17 +440,17 @@
   <details>
   <summary>Rclone本地挂载</summary>
 <pre><code>
-范：rclone mount &lt;网盘名称:路径&gt; &lt;本地路径&gt; --cache-dir &lt;本地缓存路径&gt; --network-mode --vfs-cache-mode &lt;缓存模式&gt; --header &quot;Referer:&quot;
+范：rclone mount &lt;网盘名称:路径&gt; &lt;本地路径&gt; --cache-dir &lt;本地缓存路径&gt; --network-mode --vfs-cache-mode &lt;缓存模式&gt; --header "Referer:"
 
-例: rclone mount alist:/ Z: --cache-dir C:\Software\Rclone\cache --network-mode --vfs-cache-mode writes --header &quot;Referer:&quot;
+例: rclone mount alist:/ Z: --cache-dir C:\Software\Rclone\cache --network-mode --vfs-cache-mode writes --header "Referer:"
 
-PS: --header &quot;Referer:&quot;
+PS: --header "Referer:"
 
 	现象: IO error: vfs reader: failed to write to cache file: 403 Forbidden
 
 	Why: WebDAV不支持重定向
 
-    Fix: 当WebDAV策略为302 Rclone加上 --header &quot;Referer:&quot;  
+    Fix: 当WebDAV策略为302 Rclone加上 --header "Referer:"  
 		 或者 把WebDAV策略改为本地代理
 
 </code></pre>
@@ -535,7 +535,7 @@ PS: --header &quot;Referer:&quot;
 <blockquote>
 <ul>
 <li>local: 0.9.83(beta)</li>
-<li><a href="https://github.com/DiamondHunters/NodeInject_Hook_example">https://github.com/DiamondHunters/NodeInject_Hook_example</a> - Typora Activate </li>
+<li><a href="https://github.com/DiamondHunters/NodeInject_Hook_example">https://github.com/DiamondHunters/NodeInject_Hook_example</a> - Typora Activate</li>
 </ul>
 </blockquote>
 </li>
@@ -655,28 +655,28 @@ PS: --header &quot;Referer:&quot;
   <summary> PS:<strong>copy-paste-URL.lua</strong> 代码</summary>
 <pre><code class="language-lua">
 function trim(s)
-	return (s:gsub(&quot;^%s*(%S+)%s*&quot;, &quot;%1&quot;))
+	return (s:gsub("^%s*(%S+)%s*", "%1"))
 end
 
 function openURL()
 
 	subprocess = {
-		name = &quot;subprocess&quot;,
-		args = { &quot;powershell&quot;, &quot;-Command&quot;, &quot;Get-Clipboard&quot;, &quot;-Raw&quot; },
+		name = "subprocess",
+		args = { "powershell", "-Command", "Get-Clipboard", "-Raw" },
 		playback_only = false,
 		capture_stdout = true,
 		capture_stderr = true
 	}
 	
-	mp.osd_message(&quot;Getting URL from clipboard...&quot;)
+	mp.osd_message("Getting URL from clipboard...")
 	
 	r = mp.command_native(subprocess)
 	
 	--failed getting clipboard data for some reason
 	if r.status &lt; 0 then
-		mp.osd_message(&quot;Failed getting clipboard data!&quot;)
-		print(&quot;Error(string): &quot;..r.error_string)
-		print(&quot;Error(stderr): &quot;..r.stderr)
+		mp.osd_message("Failed getting clipboard data!")
+		print("Error(string): "..r.error_string)
+		print("Error(stderr): "..r.stderr)
 	end
 	
 	url = r.stdout
@@ -689,24 +689,24 @@ function openURL()
 	url=trim(url)
 
 	if not url then
-		mp.osd_message(&quot;clipboard empty&quot;)
+		mp.osd_message("clipboard empty")
 		return
 	end
 	
 	--immediately resume playback after loading URL
-	if mp.get_property_bool(&quot;core-idle&quot;) then
-		if not mp.get_property_bool(&quot;idle-active&quot;) then
-			mp.command(&quot;keypress space&quot;)
+	if mp.get_property_bool("core-idle") then
+		if not mp.get_property_bool("idle-active") then
+			mp.command("keypress space")
 		end
 	end
 
 	--try opening url
 	--will fail if url is not valid
-	mp.osd_message(&quot;Try Opening URL:\n&quot;..url)
-	mp.commandv(&quot;loadfile&quot;, url, &quot;replace&quot;)
+	mp.osd_message("Try Opening URL:\n"..url)
+	mp.commandv("loadfile", url, "replace")
 end
 
-mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
+mp.add_key_binding("ctrl+v", openURL)
 
 </code></pre>
   </details>
@@ -728,7 +728,7 @@ mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
 <li>
 <h4 id="adobe-photoshop果核"><a class="header" href="#adobe-photoshop果核">Adobe Photoshop<a id="adobe-photoshop"></a><sup>[<a href="https://www.ghxi.com/?s=Adobe+Photoshop+">果核</a>]</sup></a></h4>
 <blockquote>
-<p><a href="https://www.ghxi.com/ps2020green.html">Adobe Photoshop 2020 v21.2.12.215 绿色精简版</a> - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified) </p>
+<p><a href="https://www.ghxi.com/ps2020green.html">Adobe Photoshop 2020 v21.2.12.215 绿色精简版</a> - Windows 10 Enterprise LTSC 2019 (x64) - DVD (Chinese-Simplified)</p>
 </blockquote>
 </li>
 <li>
@@ -745,8 +745,8 @@ mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
   <summary>to[hevc_nvenc][qp18].bat</summary>
 <pre><code class="language-cmd">
 	:softshare
-	if &quot;%~1&quot;==&quot;&quot; goto:eof
-	ffmpeg -hide_banner -i &quot;%~1&quot; -c:v hevc_nvenc -qp 18 -acodec copy &quot;%~dpn1_[hevc_nvenc][qp18].mp4&quot;
+	if "%~1"=="" goto:eof
+	ffmpeg -hide_banner -i "%~1" -c:v hevc_nvenc -qp 18 -acodec copy "%~dpn1_[hevc_nvenc][qp18].mp4"
 	shift&amp;goto:softshare
 
 </code></pre>
@@ -755,8 +755,8 @@ mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
   <summary>to[libx265][crf18].bat</summary>
 <pre><code class="language-cmd">
 	:softshare
-	if &quot;%~1&quot;==&quot;&quot; goto:eof
-	ffmpeg -hide_banner -i &quot;%~1&quot; -c:v libx265 -crf 18 -acodec copy &quot;%~dpn1_[x265][crf18].mp4&quot;
+	if "%~1"=="" goto:eof
+	ffmpeg -hide_banner -i "%~1" -c:v libx265 -crf 18 -acodec copy "%~dpn1_[x265][crf18].mp4"
 	shift&amp;goto:softshare
 
 </code></pre>
@@ -795,7 +795,7 @@ mp.add_key_binding(&quot;ctrl+v&quot;, openURL)
   <summary><s>PS:会员</s></summary>
 <blockquote>
 <p>免费领 5 年会员： 安装 AnyViewer 远程软件 Windows 客户端，（目前网页 /iOS/ 安卓平台没有该入口）
-登录后，点击账户名称 右边的箭头，有个 &quot; 输入激活码 &quot; 的选项 依次输入下方激活码，可获取 5 年会员。
+登录后，点击账户名称 右边的箭头，有个 " 输入激活码 " 的选项 依次输入下方激活码，可获取 5 年会员。
 3 年：<code>8033-8826-8278-E404</code>
 1 年：<code>BA24-E088-CABA-654C</code>
 1 年：<code>AC02-9EDC-D47E-11D1</code></p>

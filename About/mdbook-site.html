@@ -184,7 +184,7 @@
                         <h1 id="publish-a-website-with-mdbook-and-github-pages"><a class="header" href="#publish-a-website-with-mdbook-and-github-pages">Publish a Website with mdBook and GitHub Pages</a></h1>
 <h2 id="mdbook-init"><a class="header" href="#mdbook-init">mdbook init</a></h2>
 <blockquote>
-<p>mdbook<sup>[<a href="https://github.com/rust-lang/mdBook/releases">Github</a>]</sup><sup>[<a href="https://rust-lang.github.io/mdBook/">文档</a>]</sup> </p>
+<p>mdbook<sup>[<a href="https://github.com/rust-lang/mdBook/releases">Github</a>]</sup><sup>[<a href="https://rust-lang.github.io/mdBook/">文档</a>]</sup></p>
 </blockquote>
 <pre><code>$ mkdir mdbook-site
 $ cd mdbook-site
@@ -228,7 +228,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called &quot;build&quot;
+  # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -242,7 +242,7 @@ jobs:
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
-          mdbook-version: &quot;latest&quot;
+          mdbook-version: "latest"
       - run: mdbook build . --dest-dir ./book # --dest-dir is relative to &lt;dir&gt;
       
       # Publish the static site to gh-pages branch.
@@ -268,11 +268,11 @@ jobs:
 <h3 id="git-init"><a class="header" href="#git-init">git init</a></h3>
 <pre><code>$ git init
 $ git add .
-$ git commit -m &quot;init&quot;
+$ git commit -m "init"
 </code></pre>
 <h3 id="github---new-repository"><a class="header" href="#github---new-repository">GitHub - New Repository</a></h3>
 <p>GitHub &gt; New Repository</p>
-<p>GitHub &gt; Repository &gt; Settings &gt; Actions &gt; General &gt; </p>
+<p>GitHub &gt; Repository &gt; Settings &gt; Actions &gt; General &gt;</p>
 <ul>
 <li>Actions permissions: Allow all actions and reusable workflows</li>
 <li>Workflow permissions: Read and write permissions</li>
