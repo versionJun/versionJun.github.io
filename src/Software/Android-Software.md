@@ -1,4 +1,4 @@
-~ updateDate: 2024-01-10
+~ updateDate: 2024-04-09
 
 # Android-Software
 
@@ -29,6 +29,7 @@
 	* [Media](#media)
 		* [NewPipe](#newpipe)
 		* [VLC](#vlc)
+		* [NOVA](#nova)
 		* [Spotify](#spotify)
 		* [网易云](#网易云)
 		* [椒盐音乐](#椒盐音乐)
@@ -111,6 +112,8 @@
 		> A libre lightweight streaming front-end for Android.
 
 	- #### [VLC](https://www.videolan.org/vlc/download-android.html)<a id="vlc"></a><sup>[[F-Droid](https://f-droid.org/app/org.videolan.vlc)]</sup>
+
+	- #### NOVA<a id="nova"></a><sup>[[GitHub](https://github.com/nova-video-player/aos-AVP)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/org.courville.nova/)]</sup> - WebDav player 
 
 	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup>
 
