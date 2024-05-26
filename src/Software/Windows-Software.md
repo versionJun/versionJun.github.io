@@ -60,6 +60,7 @@
 		* [Adobe Photoshop](#adobe-photoshop)
 		* [Adobe Collection](#adobe-collection)
 		* [FFmpeg](#ffmpeg)
+		* [Whisper](#whisper)
 	* [Messaging](#messaging)
 		* [Telegram](#telegram)
 		* [微信](#微信)
