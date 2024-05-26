@@ -90,7 +90,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Software</li><li class="chapter-item expanded "><a href="Software/Windows-Software.html" class="active"><strong aria-hidden="true">1.</strong> Windows-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Software/Nodejs.html"><strong aria-hidden="true">1.1.</strong> Nodejs</a></li></ol></li><li class="chapter-item expanded "><a href="Software/Android-Software.html"><strong aria-hidden="true">2.</strong> Android-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Software/Termux+QEMU+linux_alpine+Docker.html"><strong aria-hidden="true">2.1.</strong> Termux+Docker</a></li></ol></li><li class="chapter-item expanded "><a href="Software/Linux-Software.html"><strong aria-hidden="true">3.</strong> Linux-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Software/Linux-Command.html"><strong aria-hidden="true">3.1.</strong> Command</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">杂谈</li><li class="chapter-item expanded "><a href="杂谈/黑炮事件.html"><strong aria-hidden="true">4.</strong> 黑炮事件</a></li><li class="chapter-item expanded "><a href="杂谈/我们都无法成为大人.html"><strong aria-hidden="true">5.</strong> 我们都无法成为大人</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="About/mdbook-site.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Software</li><li class="chapter-item expanded "><a href="Software/Windows-Software.html" class="active"><strong aria-hidden="true">1.</strong> Windows-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Software/Nodejs.html"><strong aria-hidden="true">1.1.</strong> Nodejs</a></li></ol></li><li class="chapter-item expanded "><a href="Software/Android-Software.html"><strong aria-hidden="true">2.</strong> Android-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Software/Termux+QEMU+linux_alpine+Docker.html"><strong aria-hidden="true">2.1.</strong> Termux+Docker</a></li></ol></li><li class="chapter-item expanded "><a href="Software/Linux-Software.html"><strong aria-hidden="true">3.</strong> Linux-Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Software/Linux-Command.html"><strong aria-hidden="true">3.1.</strong> Command</a></li></ol></li><li class="chapter-item expanded "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">杂谈</li><li class="chapter-item expanded "><a href="杂谈/黑炮事件.html"><strong aria-hidden="true">4.</strong> 黑炮事件</a></li><li class="chapter-item expanded "><a href="杂谈/我们都无法成为大人.html"><strong aria-hidden="true">5.</strong> 我们都无法成为大人</a></li><li class="chapter-item expanded affix "><li class="part-title"></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><a href="About/mdbook-site.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -181,7 +181,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>~ updateDate: 2024-01-10</p>
+                        <p>~ updateDate: 2024-05-26</p>
 <h1 id="windows-software"><a class="header" href="#windows-software">Windows-Software</a></h1>
 <h2 id="目录"><a class="header" href="#目录">目录</a></h2>
 <ul>
@@ -189,6 +189,7 @@
 <ul>
 <li><a href="#browser">Browser</a>
 <ul>
+<li><a href="#edge">Edge</a></li>
 <li><a href="#firefox-%E5%9B%BD%E9%99%85%E7%89%88">Firefox 国际版</a></li>
 <li><a href="#google-chrome">Google Chrome</a></li>
 </ul>
@@ -347,6 +348,12 @@
 <h3 id="browser"><a class="header" href="#browser">Browser</a></h3>
 <ul>
 <li>
+<h4 id="edge"><a class="header" href="#edge"><a href="https://www.microsoft.com/zh-cn/edge/download">Edge</a></a></h4>
+<blockquote>
+<p>edge://flags/#enable-parallel-downloading - 多线程下载</p>
+</blockquote>
+</li>
+<li>
 <h4 id="firefox-国际版"><a class="header" href="#firefox-国际版"><a href="https://www.mozilla.org/zh-CN/firefox/">Firefox 国际版</a></a></h4>
 <blockquote>
 <ul>
@@ -365,6 +372,9 @@
 </li>
 <li>
 <h4 id="google-chrome"><a class="header" href="#google-chrome"><a href="https://www.google.cn/intl/zh-CN/chrome/">Google Chrome</a></a></h4>
+<blockquote>
+<p>chrome://flags/#enable-parallel-downloading - 多线程下载</p>
+</blockquote>
 <blockquote>
 <ul>
 <li><a href="https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb">Adblock Plus</a><sup>[<a href="https://blog.adblockplus.org/releases">Official</a>]</sup></li>
@@ -761,6 +771,18 @@ mp.add_key_binding("ctrl+v", openURL)
 
 </code></pre>
   </details>
+  <details>
+  <summary>ffprobe_show_format.bat</summary>
+<pre><code class="language-cmd">
+	@echo on 
+	ffprobe -hide_banner -show_format "%~1"
+	@cmd \k
+
+</code></pre>
+  </details>
+</li>
+<li>
+<h4 id="whispergithub----openais-whisper-自动语音识别"><a class="header" href="#whispergithub----openais-whisper-自动语音识别">Whisper<a id="whisper"></a><sup>[<a href="https://github.com/Const-me/Whisper/releases">GitHub</a>]</sup>  - <a href="https://github.com/openai/whisper">OpenAI's Whisper</a> 自动语音识别</a></h4>
 </li>
 </ul>
 </li>
