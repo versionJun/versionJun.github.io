@@ -1,4 +1,4 @@
-~ updateDate: 2024-01-10
+~ updateDate: 2024-05-26
 
 # Windows-Software
 
@@ -6,6 +6,7 @@
 
 * [Windows](#windows)
 	* [Browser](#browser)
+		* [Edge](#edge)
 		* [Firefox 国际版](#firefox-国际版)
 		* [Google Chrome](#google-chrome)
 	* [Compression](#compression)
@@ -105,6 +106,10 @@
 
 - ###  Browser
 
+	- #### [Edge](https://www.microsoft.com/zh-cn/edge/download)
+
+		> edge://flags/#enable-parallel-downloading - 多线程下载
+
 	- #### [Firefox 国际版](https://www.mozilla.org/zh-CN/firefox/)
 
 		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)<sup>[[Official](https://adblockultimate.net/browsers)]</sup><sup>[[GitHub](https://github.com/adblockultimate/)]</sup>
@@ -119,6 +124,8 @@
 		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[GitHub](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
 
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
+
+		> chrome://flags/#enable-parallel-downloading - 多线程下载
 
 		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)<sup>[[Official](https://blog.adblockplus.org/releases)]</sup>
 		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)<sup>[[GitHub](https://github.com/alexhua/Aria2-Explorer/releases)]</sup>
@@ -429,6 +436,23 @@
 		```
 
 		</details>
+
+		<details>
+
+		<summary>ffprobe_show_format.bat</summary>
+		
+		```cmd
+
+			@echo on 
+			ffprobe -hide_banner -show_format "%~1"
+			@cmd \k
+		
+		```
+
+		</details>
+		
+
+	- #### Whisper<a id="whisper"></a><sup>[[GitHub](https://github.com/Const-me/Whisper/releases)]</sup>  - [OpenAI's Whisper](https://github.com/openai/whisper) 自动语音识别
 	
 - ### Messaging
 
