@@ -1,4 +1,4 @@
-~ updateDate: 2024-05-26
+~ updateDate: 2024-06-21
 
 # Windows-Software
 
@@ -46,6 +46,7 @@
 		* [CCleaner](#ccleaner)
 		* [TrafficMonitor](#trafficmonitor)
 		* [Domain Name Speed Benchmark](#DNS-Speed-Benchmark)
+		* [Optimizer](#optimizer)
 	* [Image](#image)
 		* [FastStone Capture](#faststone-capture)
 		* [FastStone Image Viewer](#faststone-image-viewer)
@@ -61,6 +62,7 @@
 		* [Adobe Collection](#adobe-collection)
 		* [FFmpeg](#ffmpeg)
 		* [Whisper](#whisper)
+		* [video-subtitle-extractor](#video-subtitle-extractor)
 	* [Messaging](#messaging)
 		* [Telegram](#telegram)
 		* [微信](#微信)
@@ -452,9 +454,10 @@
 
 		</details>
 		
-
 	- #### Whisper<a id="whisper"></a><sup>[[GitHub](https://github.com/Const-me/Whisper/releases)]</sup>  - [OpenAI's Whisper](https://github.com/openai/whisper) 自动语音识别
 	
+	- #### video-subtitle-extractor<a id="video-subtitle-extractor"></a><sup>[[GitHub](https://github.com/ggerganov/whisper.cpp)]</sup> - 视频硬字幕提取
+
 - ### Messaging
 
 	- #### [Telegram](https://telegram.org/)
