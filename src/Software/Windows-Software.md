@@ -1,4 +1,4 @@
-~ updateDate: 2024-06-21
+~ updateDate: 2024-06-24
 
 # Windows-Software
 
@@ -44,14 +44,14 @@
 		* [UsbEAm Hosts Editor](#usbeam-hosts-editor)
 		* [IObit Driver Booster Pro](#iobit-driver-booster-pro)
 		* [CCleaner](#ccleaner)
-		* [TrafficMonitor](#trafficmonitor)
-		* [Domain Name Speed Benchmark](#DNS-Speed-Benchmark)
-		* [Optimizer](#optimizer)
+		* [TrafficMonitor](#trafficmonitor) - 流量监控
+		* [Domain Name Speed Benchmark](#DNS-Speed-Benchmark) - DNS测速
+		* [Optimizer](#optimizer) - Windows优化器
 	* [Image](#image)
 		* [FastStone Capture](#faststone-capture)
 		* [FastStone Image Viewer](#faststone-image-viewer)
-		* [Final2x](#final2x)
-		* [Umi-OCR](#umi-ocr)
+		* [Final2x](#final2x) - 图像超分辨率
+		* [Umi-OCR](#umi-ocr) - 文字识别工具
 	* [Media](#media)
 		* [PotPlayer](#potplayer)
 		* [MPV](#mpv)
@@ -61,8 +61,8 @@
 		* [Adobe Photoshop](#adobe-photoshop)
 		* [Adobe Collection](#adobe-collection)
 		* [FFmpeg](#ffmpeg)
-		* [Whisper](#whisper)
-		* [video-subtitle-extractor](#video-subtitle-extractor)
+		* [Whisper](#whisper) - OpenAI's Whisper 自动语音识别
+		* [video-subtitle-extractor](#video-subtitle-extractor) - 视频硬字幕提取
 	* [Messaging](#messaging)
 		* [Telegram](#telegram)
 		* [微信](#微信)
@@ -84,7 +84,7 @@
 		* [ZoomIt](#zoomit)
 		* [scrcpy](#scrcpy)
 	* [Uninstaller](#uninstaller)
-		* [Display Driver Uninstaller](#display-ddriver-uninstaller)
+		* [Display Driver Uninstaller](#display-driver-uninstaller)
 		* [IObit Uninstaller Pro](#iobit-uninstaller-pro)
 		* [Revo Uninstaller Pro](#revo-uninstaller-pro)
 		* [Bulk Crap Uninstaller](#bulk-crap-uninstaller)
@@ -412,7 +412,9 @@
 
 		<details>
 
-		<summary>to[hevc_nvenc][qp18].bat</summary>
+		<summary>.bat</summary>
+
+		- to[hevc_nvenc][qp18].bat
 		
 		```cmd
 
@@ -423,12 +425,8 @@
 		
 		```
 
-		</details>
+		- to[libx265][crf18].bat
 
-		<details>
-
-		<summary>to[libx265][crf18].bat</summary>
-		
 		```cmd
 
 			:softshare
@@ -438,12 +436,8 @@
 		
 		```
 
-		</details>
+		- ffprobe_show_format.bat
 
-		<details>
-
-		<summary>ffprobe_show_format.bat</summary>
-		
 		```cmd
 
 			@echo on 
@@ -514,6 +508,32 @@
 		
 		<details>
 
+		<summary>.bat</summary>
+		
+		- scrcpy_usb.bat
+
+		```cmd
+
+			cd scrcpy-win64-v2.4
+			scrcpy.exe -d --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+
+		```
+
+        - scrcpy_tcpip.bat
+
+		```cmd
+
+			cd scrcpy-win64-v2.4
+			adb tcpip 5555
+			adb connect 192.168.1.90:5555
+			scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+		
+		```
+
+		</details>
+
+		<details>
+
 		<summary>scrcpy无线连接</summary>
 
 		- 参考官方文档: [Open Source Project - Scrcpy now works wirelessly](https://www.genymotion.com/blog/open-source-project-scrcpy-now-works-wirelessly/)
@@ -526,9 +546,9 @@
 
 		4. 拔下你的设备，断开USB连接
 
-		5. PC运行 adb connect 手机IP:服务端口: `adb connect 192.168.x.x:5555`
+		5. PC运行 adb connect 手机IP:服务端口: `adb connect x.x.x.x:5555`
 
-		6. PC运行 scrcpy：`scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842`
+		6. PC运行 scrcpy：`scrcpy.exe -e`
 
 		</details>
 
