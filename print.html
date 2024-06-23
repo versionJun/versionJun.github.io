@@ -179,7 +179,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>~ updateDate: 2024-06-21</p>
+                        <p>~ updateDate: 2024-06-24</p>
 <h1 id="windows-software"><a class="header" href="#windows-software">Windows-Software</a></h1>
 <h2 id="目录"><a class="header" href="#目录">目录</a></h2>
 <ul>
@@ -246,17 +246,17 @@
 <li><a href="Software/Windows-Software.html#usbeam-hosts-editor">UsbEAm Hosts Editor</a></li>
 <li><a href="Software/Windows-Software.html#iobit-driver-booster-pro">IObit Driver Booster Pro</a></li>
 <li><a href="Software/Windows-Software.html#ccleaner">CCleaner</a></li>
-<li><a href="Software/Windows-Software.html#trafficmonitor">TrafficMonitor</a></li>
-<li><a href="Software/Windows-Software.html#DNS-Speed-Benchmark">Domain Name Speed Benchmark</a></li>
-<li><a href="Software/Windows-Software.html#optimizer">Optimizer</a></li>
+<li><a href="Software/Windows-Software.html#trafficmonitor">TrafficMonitor</a> - 流量监控</li>
+<li><a href="Software/Windows-Software.html#DNS-Speed-Benchmark">Domain Name Speed Benchmark</a> - DNS测速</li>
+<li><a href="Software/Windows-Software.html#optimizer">Optimizer</a> - Windows优化器</li>
 </ul>
 </li>
 <li><a href="Software/Windows-Software.html#image">Image</a>
 <ul>
 <li><a href="Software/Windows-Software.html#faststone-capture">FastStone Capture</a></li>
 <li><a href="Software/Windows-Software.html#faststone-image-viewer">FastStone Image Viewer</a></li>
-<li><a href="Software/Windows-Software.html#final2x">Final2x</a></li>
-<li><a href="Software/Windows-Software.html#umi-ocr">Umi-OCR</a></li>
+<li><a href="Software/Windows-Software.html#final2x">Final2x</a> - 图像超分辨率</li>
+<li><a href="Software/Windows-Software.html#umi-ocr">Umi-OCR</a> - 文字识别工具</li>
 </ul>
 </li>
 <li><a href="Software/Windows-Software.html#media">Media</a>
@@ -272,8 +272,8 @@
 <li><a href="Software/Windows-Software.html#adobe-photoshop">Adobe Photoshop</a></li>
 <li><a href="Software/Windows-Software.html#adobe-collection">Adobe Collection</a></li>
 <li><a href="Software/Windows-Software.html#ffmpeg">FFmpeg</a></li>
-<li><a href="Software/Windows-Software.html#whisper">Whisper</a></li>
-<li><a href="Software/Windows-Software.html#video-subtitle-extractor">video-subtitle-extractor</a></li>
+<li><a href="Software/Windows-Software.html#whisper">Whisper</a> - OpenAI's Whisper 自动语音识别</li>
+<li><a href="Software/Windows-Software.html#video-subtitle-extractor">video-subtitle-extractor</a> - 视频硬字幕提取</li>
 </ul>
 </li>
 <li><a href="Software/Windows-Software.html#messaging">Messaging</a>
@@ -313,7 +313,7 @@
 </li>
 <li><a href="Software/Windows-Software.html#uninstaller">Uninstaller</a>
 <ul>
-<li><a href="Software/Windows-Software.html#display-ddriver-uninstaller">Display Driver Uninstaller</a></li>
+<li><a href="Software/Windows-Software.html#display-driver-uninstaller">Display Driver Uninstaller</a></li>
 <li><a href="Software/Windows-Software.html#iobit-uninstaller-pro">IObit Uninstaller Pro</a></li>
 <li><a href="Software/Windows-Software.html#revo-uninstaller-pro">Revo Uninstaller Pro</a></li>
 <li><a href="Software/Windows-Software.html#bulk-crap-uninstaller">Bulk Crap Uninstaller</a></li>
@@ -753,7 +753,10 @@ mp.add_key_binding("ctrl+v", openURL)
 </ul>
 </blockquote>
   <details>
-  <summary>to[hevc_nvenc][qp18].bat</summary>
+  <summary>.bat</summary>
+<ul>
+<li>to[hevc_nvenc][qp18].bat</li>
+</ul>
 <pre><code class="language-cmd">
 	:softshare
 	if "%~1"=="" goto:eof
@@ -761,9 +764,9 @@ mp.add_key_binding("ctrl+v", openURL)
 	shift&amp;goto:softshare
 
 </code></pre>
-  </details>
-  <details>
-  <summary>to[libx265][crf18].bat</summary>
+<ul>
+<li>to[libx265][crf18].bat</li>
+</ul>
 <pre><code class="language-cmd">
 	:softshare
 	if "%~1"=="" goto:eof
@@ -771,9 +774,9 @@ mp.add_key_binding("ctrl+v", openURL)
 	shift&amp;goto:softshare
 
 </code></pre>
-  </details>
-  <details>
-  <summary>ffprobe_show_format.bat</summary>
+<ul>
+<li>ffprobe_show_format.bat</li>
+</ul>
 <pre><code class="language-cmd">
 	@echo on 
 	ffprobe -hide_banner -show_format "%~1"
@@ -873,6 +876,27 @@ mp.add_key_binding("ctrl+v", openURL)
 </ul>
 </blockquote>
   <details>
+  <summary>.bat</summary>
+<ul>
+<li>scrcpy_usb.bat</li>
+</ul>
+<pre><code class="language-cmd">
+	cd scrcpy-win64-v2.4
+	scrcpy.exe -d --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+
+</code></pre>
+<ul>
+<li>scrcpy_tcpip.bat</li>
+</ul>
+<pre><code class="language-cmd">
+	cd scrcpy-win64-v2.4
+	adb tcpip 5555
+	adb connect 192.168.1.90:5555
+	scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+
+</code></pre>
+  </details>
+  <details>
   <summary>scrcpy无线连接</summary>
 <ul>
 <li>参考官方文档: <a href="https://www.genymotion.com/blog/open-source-project-scrcpy-now-works-wirelessly/">Open Source Project - Scrcpy now works wirelessly</a></li>
@@ -891,10 +915,10 @@ mp.add_key_binding("ctrl+v", openURL)
 <p>拔下你的设备，断开USB连接</p>
 </li>
 <li>
-<p>PC运行 adb connect 手机IP:服务端口: <code>adb connect 192.168.x.x:5555</code></p>
+<p>PC运行 adb connect 手机IP:服务端口: <code>adb connect x.x.x.x:5555</code></p>
 </li>
 <li>
-<p>PC运行 scrcpy：<code>scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842</code></p>
+<p>PC运行 scrcpy：<code>scrcpy.exe -e</code></p>
 </li>
 </ol>
   </details>

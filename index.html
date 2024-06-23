@@ -181,7 +181,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>~ updateDate: 2024-06-21</p>
+                        <p>~ updateDate: 2024-06-24</p>
 <h1 id="windows-software"><a class="header" href="#windows-software">Windows-Software</a></h1>
 <h2 id="目录"><a class="header" href="#目录">目录</a></h2>
 <ul>
@@ -248,17 +248,17 @@
 <li><a href="#usbeam-hosts-editor">UsbEAm Hosts Editor</a></li>
 <li><a href="#iobit-driver-booster-pro">IObit Driver Booster Pro</a></li>
 <li><a href="#ccleaner">CCleaner</a></li>
-<li><a href="#trafficmonitor">TrafficMonitor</a></li>
-<li><a href="#DNS-Speed-Benchmark">Domain Name Speed Benchmark</a></li>
-<li><a href="#optimizer">Optimizer</a></li>
+<li><a href="#trafficmonitor">TrafficMonitor</a> - 流量监控</li>
+<li><a href="#DNS-Speed-Benchmark">Domain Name Speed Benchmark</a> - DNS测速</li>
+<li><a href="#optimizer">Optimizer</a> - Windows优化器</li>
 </ul>
 </li>
 <li><a href="#image">Image</a>
 <ul>
 <li><a href="#faststone-capture">FastStone Capture</a></li>
 <li><a href="#faststone-image-viewer">FastStone Image Viewer</a></li>
-<li><a href="#final2x">Final2x</a></li>
-<li><a href="#umi-ocr">Umi-OCR</a></li>
+<li><a href="#final2x">Final2x</a> - 图像超分辨率</li>
+<li><a href="#umi-ocr">Umi-OCR</a> - 文字识别工具</li>
 </ul>
 </li>
 <li><a href="#media">Media</a>
@@ -274,8 +274,8 @@
 <li><a href="#adobe-photoshop">Adobe Photoshop</a></li>
 <li><a href="#adobe-collection">Adobe Collection</a></li>
 <li><a href="#ffmpeg">FFmpeg</a></li>
-<li><a href="#whisper">Whisper</a></li>
-<li><a href="#video-subtitle-extractor">video-subtitle-extractor</a></li>
+<li><a href="#whisper">Whisper</a> - OpenAI's Whisper 自动语音识别</li>
+<li><a href="#video-subtitle-extractor">video-subtitle-extractor</a> - 视频硬字幕提取</li>
 </ul>
 </li>
 <li><a href="#messaging">Messaging</a>
@@ -315,7 +315,7 @@
 </li>
 <li><a href="#uninstaller">Uninstaller</a>
 <ul>
-<li><a href="#display-ddriver-uninstaller">Display Driver Uninstaller</a></li>
+<li><a href="#display-driver-uninstaller">Display Driver Uninstaller</a></li>
 <li><a href="#iobit-uninstaller-pro">IObit Uninstaller Pro</a></li>
 <li><a href="#revo-uninstaller-pro">Revo Uninstaller Pro</a></li>
 <li><a href="#bulk-crap-uninstaller">Bulk Crap Uninstaller</a></li>
@@ -755,7 +755,10 @@ mp.add_key_binding("ctrl+v", openURL)
 </ul>
 </blockquote>
   <details>
-  <summary>to[hevc_nvenc][qp18].bat</summary>
+  <summary>.bat</summary>
+<ul>
+<li>to[hevc_nvenc][qp18].bat</li>
+</ul>
 <pre><code class="language-cmd">
 	:softshare
 	if "%~1"=="" goto:eof
@@ -763,9 +766,9 @@ mp.add_key_binding("ctrl+v", openURL)
 	shift&amp;goto:softshare
 
 </code></pre>
-  </details>
-  <details>
-  <summary>to[libx265][crf18].bat</summary>
+<ul>
+<li>to[libx265][crf18].bat</li>
+</ul>
 <pre><code class="language-cmd">
 	:softshare
 	if "%~1"=="" goto:eof
@@ -773,9 +776,9 @@ mp.add_key_binding("ctrl+v", openURL)
 	shift&amp;goto:softshare
 
 </code></pre>
-  </details>
-  <details>
-  <summary>ffprobe_show_format.bat</summary>
+<ul>
+<li>ffprobe_show_format.bat</li>
+</ul>
 <pre><code class="language-cmd">
 	@echo on 
 	ffprobe -hide_banner -show_format "%~1"
@@ -875,6 +878,27 @@ mp.add_key_binding("ctrl+v", openURL)
 </ul>
 </blockquote>
   <details>
+  <summary>.bat</summary>
+<ul>
+<li>scrcpy_usb.bat</li>
+</ul>
+<pre><code class="language-cmd">
+	cd scrcpy-win64-v2.4
+	scrcpy.exe -d --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+
+</code></pre>
+<ul>
+<li>scrcpy_tcpip.bat</li>
+</ul>
+<pre><code class="language-cmd">
+	cd scrcpy-win64-v2.4
+	adb tcpip 5555
+	adb connect 192.168.1.90:5555
+	scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842
+
+</code></pre>
+  </details>
+  <details>
   <summary>scrcpy无线连接</summary>
 <ul>
 <li>参考官方文档: <a href="https://www.genymotion.com/blog/open-source-project-scrcpy-now-works-wirelessly/">Open Source Project - Scrcpy now works wirelessly</a></li>
@@ -893,10 +917,10 @@ mp.add_key_binding("ctrl+v", openURL)
 <p>拔下你的设备，断开USB连接</p>
 </li>
 <li>
-<p>PC运行 adb connect 手机IP:服务端口: <code>adb connect 192.168.x.x:5555</code></p>
+<p>PC运行 adb connect 手机IP:服务端口: <code>adb connect x.x.x.x:5555</code></p>
 </li>
 <li>
-<p>PC运行 scrcpy：<code>scrcpy.exe -e --window-x 2560 --window-y 30 --window-width 829 --window-height 1842</code></p>
+<p>PC运行 scrcpy：<code>scrcpy.exe -e</code></p>
 </li>
 </ol>
   </details>
