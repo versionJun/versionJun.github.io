@@ -1,4 +1,4 @@
-~ updateDate: 2024-06-24
+~ updateDate: 2024-07-06
 
 # Windows-Software
 
@@ -102,6 +102,7 @@
 		* [图吧工具箱](#图吧工具箱)
 		* [VMware](#vmware)
 		* [CentOS](#centos)
+		* [balenaEtcher](#balenaetcher)
 
 ---
 
@@ -627,7 +628,8 @@
 
 	- #### [CentOS](https://vault.centos.org/)<a id="centos"></a><sup>[[阿里云](https://mirrors.aliyun.com/centos-vault/centos/)]</sup>
 
-
+	- #### [balenaEtcher](https://etcher.balena.io/)<a id="balenaetcher"></a> - Flash OS images to SD cards & USB drives
+	
 ---
 
 @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
