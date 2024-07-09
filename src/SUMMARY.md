@@ -2,12 +2,18 @@
 
 # Software
 
-- [Windows-Software](./Software/Windows-Software.md)
-    - [Nodejs](./Software/Nodejs.md)
-- [Android-Software](./Software/Android-Software.md)
-    - [Termux+Docker](./Software/Termux+QEMU+linux_alpine+Docker.md)
-- [Linux-Software](./Software/Linux-Software.md)
-    - [Command](./Software/Linux-Command.md)
+- [Windows](./Software/Windows/Windows.md)
+    - [Nodejs](./Software/Windows/Nodejs.md)
+- [Android](./Software/Android/Android.md)
+    - [Termux+Docker](./Software/Android/Termux+QEMU+linux_alpine+Docker.md)
+- [Linux](./Software/Linux/Linux.md)
+    - [Command](./Software/Linux/Command.md)
+    - [Debian](./Software/Linux/Debian/Debian.md)
+      - [debian-11-bullseye](./Software/Linux/Debian/debian-11-bullseye.md)
+    - [Docker](./Software/Linux/Docker/Docker.md)
+      - [docker-software](./Software/Linux/Docker/docker-software.md)
+    - [Armbian](./Software/Linux/Armbian/Armbian.md)
+      - [X96MaxPlus搭建Armbian](./Software/Linux/Armbian/X96MaxPlus搭建Armbian.md)
 
 # []()
 
