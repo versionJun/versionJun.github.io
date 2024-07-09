@@ -42,7 +42,47 @@
 
 3. 上电，看到X96的封面就可以松手
 
+## 控制LED显示屏
+    
+- 登录到 Armbian 系统→输入命令：
+
+    ``` bash 
+
+    armbian-openvfd
+
+    ```
+
+## 备份/恢复 EMMC 原始系统
+
+1. 请从 TF/SD/USB → 启动 Armbian 系统 输入命令：
+
+    ```bash
+    
+    armbian-ddbr
+
+    ```
+
+2. 根据提示输入 `b` 备份系统，输入 `r` 恢复系统。
+
+## 刷入EMMC 
+
+1. ssh或终端中运行以下命令（以root的身份）
+
+    ```bash
+
+    armbian-install
+
+    ```
+
+2. 据盒子版本来填入ID，例如`X96MaxPlusQ2`版本就填入`522`
+
+3. 选择分区格式 -> ext4 (即输入`1`)
+
+4. 耐心等待拷贝文件进入EMMC ，速度由u盘/sd卡内系统的大小以及u盘/sd卡读写的速度影响
+
+5. 写入EMMC结束 -> 先运行 `poweroff` 拔下u盘（sd卡）再拔插一下电源
 
 ## 参考资料：
 - [[已更新]从零开始给X96 Max+刷上Armbian系统,完善千兆网卡以及刷入EMMC！](https://blog.mashiro.pro/331.html)
 - [外贸盒子x96max+ 搭建Armbian系统 （附国内可用的img镜像下载地址）](https://blog.csdn.net/corefunction/article/details/118250652)
+- [ophub/amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian)
