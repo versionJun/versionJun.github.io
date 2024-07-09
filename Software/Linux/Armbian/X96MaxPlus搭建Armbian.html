@@ -182,6 +182,74 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="x96maxplus搭建armbian"><a class="header" href="#x96maxplus搭建armbian">X96MaxPlus搭建Armbian</a></h1>
+<h2 id="准备工作"><a class="header" href="#准备工作">准备工作</a></h2>
+<ol>
+<li>
+<p>确认<code>X96Max+</code>版本为<code>X96MaxPlusQ2</code></p>
+<ul>
+<li>SoC:S905X3 + 4GB 内存 + 64GB 闪存+ 1000M 网口 + 2.4G/5G 双频 WiFi + 蓝牙</li>
+</ul>
+</li>
+<li>
+<p>ophub/amlogic-s9xxx-armbian<sup>[<a href="https://github.com/ophub/amlogic-s9xxx-armbian">Github</a>]</sup> 根据芯片型号下载镜像</p>
+<ul>
+<li>Armbian_24.8.0_amlogic_s905x3_bullseye_6.6.36_server_2024.07.01.img.gz <sup>[<a href="https://github.com/ophub/amlogic-s9xxx-armbian/releases/tag/Armbian_bullseye_save_2024.07">Releases/Armbian_bullseye_save_2024.07</a>]</sup></li>
+</ul>
+</li>
+<li>
+<p><a href="https://etcher.balena.io/">balenaEtcher</a> - Flash OS images to SD cards &amp; USB drives</p>
+</li>
+</ol>
+<h2 id="刷入镜像至u盘"><a class="header" href="#刷入镜像至u盘">刷入镜像至U盘</a></h2>
+<ol>
+<li>
+<p>打开balenaEtcher</p>
+</li>
+<li>
+<p><code>Flash from file</code> -&gt; <code>Armbian_24.8.0_amlogic_s905x3_bullseye_6.6.36_server_2024.07.01.img.gz</code> -&gt; <code>Select Target</code></p>
+</li>
+<li>
+<p>选择U盘（请备份好u盘中的重要文件）</p>
+</li>
+<li>
+<p><code>Flash</code> -&gt; 刷完之后 弹出u盘</p>
+</li>
+</ol>
+<h2 id="boot-dtb-配置"><a class="header" href="#boot-dtb-配置">boot dtb 配置</a></h2>
+<ol>
+<li>
+<p>插入U盘 -&gt; boot驱动器并打开</p>
+</li>
+<li>
+<p>找到并修改<code>uEnv</code>文件的<code>FDT</code>参数</p>
+<blockquote>
+<ul>
+<li><code>FDT</code>参数来源于<code>BOOT/dtb/amlogic</code>下以<code>.dtb</code> 为扩展名的文件</li>
+<li>版本为<code>X96MaxPlusQ2</code>对应为<code>meson-sm1-x96-max-plus-q2.dtb</code></li>
+</ul>
+</blockquote>
+<pre><code>FDT=meson-sm1-x96-max-plus-q2.dtb
+
+</code></pre>
+</li>
+</ol>
+<h2 id="盒子-u盘启动"><a class="header" href="#盒子-u盘启动">盒子 U盘启动</a></h2>
+<ol>
+<li>
+<p>断电，插入U盘<code>(记得插入USB3.0口，否则可能不识别)</code></p>
+</li>
+<li>
+<p>插进AV口按下里头的复位键，不松开。(可用牙签或者较小的螺丝刀)</p>
+</li>
+<li>
+<p>上电，看到X96的封面就可以松手</p>
+</li>
+</ol>
+<h2 id="参考资料"><a class="header" href="#参考资料">参考资料：</a></h2>
+<ul>
+<li><a href="https://blog.mashiro.pro/331.html">[已更新]从零开始给X96 Max+刷上Armbian系统,完善千兆网卡以及刷入EMMC！</a></li>
+<li><a href="https://blog.csdn.net/corefunction/article/details/118250652">外贸盒子x96max+ 搭建Armbian系统 （附国内可用的img镜像下载地址）</a></li>
+</ul>
 
                     </main>
 
