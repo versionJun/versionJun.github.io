@@ -182,6 +182,74 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="docker"><a class="header" href="#docker">Docker</a></h1>
+<h2 id="docker安装"><a class="header" href="#docker安装">Docker安装</a></h2>
+<ul>
+<li><a href="https://www.docker.com/">docker</a><sup>[<a href="https://hub.docker.com/">Docker Hub</a>]</sup></li>
+<li>tech-shrimp/docker_installer<sup>[<a href="https://github.com/tech-shrimp/docker_installer">Github</a>]</sup> - Docker官方安装包，用来解决因国内网络无法安装使用Docker的问题</li>
+</ul>
+<h2 id="docker换源"><a class="header" href="#docker换源">Docker换源</a></h2>
+<ul>
+<li>修改<code>/etc/docker/daemon.json</code>文件
+<pre><code>{
+    "registry-mirrors": [
+        "https://docker.m.daocloud.io",
+        "https://docker.1panel.live"
+    ]
+}
+</code></pre>
+</li>
+<li>重启docker
+<pre><code class="language-bash">systemctl daemon-reload
+systemctl restart docker
+</code></pre>
+</li>
+</ul>
+<h2 id="docker常用命令"><a class="header" href="#docker常用命令">Docker常用命令</a></h2>
+<pre><code class="language-bash"># 从Docker Hub查找镜像
+docker search [OPTIONS] TERM
+# OPTIONS说明：
+# --automated :只列出 automated build类型的镜像；
+# --no-trunc :显示完整的镜像描述；
+# -f &lt;过滤条件&gt;:列出收藏数不小于指定值的镜像。
+
+#获取镜像
+docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]
+
+#列出镜像
+docker image ls
+
+#镜像体积
+docker system df
+
+#删除本地镜像
+docker image rm [选项] &lt;镜像1&gt; [&lt;镜像2&gt; ...]
+
+#列出容器
+docker container ls -a
+
+#启动终止状态的容器
+docker container start [container ID or NAMES]
+
+#重新启动正在运行的容器
+docker container restart [container ID or NAMES]
+
+#获取容器的输出信息
+docker container logs [container ID or NAMES]
+
+#终止容器
+docker container stop [container ID or NAMES]
+
+#删除容器
+docker container rm [container ID or NAMES]
+
+#进入容器
+docker exec -it [container ID or NAMES] bash
+
+</code></pre>
+<h2 id="参考资料"><a class="header" href="#参考资料">参考资料：</a></h2>
+<ul>
+<li><a href="https://dunwu.github.io/linux-tutorial/docker/">dunwu.github.io/linux-tutorial/docker</a> - Docker 教程</li>
+</ul>
 
                     </main>
 
