@@ -1,0 +1,16 @@
+# [Debian](https://www.debian.org)<sup>[[阿里云](https://www.ghxi.com/?s=VMware)]</sup>
+
+- [archive](https://cdimage.debian.org/cdimage/archive/)
+  - Some user-provided 2.0, 2.1 and 2.2 images (Hamm, Slink, Potato)
+  - 3.0_r0 to 3.0_r6 (Woody)
+  - 3.1_r0 to 3.1_r8 (Sarge)
+  - 4.0_r0 to 4.0_r9 (Etch)
+  - 5.0.0 to 5.0.10 (Lenny)
+  - 6.0.0 to 6.0.10 (Squeeze)
+  - 7.0.0 to 7.11.0 (Wheezy)
+  - 8.0.0 to 8.11.0 (Jessie)
+  - 8.11.1 (Jessie LTS, for some arches only)
+  - 9.0.0 to 9.13.0 (Stretch)
+  - 10.0.0 to 10.13.0 (Buster)
+  - 11.0.0 to ... (Bullseye)
+  - 12.0.0 to ... (Bookworm) 
