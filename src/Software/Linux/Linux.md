@@ -7,6 +7,7 @@
     * [Tutorial](#tutorial)
 * [管理面板](#管理面板)
 	* [1Panel](#1panel)
+  	* [CasaOS](#casaos)
 * [Cloud Driver](#cloud-driver)
     * [Alist](#alist)
     * [Rclone](#rclone)
@@ -27,6 +28,8 @@
 - ### 管理面板
 
     - #### [1Panel](https://1panel.cn/)<a id="1panel"></a><sup>[[GitHub](https://github.com/1Panel-dev/1Panel/releases)]</sup>
+
+    - #### [CasaOS](https://casaos.io/)<a id="casaos"></a><sup>[[GitHub](https://github.com/IceWhaleTech/CasaOS)]</sup><sup>[[wiki](https://wiki.casaos.io/en/home)]</sup> - A simple, easy-to-use, elegant open-source Personal Cloud system.
 
 - ### Cloud Driver
 
