@@ -168,7 +168,7 @@
     deb-src https://mirrors.huaweicloud.com/debian/ bullseye-backports main non-free contrib
     ```
 
-    <details>
+    </details>
 
 - 修改之后再运行`apt update`更新索引
 
