@@ -4,7 +4,6 @@
 
 * [面板类](#面板类)
 	* [Portainer](#portainer)
-	* [CasaOS](#casaos)
 * [网盘类](#网盘类)
 	* [Alist](#alist)
 * [脚本类](#脚本类)
@@ -27,8 +26,6 @@
     - #### [Portainer](https://www.portainer.io/)<a id="portainer"></a><sup>[[GitHub](https://github.com/portainer/portainer)]</sup> - Docker管理面板<sup>[开源]</sup>
 
         > - eysp/portainer-ce<sup>[[GitHub](https://github.com/eysp/portainer-ce)]</sup> - portainer-ce汉化版
-
-    - #### [CasaOS](https://casaos.io/)<a id="casaos"></a><sup>[[GitHub](https://github.com/IceWhaleTech/CasaOS)]</sup> - Docker管理面板
 
 - ### 网盘类
 
