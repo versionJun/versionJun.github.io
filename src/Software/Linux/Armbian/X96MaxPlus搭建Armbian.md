@@ -24,7 +24,7 @@
 
 1. 插入U盘 -> boot驱动器并打开
 
-2. 找到并修改`uEnv`文件的`FDT`参数
+2. 找到并修改`uEnv.txt`文件的`FDT`参数
 
     > - `FDT`参数来源于`BOOT/dtb/amlogic`下以`.dtb` 为扩展名的文件
     > - 版本为`X96MaxPlusQ2`对应为`meson-sm1-x96-max-plus-q2.dtb`
@@ -74,7 +74,61 @@
 
     ```
 
-2. 据盒子版本来填入ID，例如`X96MaxPlusQ2`版本就填入`522`
+2. 据盒子版本来填入ID，例如`X96MaxPlusQ2`版本就填入`508`
+
+    <details>
+
+    <summary>详情 -> `Armbian_24.8.0_amlogic_s905x3_bullseye_6.6.36_server_2024.07.01.img.g`</summary>
+
+    ```bash
+
+        root@armbian:~# armbian-install
+        [ STEPS ] Installing Armbian to internal eMMC...
+        [ STEPS ] Checking dependencies...
+        [ INFO ] Dependency check completed. Proceeding installation...
+        [ STEPS ] Initializing the environment...
+        [ INFO ] Use mainline u-boot: [ no ]
+        [ INFO ] Use ampart tool: [ yes ]
+        [ INFO ] Show all devices: [ no ]
+        [ INFO ] Internal eMMC : [ /dev/mmcblk2 ]
+        [ STEPS ] Start selecting device...
+        -----------------------------------------------------------------------------------------------------
+        ID    SOC        MODEL                                         DTB
+        -----------------------------------------------------------------------------------------------------
+        501   s905x3     X96-Max+_100Mb                                meson-sm1-x96-max-plus-100m.dtb
+        502   s905x3     X96-Max+_1GB                                  meson-sm1-x96-max-plus.dtb
+        503   s905x3     X96-Max+(OverClock)                           meson-sm1-x96-max-plus-oc.dtb
+        504   s905x3     X96-Max+(IP1001M)                             meson-sm1-x96-max-plus-ip1001m.dtb
+        505   s905x3     X96-Max+_A100                                 meson-sm1-x96-max-plus-a100.dtb
+        506   s905x3     X96-Max+_2101                                 meson-sm1-x96-max-plus-2101.dtb
+        507   s905x3     X96-Max+Q1                                    meson-sm1-x96-max-plus-q1.dtb
+        508   s905x3     X96-Max+Q2,X96-Air-Q1000                      meson-sm1-x96-max-plus-q2.dtb
+        509   s905x3     X96-Air-1Gb                                   meson-sm1-x96-air-gbit.dtb
+        510   s905x3     X96-Air,X96-Max+100W,100Mb                    meson-sm1-x96-air.dtb
+        -----------------------------------------------------------------------------------------------------
+        511   s905x3     Tencent-Aurora-3Pro                           meson-sm1-skyworth-lb2004-a4091.dtb
+        512   s905x3     HK1-Box,Vontar-X3                             meson-sm1-hk1box-vontar-x3.dtb
+        513   s905x3     HK1-Box(OverClock)                            meson-sm1-hk1box-vontar-x3-oc.dtb
+        514   s905x3     H96-Max-X3,Infinity-B32                       meson-sm1-h96-max-x3.dtb
+        515   s905x3     H96-Max-X3(OverClock),B32                     meson-sm1-h96-max-x3-oc.dtb
+        516   s905x3     Ugoos-X3                                      meson-sm1-ugoos-x3.dtb
+        517   s905x3     Ugoos-X3(OverClock)                           meson-sm1-ugoos-x3-oc.dtb
+        518   s905x3     TX3-1Gb                                       meson-sm1-tx3-qz.dtb
+        519   s905x3     TX3-1Gb(OverClock)                            meson-sm1-tx3-qz-oc.dtb
+        520   s905x3     TX3-100Mb                                     meson-sm1-tx3-bz.dtb
+        -----------------------------------------------------------------------------------------------------
+        521   s905x3     TX3-100Mb(OverClock)                          meson-sm1-tx3-bz-oc.dtb
+        522   s905x3     A95XF3-Air-1Gb                                meson-sm1-a95xf3-air-gbit.dtb
+        523   s905x3     A95XF3-Air-100Mb                              meson-sm1-a95xf3-air.dtb
+        524   s905x3     X88-Pro-X3,X99-Max+,Transpeed-X3+             meson-sm1-x88-pro-x3.dtb
+        525   s905x3     Whale                                         meson-sm1-x96-max-plus.dtb
+        0     Other      Customize                                     Enter-custom-dtb-name
+        -----------------------------------------------------------------------------------------------------
+        [ OPTIONS ] Please Input ID: 508
+        
+    ```
+
+    </details>
 
 3. 选择分区格式 -> ext4 (即输入`1`)
 
