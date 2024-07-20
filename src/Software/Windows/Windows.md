@@ -1,4 +1,4 @@
-~ updateDate: 2024-07-06
+~ updateDate: 2024-07-20
 
 # Windows-Software
 
@@ -39,6 +39,7 @@
 		* [Internet Download Manager](#internet-download-manager)
 		* [Aria2](#aria2)
 		* [qBittorrent-Enhanced-Edition](#qbittorrent-enhanced-edition)
+		* [Neat Download Manager](#neat-download-manager)
     * [ETC](#etc)
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
 		* [UsbEAm Hosts Editor](#usbeam-hosts-editor)
@@ -286,6 +287,8 @@
 		> - tracker
 		> 	- [ngosang/trackerslist](https://ngosang.github.io/trackerslist/)<sup>[[GitHub](https://github.com/ngosang/trackerslist)]</sup>
 		> 	- [XIU2/TrackersListCollectionsup](https://trackerslist.com/#/zh)<sup>[[GitHub](https://github.com/XIU2/TrackersListCollection)]</sup>
+
+	- #### [Neat Download Manager](https://www.neatdownloadmanager.com/index.php/en/)<a id="neat-download-manager"></a>
 
 - ### ETC
 
@@ -592,12 +595,17 @@
 		> - <s>Clash for Windows<sup>[[GitHub](https://github.com/Fndroid/clash_for_windows_pkg/releases)]</sup></s> `作者删库:2023-11-02`
 		> 	- <s>[Clash for Windows 文档](https://docs.cfw.lbyczf.com/)<sup>[[GitHub](https://github.com/Fndroid/clash-win-docs-new)]</sup></s>
 
-		> Clash.Meta<sup>[[GitHub](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
+		> Clash.Meta<s><sup>[[GitHub](https://github.com/MetaCubeX/Clash.Meta/releases)]</sup></s><sup>[[GitHub](https://github.com/MetaCubeX/mihomo)]</sup><sup>[[Wiki](https://clash-meta.gitbook.io/clash.meta-wiki-older/)]</sup>
 		>	- [Clash.Meta Docs](https://wiki.metacubex.one/)<sup>[[GitHub](https://github.com/MetaCubeX/Meta-Docs/)]</sup>
 		>
-		> GUI for Clash
-		> - Clash Verge<sup>[[GitHub](https://github.com/zzzgydi/clash-verge/releases)]</sup>
+		> 客户端
+		> - <s>Clash Verge<sup>[[GitHub](https://github.com/zzzgydi/clash-verge/releases)]</sup></s> `停止维护`
 		>	- [使用指南](https://github.com/zzzgydi/clash-verge/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
+		> - [clash-verge-rev](https://clash-verge-rev.github.io/)<sup>[[GitHub](https://github.com/clash-verge-rev/clash-verge-rev)] -  Continuation of Clash Verge </sup>
+		>
+		> WEB UI 面板
+		> - metacubexd<sup>[[GitHub](https://github.com/MetaCubeX/metacubexd)]</sup><sup>[[在线预览](https://d.metacubex.one/)]</sup>
+		> - Yacd-meta<sup>[[GitHub](https://github.com/MetaCubeX/Yacd-meta)]</sup><sup>[[在线预览](https://yacd.metacubex.one)]</sup>
 		
 	- #### NekoRay<a id="nekoray"></a><sup>[[GitHub](https://github.com/MatsuriDayo/nekoray/releases)]</sup>
 
