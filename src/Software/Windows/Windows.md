@@ -1,4 +1,4 @@
-~ updateDate: 2024-07-20
+~ updateDate: 2024-07-21
 
 # Windows-Software
 
@@ -273,7 +273,7 @@
 
 		> ef2 <sup>[[GitHub](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
 
-	- #### Aria2<a id="aria2"></a><sup>[[GitHub](https://github.com/aria2/aria2/releases)]</sup>
+	- #### [Aria2](https://aria2.github.io/)<a id="aria2"></a><sup>[[GitHub](https://github.com/aria2/aria2)]</sup>
 
 		> - [Aria2中文网](http://aria2.baisheng999.com/) - 懒人版
 		> - [https://github.com/sjh0020/aria2/](https://github.com/sjh0020/aria2/) - 懒人合集包
