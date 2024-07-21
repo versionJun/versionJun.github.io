@@ -1,3 +1,5 @@
+~ updateDate: 2024-07-21
+
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
 
@@ -45,9 +47,9 @@
 
 - ### 下载类
 
-	- #### aria2<a id="aria2"></a><sup>[[GitHub](https://hub.docker.com/r/hobbsau/aria2)]</sup>
+	- #### [aria2](https://aria2.github.io/)<a id="aria2"></a><sup>[[GitHub](https://github.com/aria2/aria2)]</sup>
   
-        > - hobbsau/aria2<sup>[[Docker](https://hub.docker.com/r/whyour/qinglong)]</sup>
+        > - hobbsau/aria2<sup>[[GitHub](https://github.com/hobbsAU/docker-aria2)]</sup><sup>[[Docker](https://hub.docker.com/r/hobbsau/aria2)]</sup>
 
     - #### [qBittorrent](https://www.qbittorrent.org/)<a id="qbittorrent"></a><sup>[[GitHub](https://github.com/qbittorrent/qBittorrent)]</sup> - qBittorrent BitTorrent client<sup>[开源]</sup>
 
@@ -394,6 +396,9 @@
         - { name: 自动选择, <<: *use, tolerance: 2, type: url-test }
 
         rules:
+        
+        - IP-CIDR,192.168.0.0/16,DIRECT
+
         # 若需禁用 QUIC 请取消注释 QUIC 两条规则
         # 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
 
