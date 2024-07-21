@@ -181,7 +181,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="docker-software"><a class="header" href="#docker-software">docker-software</a></h1>
+                        <p>~ updateDate: 2024-07-21</p>
+<h1 id="docker-software"><a class="header" href="#docker-software">docker-software</a></h1>
 <ul>
 <li><a href="https://hub.docker.com/">Docker Hub</a></li>
 </ul>
@@ -268,10 +269,10 @@
 <h3 id="下载类"><a class="header" href="#下载类">下载类</a></h3>
 <ul>
 <li>
-<h4 id="aria2github"><a class="header" href="#aria2github">aria2<a id="aria2"></a><sup>[<a href="https://hub.docker.com/r/hobbsau/aria2">GitHub</a>]</sup></a></h4>
+<h4 id="aria2github"><a class="header" href="#aria2github"><a href="https://aria2.github.io/">aria2</a><a id="aria2"></a><sup>[<a href="https://github.com/aria2/aria2">GitHub</a>]</sup></a></h4>
 <blockquote>
 <ul>
-<li>hobbsau/aria2<sup>[<a href="https://hub.docker.com/r/whyour/qinglong">Docker</a>]</sup></li>
+<li>hobbsau/aria2<sup>[<a href="https://github.com/hobbsAU/docker-aria2">GitHub</a>]</sup><sup>[<a href="https://hub.docker.com/r/hobbsau/aria2">Docker</a>]</sup></li>
 </ul>
 </blockquote>
 </li>
@@ -634,6 +635,9 @@ proxy-groups:
 - { name: 自动选择, &lt;&lt;: *use, tolerance: 2, type: url-test }
 
 rules:
+
+- IP-CIDR,192.168.0.0/16,DIRECT
+
 # 若需禁用 QUIC 请取消注释 QUIC 两条规则
 # 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
 
