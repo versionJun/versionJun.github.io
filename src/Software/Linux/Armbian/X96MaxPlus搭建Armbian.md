@@ -5,7 +5,7 @@
 1. 确认`X96Max+`版本为`X96MaxPlusQ2`
     - SoC:S905X3 + 4GB 内存 + 64GB 闪存+ 1000M 网口 + 2.4G/5G 双频 WiFi + 蓝牙
 
-2. ophub/amlogic-s9xxx-armbian<sup>[[Github](https://github.com/ophub/amlogic-s9xxx-armbian)]</sup> 根据芯片型号下载镜像
+2. ophub/amlogic-s9xxx-armbian<sup>[[Github](https://github.com/ophub/amlogic-s9xxx-armbian)]</sup> 根据型号下载系统镜像
    - Armbian_24.8.0_amlogic_s905x3_bullseye_6.6.36_server_2024.07.01.img.gz <sup>[[Releases/Armbian_bullseye_save_2024.07](https://github.com/ophub/amlogic-s9xxx-armbian/releases/tag/Armbian_bullseye_save_2024.07)]</sup>
 
 3. [balenaEtcher](https://etcher.balena.io/) - Flash OS images to SD cards & USB drives
@@ -78,7 +78,7 @@
 
     <details>
 
-    <summary>详情 -> `Armbian_24.8.0_amlogic_s905x3_bullseye_6.6.36_server_2024.07.01.img.g`</summary>
+    <summary>详情 -> <strong>Armbian_24.8.0_amlogic_s905x3_bullseye_6.6.36_server_2024.07.01.img.g</strong> </summary>
 
     ```bash
 
