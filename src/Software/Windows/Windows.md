@@ -139,7 +139,7 @@
 		> - [IDM Integration Module](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
 		> - Listen 1<sup>[[GitHub](https://github.com/listen1/listen1_chrome_extension/releases)]</sup>
 		> - <s>[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)<sup>[[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置</s> `v3问题`
-	    > - [ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)<sup>[[GitHub](https://github.com/zero-peak/ZeroOmega)]</sup> - forked from SwitchyOmega compatible with manifest v3
+	    > 	- [ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)<sup>[[GitHub](https://github.com/zero-peak/ZeroOmega)]</sup> - forked from SwitchyOmega compatible with manifest v3
 		> - [Reproductor M3U8 - HLS + DASH Player](https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl)
 		> - [SetupVPN - Lifetime Free VPN](https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)<sup>[[Official](https://setupvpn.com/)]</sup>
 		> - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
