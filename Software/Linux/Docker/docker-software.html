@@ -307,8 +307,9 @@
 </blockquote>
   <details>
   <summary> <strong>config.yaml</strong> </summary>
-<pre><code class="language-yaml"># mihomo (Clash Meta) 懒人配置
-# 版本 V1.5-240507
+<pre><code class="language-yaml">
+# mihomo (Clash Meta) 懒人配置
+# 版本 V1.12-241024
 # https://gist.github.com/liuran001/5ca84f7def53c70b554d3f765ff86a33
 # https://obdo.cc/meta
 # 作者: 笨蛋ovo (bdovo.cc)
@@ -318,7 +319,7 @@
 # 转载请保留此注释
 # 尽量添加了较为详尽的注释，不理解的地方建议对照 虚空终端 (Clash Meta) Docs 进行理解
 # 虚空终端 (Clash Meta) Docs 地址: https://wiki.metacubex.one
-# 不理解的地方不要乱动，这套规则我自己在用是正常没问题的，搞坏了我不负责
+# 不理解的地方不要乱动，如果你是小白，请按下 `Ctrl + F` 搜索 `基础配置`，只修改此部分
 
 # true 是启用
 # false 是禁用
@@ -342,66 +343,80 @@ pr:
     ],
 }
 # 延迟检测 URL
-p:
-&amp;p {
-    type: http,
-    interval: 1800, # 更新provider的时间，单位为秒
-    health-check:
-    {
-        enable: true,
-        url: https://www.gstatic.com/generate_204,
-        interval: 300,
-    },
-}
+p: &amp;p
+type: http
+# 自动更新订阅时间，单位为秒
+interval: 3600
+health-check:
+    enable: true
+    url: https://cp.cloudflare.com
+    # 节点连通性检测时间，单位为秒
+    interval: 300
+    # 节点超时延迟，单位为毫秒
+    timeout: 1000
+    # 节点自动切换差值，单位为毫秒
+    tolerance: 100
+
+# 基础配置
+# --------------------------------------------------
+# 如果你是小白，那么你只需要修改分割线以内的内容
+# 其他部分保持不动即可
+
+# 也可以把分割线以内的内容粘贴到您使用代理工具的「覆写」功能，然后在覆写中进行修改
+# 使用覆写时可以直接将此配置文件作为订阅链接进行订阅
+# https://ghp.ci/https://gist.githubusercontent.com/liuran001/5ca84f7def53c70b554d3f765ff86a33/raw/c1d33956db7097252b88a6c06ed76f32526747c4/config.yaml
+
+# 如果你需要使用大于两个机场，在下方 `use` 处添加 `订阅三` （名字可以自己取），然后在 `proxy-providers` 照例添加订阅链接即可
+# 反之，如果你只需要使用一个，那么将 `订阅二` 前添加 `#` 进行注释即可
 
 # 订阅名，记得修改成自己的
 # 添删订阅在这里和下方订阅链接依葫芦画瓢就行
 use: &amp;use
-type: select
+# 如果不希望自动切换请将下面两行注释对调
+# type: select
+type: url-test
 use:
     - 订阅一
     - 订阅二
-    - 本地配置
+    # - 本地配置
 
 # 订阅链接
 # 对于订阅来说，path 为选填项，但建议启用
 # 本地配置可以只填 path
 proxy-providers:
-订阅一:
-    &lt;&lt;: *p
-    path: ./proxy_provider/订阅一.yaml
-    url: "https://example.com/airport?type=clashmeta&amp;protocol=shadowsocks&amp;rule=default"
+    订阅一:
+        &lt;&lt;: *p
+        # path: ./proxy_provider/订阅一.yaml
+        url: ""
+        override:
+        additional-prefix: "v |"
+    订阅二:
+        &lt;&lt;: *p
+        # path: ./proxy_provider/订阅二.yaml
+        url: ""
+        override:
+        additional-prefix: "订阅二 |"
 
-订阅二:
-    &lt;&lt;: *p
-    path: ./proxy_provider/订阅二.yaml
-    url: "https://example.com/api/v1/client/subscribe?token=ilovechina"
+    # 本地配置:
+        # &lt;&lt;: *p
+        # path: ./proxy_provider/本地配置.yaml
 
-本地配置:
-    &lt;&lt;: *p
-    path: ./proxy_provider/本地配置.yaml
+# 小白请不要继续随意修改以下设置
+# 若需修改请参阅文档 https://wiki.metacubex.one
+# --------------------------------------------------
 
 # 规则订阅
 rule-providers:
-# anti-AD 广告拦截规则
-# https://github.com/privacy-protection-tools/anti-AD
-# 如果误杀率高请自行更换
-anti-AD:
+# 秋风广告拦截规则
+# https://awavenue.top
+# 由于 Anti-AD 误杀率高，本项目已在 1.11-241024 版本更换秋风广告规则
+AWAvenue-Ads:
     type: http
     behavior: domain
     format: yaml
     # path可为空(仅限clash.meta 1.15.0以上版本)
-    path: ./rule_provider/anti-AD.yaml
-    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml?"
-    interval: 600
-# anti-AD 白名单规则
-anti-AD-white:
-    type: http
-    behavior: domain
-    format: yaml
-    # path可为空(仅限clash.meta 1.15.0以上版本)
-    path: ./rule_provider/anti-AD-white.yaml
-    url: "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml?"
+    path: ./rule_provider/AWAvenue-Ads.yaml
+    url: "https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
     interval: 600
 
 mode: rule
@@ -421,7 +436,8 @@ unified-delay: true
 tcp-concurrent: true
 # 外部控制端口
 external-controller: :9090
-secret: "123456"
+
+secret: admin123123
 
 geodata-mode: true
 
@@ -430,9 +446,9 @@ geodata-mode: true
 # 源地址 https://github.com/MetaCubeX/meta-rules-dat
 # 可以更换镜像站但不要更换其他数据库，可能导致无法启动
 geox-url:
-geoip: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
-geosite: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
-mmdb: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+geoip: "https://ghp.ci/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+geosite: "https://ghp.ci/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+mmdb: "https://ghp.ci/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
 
 # 进程匹配模式
 # 路由器上请设置为 off
@@ -513,6 +529,9 @@ nameserver-policy:
     "geosite:cn,private":
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    "geosite:!cn,!private": 
+    - "tls://dns.google"
+    - "tls://cloudflare-dns.com"
 
 # 多入站端口设置
 # listeners:
@@ -582,6 +601,7 @@ proxy-groups:
 - { name: Github, &lt;&lt;: *pr }
 - { name: Steam, &lt;&lt;: *pr }
 - { name: OneDrive, &lt;&lt;: *pr }
+- { name: 微软服务, &lt;&lt;: *pr }
 - {
     name: 国内,
     type: select,
@@ -619,32 +639,15 @@ proxy-groups:
 - { name: 自动选择, &lt;&lt;: *use, tolerance: 2, type: url-test }
 
 rules:
-
-- IP-CIDR,192.168.0.0/16,DIRECT
-
 # 若需禁用 QUIC 请取消注释 QUIC 两条规则
 # 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
 
 # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-- AND,((RULE-SET,anti-AD),(NOT,((RULE-SET,anti-AD-white)))),广告拦截 # 感谢 Telegram @nextyahooquery 提供的建议
+- RULE-SET,AWAvenue-Ads,广告拦截
 # - GEOSITE,biliintl,哔哩东南亚
 # - GEOSITE,bilibili,哔哩哔哩
 
-# OpenAI (ChatGPT)
-- DOMAIN-SUFFIX,chatgpt.com,OpenAI
-- DOMAIN-SUFFIX,oaistatic.com,OpenAI
-- DOMAIN-SUFFIX,oaiusercontent.com,OpenAI
-- DOMAIN-SUFFIX,openai.com,OpenAI
-- DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net,OpenAI
-- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,OpenAI
-- DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
-- DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,OpenAI
-- DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net,OpenAI
-- DOMAIN-SUFFIX,chatgpt.com,OpenAI
-# OpenAI 跟踪域名
-- DOMAIN-SUFFIX,o33249.ingest.sentry.io,广告拦截
-- DOMAIN-SUFFIX,openaicom.imgix.net,广告拦截
-
+- GEOSITE,openai,OpenAI
 - GEOSITE,apple,Apple
 - GEOSITE,apple-cn,Apple
 - GEOSITE,ehentai,ehentai
@@ -661,6 +664,7 @@ rules:
 - GEOSITE,steam@cn,DIRECT
 - GEOSITE,steam,Steam
 - GEOSITE,onedrive,OneDrive
+- GEOSITE,microsoft,微软服务
 - GEOSITE,geolocation-!cn,其他
 # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT # quic
 - GEOIP,google,Google
@@ -669,6 +673,12 @@ rules:
 - GEOIP,twitter,Twitter
 - GEOSITE,CN,国内
 - GEOIP,CN,国内
+# 绕过局域网地址
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
 - MATCH,其他
 
 </code></pre>
