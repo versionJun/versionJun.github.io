@@ -15,6 +15,7 @@
 	* [aria2](#aria2)
 	* [qBittorrent](#qbittorrent)
 	* [Transmission](#transmission)
+	* [迅雷](#迅雷)
 * [影音类](#影音类)
 	* [EMBY](#emby)
 	* [Jellyfin](#jellyfin)
@@ -55,6 +56,8 @@
     - #### [qBittorrent](https://www.qbittorrent.org/)<a id="qbittorrent"></a><sup>[[GitHub](https://github.com/qbittorrent/qBittorrent)]</sup> - qBittorrent BitTorrent client<sup>[开源]</sup>
 
     - #### [Transmission](https://transmissionbt.com/)<a id="transmission"></a><sup>[[GitHub](https://github.com/transmission/transmission)]</sup> - Official Transmission BitTorrent client repository<sup>[开源]</sup>
+
+    - #### 迅雷<a id="迅雷"></a><sup>[[GitHub](https://github.com/cnk3x/xunlei)]</sup><sup>[[Docker](https://hub.docker.com/r/cnk3x/xunlei)]</sup> 
 
 - ### 影音类
 
