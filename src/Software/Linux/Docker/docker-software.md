@@ -609,6 +609,7 @@
             --name v2raya \
             -e V2RAYA_ADDRESS=0.0.0.0:2021 \
             -e V2RAYA_LOG_FILE=/tmp/v2raya.log \
+            -e V2RAYA_V2RAY_BIN=/usr/local/bin/v2ray \
             -v /lib/modules:/lib/modules \
             -v /etc/resolv.conf:/etc/resolv.conf \
             -v /DATA/v2raya:/etc/v2raya \
@@ -650,10 +651,10 @@
             ```bash
 
             # 创建目录
-            mkdir -p /DATA/v2ray
+            mkdir -p /DATA/v2raya
 
             # 进入该目录
-            cd /DATA/v2ray
+            cd /DATA/v2raya
 
             # 上传docker-compose.yml文件
             # TODO: 上传docker-compose.yml文件
@@ -683,6 +684,7 @@
                     environment:
                     - V2RAYA_ADDRESS=0.0.0.0:2017
                     - V2RAYA_LOG_FILE=/tmp/v2raya.log
+                    - V2RAYA_V2RAY_BIN=/usr/local/bin/v2ray
                     volumes:
                     - /lib/modules:/lib/modules
                     - /etc/resolv.conf:/etc/resolv.conf
