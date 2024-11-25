@@ -1,4 +1,4 @@
-~ updateDate: 2024-07-21
+~ updateDate: 2024-11-25
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -22,6 +22,7 @@
 	* [SpeedTest](#speedtest)
 * [Science](#science)
     * [Clash](#clash)
+    * [v2rayA](#v2raya)
 
   
 ---
@@ -81,7 +82,7 @@
 
         <details>
 
-		<summary> PS: <strong>config.yaml</strong> </summary>
+		<summary> <strong>config.yaml</strong> </summary>
 
 		```yaml
         # mihomo (Clash Meta) 懒人配置
@@ -122,7 +123,7 @@
         p:
         &p {
             type: http,
-            interval: 3600,
+            interval: 1800, # 更新provider的时间，单位为秒
             health-check:
             {
                 enable: true,
@@ -396,7 +397,7 @@
         - { name: 自动选择, <<: *use, tolerance: 2, type: url-test }
 
         rules:
-        
+
         - IP-CIDR,192.168.0.0/16,DIRECT
 
         # 若需禁用 QUIC 请取消注释 QUIC 两条规则
@@ -451,3 +452,131 @@
 		```
 
 		</details>
+
+        <details>
+
+		<summary> <strong>docker-compose</strong> </summary>
+
+        - docker-compose.yml
+        
+            ```yml
+                version: '3'
+
+                services:
+                # Mihomo Dashboard
+                metacubexd:
+                    container_name: metacubexd
+                    image: ghcr.io/metacubex/metacubexd
+                    restart: always
+                    ports:
+                    - '80:80'
+
+                # Mihomo 内核
+                meta:
+                    container_name: meta
+                    image: docker.io/metacubex/mihomo
+                    restart: always
+                    pid: host
+                    ipc: host
+                    network_mode: host
+                    cap_add:
+                    - ALL
+                    volumes:
+                    - ./config.yaml:/root/.config/mihomo
+                    - /dev/net/tun:/dev/net/tun
+            ```
+
+        - Running
+  
+            ```bash
+                docker-compose up -d
+            ```
+
+        - Update and Restart
+
+            ```bash
+                docker compose pull && docker compose up -d
+            ```
+
+        </details>
+
+        <details>
+
+		<summary> <strong>docker-compose CasaOS</strong> </summary>
+
+        ```yml
+            
+            name: clash
+            services:
+                meta:
+                    cap_add:
+                        - ALL
+                    cpu_shares: 90
+                    command: []
+                    container_name: meta
+                    deploy:
+                        resources:
+                            limits:
+                                memory: "3768582144"
+                    hostname: meta
+                    image: docker.io/metacubex/mihomo:latest
+                    ipc: host
+                    labels:
+                        icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
+                    network_mode: host
+                    pid: host
+                    restart: always
+                    volumes:
+                        - type: bind
+                        source: /DATA/AppData/clash/DATA/AppData/clash
+                        target: /root/.config/mihomo
+                        bind:
+                            create_host_path: true
+                        - type: bind
+                        source: /dev/net/tun
+                        target: /dev/net/tun
+                        bind:
+                            create_host_path: true
+                metacubexd:
+                    cpu_shares: 90
+                    command: []
+                    container_name: metacubexd
+                    deploy:
+                        resources:
+                            limits:
+                                memory: "3768582144"
+                    hostname: metacubexd
+                    image: ghcr.io/metacubex/metacubexd:latest
+                    labels:
+                        icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
+                    networks:
+                        default: null
+                    ports:
+                        - mode: ingress
+                        target: 80
+                        published: "8888"
+                        protocol: tcp
+                    restart: always
+            networks:
+                default:
+                    name: clash_default
+            x-casaos:
+                author: self
+                category: self
+                hostname: 192.168.1.89
+                icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
+                index: /
+                is_uncontrolled: false
+                port_map: "8888"
+                scheme: http
+                title:
+                    custom: clash
+            name: clash
+
+        ```
+
+        </details>
+
+    - #### v2rayA<a id="v2raya"></a><sup>[[GitHub](https://github.com/v2rayA/v2rayA)]</sup><sup>[[Docker](https://hub.docker.com/r/mzz2017/v2raya)]</sup>
+
+        > [v2rayA - Docs](https://v2raya.org/docs/prologue/introduction/)
