@@ -1,4 +1,4 @@
-~ updateDate: 2024-08-26
+~ updateDate: 2024-11-25
 
 # Windows-Software
 
@@ -119,7 +119,8 @@
 
 		> - [AdBlocker Ultimate](https://addons.mozilla.org/zh-CN/firefox/addon/adblocker-ultimate/)<sup>[[Official](https://adblockultimate.net/browsers)]</sup><sup>[[GitHub](https://github.com/adblockultimate/)]</sup>
 		> - [Dark Reader](https://addons.mozilla.org/zh-CN/firefox/addon/darkreader/)<sup>[[GitHub](https://github.com/darkreader/darkreader/releases)]</sup>
-		> - [Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)<sup>[[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置
+		> - <s>[Proxy SwitchyOmega](https://addons.mozilla.org/zh-CN/firefox/addon/switchyomega/)<sup>[[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置</s> `v3问题`
+		> 	- [ZeroOmega](https://addons.mozilla.org/zh-CN/firefox/addon/zeroomega/)<sup>[[GitHub](https://github.com/zero-peak/ZeroOmega)]</sup> - Proxy Switchy manifest v3 version
 		> - [SetupVPN - Lifetime Free VPN](https://addons.mozilla.org/zh-CN/firefox/addon/setupvpn/)<sup>[[Official](https://setupvpn.com/)]</sup>
 		> - [Tampermonkey](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
 		> - [TWP - Translate Web Pages](https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/) - 使用 Google 或 Yandex 实时翻译您的页面
