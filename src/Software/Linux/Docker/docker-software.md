@@ -457,12 +457,33 @@
 
 		<summary> <strong>docker-compose</strong> </summary>
 
+        - bash
+        
+            ```bash
+
+            # 创建目录
+            mkdir -p /DATA/clash
+
+            # 进入该目录
+            cd /DATA/clash
+
+            # 上传docker-compose.yml文件
+            # TODO: 上传docker-compose.yml文件
+            
+            # Running
+            docker compose up -d
+
+            # Update and Restart
+            docker compose pull && docker compose up -d
+
+            ```
+        
         - docker-compose.yml
         
             ```yml
-                version: '3'
+            # version: '3'
 
-                services:
+            services:
                 # Mihomo Dashboard
                 metacubexd:
                     container_name: metacubexd
@@ -471,7 +492,7 @@
                     ports:
                     - '80:80'
 
-                # Mihomo 内核
+                # Mihomo Core
                 meta:
                     container_name: meta
                     image: docker.io/metacubex/mihomo
@@ -482,20 +503,8 @@
                     cap_add:
                     - ALL
                     volumes:
-                    - ./config.yaml:/root/.config/mihomo
+                    - ./DATA/clash:/root/.config/mihomo
                     - /dev/net/tun:/dev/net/tun
-            ```
-
-        - Running
-  
-            ```bash
-                docker-compose up -d
-            ```
-
-        - Update and Restart
-
-            ```bash
-                docker compose pull && docker compose up -d
             ```
 
         </details>
@@ -506,72 +515,72 @@
 
         ```yml
             
-            name: clash
-            services:
-                meta:
-                    cap_add:
-                        - ALL
-                    cpu_shares: 90
-                    command: []
-                    container_name: meta
-                    deploy:
-                        resources:
-                            limits:
-                                memory: "3768582144"
-                    hostname: meta
-                    image: docker.io/metacubex/mihomo:latest
-                    ipc: host
-                    labels:
-                        icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
-                    network_mode: host
-                    pid: host
-                    restart: always
-                    volumes:
-                        - type: bind
-                        source: /DATA/AppData/clash/DATA/AppData/clash
-                        target: /root/.config/mihomo
-                        bind:
-                            create_host_path: true
-                        - type: bind
-                        source: /dev/net/tun
-                        target: /dev/net/tun
-                        bind:
-                            create_host_path: true
-                metacubexd:
-                    cpu_shares: 90
-                    command: []
-                    container_name: metacubexd
-                    deploy:
-                        resources:
-                            limits:
-                                memory: "3768582144"
-                    hostname: metacubexd
-                    image: ghcr.io/metacubex/metacubexd:latest
-                    labels:
-                        icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
-                    networks:
-                        default: null
-                    ports:
-                        - mode: ingress
-                        target: 80
-                        published: "8888"
-                        protocol: tcp
-                    restart: always
-            networks:
-                default:
-                    name: clash_default
-            x-casaos:
-                author: self
-                category: self
-                hostname: 192.168.1.89
-                icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
-                index: /
-                is_uncontrolled: false
-                port_map: "8888"
-                scheme: http
-                title:
-                    custom: clash
-            name: clash
+        name: clash
+        services:
+            meta:
+                cap_add:
+                    - ALL
+                cpu_shares: 90
+                command: []
+                container_name: meta
+                deploy:
+                    resources:
+                        limits:
+                            memory: "3768582144"
+                hostname: meta
+                image: docker.io/metacubex/mihomo:latest
+                ipc: host
+                labels:
+                    icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
+                network_mode: host
+                pid: host
+                restart: always
+                volumes:
+                    - type: bind
+                    source: /DATA/AppData/clash/DATA/AppData/clash
+                    target: /root/.config/mihomo
+                    bind:
+                        create_host_path: true
+                    - type: bind
+                    source: /dev/net/tun
+                    target: /dev/net/tun
+                    bind:
+                        create_host_path: true
+            metacubexd:
+                cpu_shares: 90
+                command: []
+                container_name: metacubexd
+                deploy:
+                    resources:
+                        limits:
+                            memory: "3768582144"
+                hostname: metacubexd
+                image: ghcr.io/metacubex/metacubexd:latest
+                labels:
+                    icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
+                networks:
+                    default: null
+                ports:
+                    - mode: ingress
+                    target: 80
+                    published: "8888"
+                    protocol: tcp
+                restart: always
+        networks:
+            default:
+                name: clash_default
+        x-casaos:
+            author: self
+            category: self
+            hostname: 192.168.1.89
+            icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
+            index: /
+            is_uncontrolled: false
+            port_map: "8888"
+            scheme: http
+            title:
+                custom: clash
+        name: clash
 
         ```
 
@@ -580,3 +589,101 @@
     - #### v2rayA<a id="v2raya"></a><sup>[[GitHub](https://github.com/v2rayA/v2rayA)]</sup><sup>[[Docker](https://hub.docker.com/r/mzz2017/v2raya)]</sup>
 
         > [v2rayA - Docs](https://v2raya.org/docs/prologue/introduction/)
+
+        <details>
+
+		<summary> <strong>docker-cli</strong> </summary>
+
+        - Running
+        
+            ```bash
+
+            # Running
+            docker run -d \
+            --restart=always \
+            --privileged \
+            --network=host \
+            --name v2raya \
+            -e V2RAYA_ADDRESS=0.0.0.0:2021 \
+            -e V2RAYA_LOG_FILE=/tmp/v2raya.log \
+            -v /lib/modules:/lib/modules \
+            -v /etc/resolv.conf:/etc/resolv.conf \
+            -v /DATA/v2raya:/etc/v2raya \
+            mzz2017/v2raya
+
+            ```
+
+        - Update and Restart
+
+            ```bash
+
+            # Update and Restart
+
+            # 查看容器(找v2raya容器的ID)
+            docker ps -a
+
+            # 停止容器v2raya运行
+            docker stop ID
+
+            # 删除容器v2raya
+            docker rm ID
+
+            # 拉取最新镜像
+            docker pull mzz2017/v2raya:latest
+
+            # 重复Running
+            # TODO: 重复Running
+
+            ```
+
+        </details>
+
+        <details>
+
+		<summary> <strong>docker-compose</strong> </summary>
+
+        - bash
+        
+            ```bash
+
+            # 创建目录
+            mkdir -p /DATA/v2ray
+
+            # 进入该目录
+            cd /DATA/v2ray
+
+            # 上传docker-compose.yml文件
+            # TODO: 上传docker-compose.yml文件
+            
+            # Running
+            docker compose up -d
+
+            # Update and Restart
+            docker compose pull && docker compose up -d
+
+            ```
+        
+        - docker-compose.yml
+        
+            ```yml
+            # version: '3'
+
+            services:
+                v2raya:
+                    container_name: v2raya
+                    image: docker.io/mzz2017/v2raya
+                    restart: always
+                    network_mode: host
+                    privileged: true
+                    cap_add:
+                    - ALL
+                    environment:
+                    - V2RAYA_ADDRESS=0.0.0.0:2017
+                    - V2RAYA_LOG_FILE=/tmp/v2raya.log
+                    volumes:
+                    - /lib/modules:/lib/modules
+                    - /etc/resolv.conf:/etc/resolv.conf
+                    - /DATA/v2raya:/etc/v2raya
+            ```
+
+        </details>
