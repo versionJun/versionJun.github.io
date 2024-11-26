@@ -1,4 +1,4 @@
-~ updateDate: 2024-11-25
+~ updateDate: 2024-11-26
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -127,7 +127,7 @@
         p: &p
         type: http
         # 自动更新订阅时间，单位为秒
-        interval: 3600
+        interval: 1800
         health-check:
             enable: true
             url: https://cp.cloudflare.com
@@ -154,8 +154,8 @@
         # 添删订阅在这里和下方订阅链接依葫芦画瓢就行
         use: &use
         # 如果不希望自动切换请将下面两行注释对调
-        # type: select
-        type: url-test
+        type: select
+        # type: url-test
         use:
             - 订阅一
             - 订阅二
