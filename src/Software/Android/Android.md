@@ -1,4 +1,4 @@
-~ updateDate: 2024-11-26
+~ updateDate: 2024-11-27
 
 # Android-Software
 
@@ -133,7 +133,7 @@
 
 	- #### <s>ClashForAndroid<a id="clashforandroid"></a><sup>[[GitHub](https://github.com/Kr328/ClashForAndroid)]</sup></s> `作者删库:2023-11-03`
 
-	- #### ClashMetaForAndroid<a id="clashmetaforandroid"></a><sup>[[GitHub](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)]</sup>
+	- #### ClashMetaForAndroid<a id="clashmetaforandroid"></a><sup>[[GitHub](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/com.github.metacubex.clash.meta/)]</sup>
 
 	- #### NekoBoxForAndroid<a id="nekoboxforandroid"></a><sup>[[GitHub](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)]</sup>
 
