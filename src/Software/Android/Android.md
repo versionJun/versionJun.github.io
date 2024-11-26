@@ -1,4 +1,4 @@
-~ updateDate: 2024-04-09
+~ updateDate: 2024-11-26
 
 # Android-Software
 
@@ -115,7 +115,7 @@
 
 	- #### NOVA<a id="nova"></a><sup>[[GitHub](https://github.com/nova-video-player/aos-AVP)]</sup><sup>[[F-Droid](https://f-droid.org/zh_Hans/packages/org.courville.nova/)]</sup> - WebDav player 
 
-	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup>
+	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><sup>[[LITEAPKS](https://liteapks.com/spotify-2.html)]</sup>
 
 		> local: 8.7.30.1221
 
