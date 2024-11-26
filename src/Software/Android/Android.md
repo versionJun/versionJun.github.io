@@ -117,7 +117,7 @@
 
 	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup><sup>[[LITEAPKS](https://liteapks.com/spotify-2.html)]</sup>
 
-		> local: 8.7.30.1221
+		> <s>local: 8.7.30.1221</s>
 
 	- #### [网易云](https://music.163.com/)
 
