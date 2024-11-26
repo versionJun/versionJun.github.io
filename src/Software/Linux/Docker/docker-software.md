@@ -1,4 +1,4 @@
-~ updateDate: 2024-11-26
+~ updateDate: 2024-11-27
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -21,6 +21,7 @@
 	* [Jellyfin](#jellyfin)
 * [工具类](#工具类)
 	* [SpeedTest](#speedtest)
+	* [OpenSpeedTest](#openspeedtest)
 * [Science](#science)
     * [Clash](#clash)
     * [v2rayA](#v2raya)
@@ -55,19 +56,32 @@
 
     - #### [qBittorrent](https://www.qbittorrent.org/)<a id="qbittorrent"></a><sup>[[GitHub](https://github.com/qbittorrent/qBittorrent)]</sup> - qBittorrent BitTorrent client<sup>[开源]</sup>
 
+        > - [hotio/qbittorrent
+](https://hotio.dev/containers/qbittorrent/)<sup>[[GitHub](https://github.com/hotio/qbittorrent)]</sup><sup>[[Docker](https://hub.docker.com/r/hotio/qbittorrent)]</sup> 
+
     - #### [Transmission](https://transmissionbt.com/)<a id="transmission"></a><sup>[[GitHub](https://github.com/transmission/transmission)]</sup> - Official Transmission BitTorrent client repository<sup>[开源]</sup>
 
-    - #### 迅雷<a id="迅雷"></a><sup>[[GitHub](https://github.com/cnk3x/xunlei)]</sup><sup>[[Docker](https://hub.docker.com/r/cnk3x/xunlei)]</sup> 
+        > - linuxserver/transmission<sup>[[GitHub](https://github.com/linuxserver/docker-transmission)]</sup><sup>[[Docker](https://hub.docker.com/r/linuxserver/transmission)]</sup> 
+
+    - #### 迅雷<a id="迅雷"></a>
+  
+        > - cnk3x/xunlei<sup>[[GitHub](https://github.com/cnk3x/xunlei)]</sup><sup>[[Docker](https://hub.docker.com/r/cnk3x/xunlei)]</sup> 
 
 - ### 影音类
 
     - #### [EMBY](https://emby.media/)<a id="emby"></a><sup>[[GitHub](https://github.com/MediaBrowser/Emby)]</sup> - 媒体服务器
 
+        > - linuxserver/emby<sup>[[GitHub](https://github.com/linuxserver/docker-emby)]</sup><sup>[[Docker](https://hub.docker.com/r/linuxserver/emby)]</sup> 
+
     - #### [Jellyfin](https://jellyfin.org/)<a id="jellyfin"></a><sup>[[GitHub](https://github.com/jellyfin/jellyfin)]</sup> - 媒体服务器<sup>[开源]</sup>
+
+        > - linuxserver/jellyfin<sup>[[GitHub](https://github.com/linuxserver/docker-jellyfin)]</sup><sup>[[Docker](https://hub.docker.com/r/linuxserver/jellyfin)]</sup> 
 
 - ### 工具类
 
     - #### [SpeedTest](https://librespeed.org/)<a id="speedtest"></a><sup>[[GitHub](https://github.com/librespeed/speedtest)]</sup> - 自托管速度测试
+
+    - #### [OpenSpeedTest](https://openspeedtest.com/)<a id="openspeedtest"></a><sup>[[GitHub](https://github.com/openspeedtest/Speed-Test)]</sup><sup>[[Docker](https://hub.docker.com/r/openspeedtest/latest)]</sup> -  Free & Open-Source HTML5 Network Performance Estimation Tool.
 
 - ### Science
 
