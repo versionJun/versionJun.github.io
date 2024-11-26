@@ -170,7 +170,7 @@
                 # path: ./proxy_provider/订阅一.yaml
                 url: ""
                 override:
-                additional-prefix: "v |"
+                additional-prefix: "订阅一 |"
             订阅二:
                 <<: *p
                 # path: ./proxy_provider/订阅二.yaml
