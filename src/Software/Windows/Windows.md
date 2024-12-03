@@ -1,4 +1,4 @@
-~ updateDate: 2024-11-26
+~ updateDate: 2024-12-03
 
 # Windows-Software
 
@@ -170,6 +170,8 @@
 	- #### [坚果云](https://www.jianguoyun.com/)
 
 	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist/releases)]</sup>
+
+		> - [ykxVK8yL5L/alist](https://github.com/ykxVK8yL5L/alist/releases) - `ThunderX -> 离线下载 -> storage`
 
 		<details>
 
