@@ -171,7 +171,7 @@
 
 	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist/releases)]</sup>
 
-		> - [ykxVK8yL5L/alist](https://github.com/ykxVK8yL5L/alist/releases) - `ThunderX -> 离线下载 -> storage`
+		> - ykxVK8yL5L/alist<sup>[[GitHub](https://github.com/ykxVK8yL5L/alist/releases)]</sup> - `ThunderX -> 离线下载 -> storage`
 
 		<details>
 
