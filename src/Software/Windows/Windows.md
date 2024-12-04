@@ -1,4 +1,4 @@
-~ updateDate: 2024-12-03
+~ updateDate: 2024-12-04
 
 # Windows-Software
 
@@ -40,6 +40,7 @@
 		* [Aria2](#aria2)
 		* [qBittorrent-Enhanced-Edition](#qbittorrent-enhanced-edition)
 		* [Neat Download Manager](#neat-download-manager)
+		* [AB Download Manager](#ab-download-manager)
     * [ETC](#etc)
 		* [Watt Toolkit(Steam++)](#watt-toolkitsteam)
 		* [UsbEAm Hosts Editor](#usbeam-hosts-editor)
@@ -179,9 +180,9 @@
 		
 		```cmd
 
-			set http_proxy=http://127.0.0.1:7890/
-			set https_proxy=http://127.0.0.1:7890/
-			set ftp_proxy=http://127.0.0.1:7890/
+			set http_proxy=http://127.0.0.1:7897/
+			set https_proxy=http://127.0.0.1:7897/
+			set ftp_proxy=http://127.0.0.1:7897/
 			set no_proxy=localhost,127.0.0.1,::1
 			alist.exe server
 		
@@ -273,7 +274,7 @@
 
 - ### Download
 
-	- #### Internet Download Manager<a id="internet-download-manager"></a><sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup>
+	- #### [Internet Download Manager](https://www.internetdownloadmanager.com/)<a id="internet-download-manager"></a><sup>[[果核](https://www.ghxi.com/?s=+Internet+Download+Manager)]</sup>
 
 		> ef2 <sup>[[GitHub](https://github.com/MotooriKashin/ef2)]</sup>  - IDM辅助下载工具，使用自定义ef2://协议，同时支持解析IDM导出文件(.ef2)
 
@@ -293,6 +294,8 @@
 		> 	- [XIU2/TrackersListCollectionsup](https://trackerslist.com/#/zh)<sup>[[GitHub](https://github.com/XIU2/TrackersListCollection)]</sup>
 
 	- #### [Neat Download Manager](https://www.neatdownloadmanager.com/index.php/en/)<a id="neat-download-manager"></a>
+
+	- #### [AB Download Manager](https://abdownloadmanager.com/)<a id="ab-download-manager"></a><sup>[[GitHub](https://github.com/amir1376/ab-download-manager)]</sup>
 
 - ### ETC
 
