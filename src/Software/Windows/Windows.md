@@ -1,4 +1,4 @@
-~ updateDate: 2024-12-04
+~ updateDate: 2024-12-07
 
 # Windows-Software
 
@@ -613,6 +613,7 @@
 		> - <s>Clash Verge<sup>[[GitHub](https://github.com/zzzgydi/clash-verge/releases)]</sup></s> `停止维护`
 		>	- [使用指南](https://github.com/zzzgydi/clash-verge/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
 		> - [clash-verge-rev](https://clash-verge-rev.github.io/)<sup>[[GitHub](https://github.com/clash-verge-rev/clash-verge-rev)] -  Continuation of Clash Verge </sup>
+		> 	- 局域网连接 -> `控制面板\所有控制面板项\Windows Defender 防火墙\允许的应用` -> 允许其他应用`verge-mihomo.exe`
 		>
 		> WEB UI 面板
 		> - metacubexd<sup>[[GitHub](https://github.com/MetaCubeX/metacubexd)]</sup><sup>[[在线预览](https://d.metacubex.one/)]</sup>
