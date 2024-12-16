@@ -1,6 +1,6 @@
 # Summary
 
-[Tutorial](tutorial.md)
+[Tutorial](Tutorial.md)
 
 # Software
 
