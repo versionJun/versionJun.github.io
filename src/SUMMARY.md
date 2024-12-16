@@ -1,5 +1,7 @@
 # Summary
 
+[Tutorial](tutorial.md)
+
 # Software
 
 - [Windows](./Software/Windows/Windows.md)
