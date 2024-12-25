@@ -16,6 +16,7 @@
       - [docker-software](./Software/Linux/Docker/docker-software.md)
     - [Armbian](./Software/Linux/Armbian/Armbian.md)
       - [X96MaxPlus搭建Armbian](./Software/Linux/Armbian/X96MaxPlus搭建Armbian.md)
+    - [H3C NX30 Pro](./Software/Linux/H3CNX30Pro.md)
 
 # []()
 
