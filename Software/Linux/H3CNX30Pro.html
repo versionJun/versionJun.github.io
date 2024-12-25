@@ -160,7 +160,87 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="h3c-nx30-pro"><a class="header" href="#h3c-nx30-pro">H3C NX30 Pro</a></h1>
+                        <h1 id="h3c-nx30-pro-折腾记录"><a class="header" href="#h3c-nx30-pro-折腾记录">H3C NX30 Pro 折腾记录</a></h1>
+<h2 id="硬件配置"><a class="header" href="#硬件配置">硬件配置</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>处理器</th><th>射频芯片</th><th>交换芯片</th><th>存储芯片</th></tr></thead><tbody>
+<tr><td>Filogic 820 MT7981B <br> 12nm A53 2x1.3GHz <br> HWNAT 2.4G&amp;5G 基带</td><td>MT7976CN <br> 3天线 160MHz 2402Mbps <br> 2天线 40MHz 576Mbps</td><td>MT7931AE</td><td>RAM 256MB <br> ROM 128MB</td></tr>
+</tbody></table>
+</div>
+<h2 id="telnet-连接"><a class="header" href="#telnet-连接">Telnet 连接</a></h2>
+<ul>
+<li>IP address: <code>路由地址</code></li>
+<li>Port: <code>99</code></li>
+<li>Username: <code>H3C</code></li>
+<li>Password: <code>路由登录密码</code></li>
+</ul>
+<h2 id="开启-ssh"><a class="header" href="#开启-ssh">开启 SSH</a></h2>
+<pre><code class="language-bash"># 下载 dropbear.ipk
+curl -o /tmp/dropbear.ipk https://downloads.openwrt.org/releases/packages-19.07/aarch64_cortex-a53/base/dropbear_2019.78-2_aarch64_cortex-a53.ipk
+
+# 安装 dropbear.ipk
+opkg install /tmp/dropbear.ipk
+
+# 启动
+/etc/init.d/dropbear enable
+/etc/init.d/dropbear start
+</code></pre>
+<h2 id="备份系统"><a class="header" href="#备份系统">备份系统</a></h2>
+<ul>
+<li>
+<p>WinSCP，文件协议选择 SCP</p>
+<ul>
+<li>主机名: <code>路由地址</code></li>
+<li>端口号: <code>22</code></li>
+<li>Username: <code>H3C</code></li>
+<li>Password: <code>路由登录密码</code></li>
+</ul>
+</li>
+<li>
+<p>在终端里执行这命令，将系统备份到 <code>tmp</code> 路径下 <code>backup.img</code> 文件，备份的过程比较慢，需要 1-2 分钟。<code>文件生成后请自行备份</code>。</p>
+<pre><code class="language-bash">dd if=/dev/mtd5 of=/tmp/backup.img
+</code></pre>
+</li>
+</ul>
+<h2 id="刷写-uboot"><a class="header" href="#刷写-uboot">刷写 uboot</a></h2>
+<ul>
+<li>
+<p><code>uboot.bin</code> 文件上传自路由器 <code>tmp</code> 路径下</p>
+</li>
+<li>
+<p>写入 uboot</p>
+<pre><code class="language-bash">mtd write /tmp/uboot.bin FIP
+</code></pre>
+</li>
+</ul>
+<h2 id="进入-uboot-firmware-update"><a class="header" href="#进入-uboot-firmware-update">进入 uboot (FIRMWARE UPDATE)</a></h2>
+<ul>
+<li>路由器断电后，先按住背后 <code>Reset</code> 恢复按钮不放，再插电，等待 <code>10s</code> 左右松开背后 <code>Reset</code></li>
+<li>PC IP分配 -&gt; 手动分配
+<ul>
+<li>IP地址: <code>192.168.1.2</code></li>
+<li>子网掩码: <code>255.255.255.0</code></li>
+<li>网关: <code>192.168.1.1</code></li>
+<li>DNS: <code>192.168.1.1</code></li>
+</ul>
+</li>
+<li>浏览器打开 <code>192.168.1.1</code> 就能打开 uboot 后台。</li>
+</ul>
+<h2 id="h3c-nx30-pro-禁止更新"><a class="header" href="#h3c-nx30-pro-禁止更新">H3C NX30 Pro 禁止更新</a></h2>
+<blockquote>
+<p>PS: 刷回官方固件后经常一觉醒来路由器<code>自动更新</code>，导致路由器直接不能用，又要进uboot刷回去，很烦人</p>
+</blockquote>
+<pre><code class="language-bash"># 停止更新
+/etc/init.d/onlineupdate stop
+/etc/init.d/onlineupdate disable
+
+# 检查是否还在运行
+ps | grep onlineupdate
+</code></pre>
+<h2 id="参考资料"><a class="header" href="#参考资料">参考资料：</a></h2>
+<ul>
+<li><a href="https://blog.qust.me/nx30pro">H3C NX30Pro 刷 openwrt 教程</a></li>
+<li><a href="https://www.right.com.cn/forum/thread-8399149-1-1.html">H3C NX30 Pro 禁止更新</a></li>
+</ul>
 
                     </main>
 
