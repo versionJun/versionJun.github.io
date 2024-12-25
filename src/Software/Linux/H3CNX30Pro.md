@@ -31,8 +31,8 @@ opkg install /tmp/dropbear.ipk
 
 - WinSCP，文件协议选择 SCP
       
-  - 主机名: `路由地址`
-  - 端口号: `22`
+  - IP address: `路由地址`
+  - Port: `22`
   - Username: `H3C`
   - Password: `路由登录密码`
   
@@ -76,5 +76,6 @@ ps | grep onlineupdate
 ```
   
 ## 参考资料：
+- [H3C NX30 PRO 闭源驱动Openwrt/GL.inet固件/刷回原厂方法](https://www.right.com.cn/forum/thread-8291820-1-1.html)
 - [H3C NX30Pro 刷 openwrt 教程](https://blog.qust.me/nx30pro)
 - [H3C NX30 Pro 禁止更新](https://www.right.com.cn/forum/thread-8399149-1-1.html)
