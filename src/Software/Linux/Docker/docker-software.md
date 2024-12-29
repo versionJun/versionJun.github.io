@@ -1,4 +1,4 @@
-~ updateDate: 2024-12-07
+~ updateDate: 2024-12-30
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -23,6 +23,7 @@
 	* [SpeedTest](#speedtest)
 	* [OpenSpeedTest](#openspeedtest)
 	* [dkTurbo](#dkturbo)
+	* [CFnat](#cfnat)
 * [LinuxServer](#linuxserver)
     * [Nginx](#nginx)
 * [Science](#science)
@@ -87,6 +88,9 @@
     - #### [OpenSpeedTest](https://openspeedtest.com/)<a id="openspeedtest"></a><sup>[[GitHub](https://github.com/openspeedtest/Speed-Test)]</sup><sup>[[Docker](https://hub.docker.com/r/openspeedtest/latest)]</sup> -  Free & Open-Source HTML5 Network Performance Estimation Tool.
 
     - #### dkTurbo<a id="dkturbo"></a><sup>[[Docker](https://hub.docker.com/r/cp0204/dkturbo)]</sup> - Docker 镜像加速器
+
+    - #### CFnat<a id="cfnat"></a><sup>[[GitHub](https://github.com/cmliu/CFnat-docker)]</sup><sup>[[Docker](https://hub.docker.com/r/cmliu/cfnat)]</sup> - CFnat 是为优化 Cloudflare 数据中心性能而设计的 Docker 镜像，支持多架构，通过实时筛选并连接低延迟 IP，适用于网络加速与高效流量转发场景。
+
 
 
 - ### LinuxServer
