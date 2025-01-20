@@ -1,4 +1,4 @@
-~ updateDate: 2024-12-30
+~ updateDate: 2025-01-20
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -232,7 +232,7 @@
         x-casaos:
             author: self
             category: self
-            hostname: 192.168.1.89
+            hostname: ""
             icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
             index: /
             is_uncontrolled: false
@@ -240,7 +240,7 @@
             scheme: http
             title:
                 custom: clash
-        name: clash
+
 
         ```
 
