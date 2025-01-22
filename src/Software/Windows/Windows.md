@@ -1,4 +1,4 @@
-~ updateDate: 2024-12-07
+~ updateDate: 2025-01-22
 
 # Windows-Software
 
@@ -96,6 +96,8 @@
 		* [shadowsocks-windows](#shadowsocks-windows)
 		* [v2rayN](#v2rayn)
 		* [WinXray](#winxray)
+	* [Science-etc](#science-etc)
+		* [CloudFlare](#cloudflare)
 	* [System](#system)
 		* [ITELLYOU](#itellyou)
 		* [HEU KMS Activator](#heu-kms-activator)
@@ -142,6 +144,8 @@
 		> - Listen 1<sup>[[GitHub](https://github.com/listen1/listen1_chrome_extension/releases)]</sup>
 		> - <s>[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)<sup>[[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)]</sup> - 管理&切换多个代理设置</s> `v3问题`
 	    > 	- [ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped)<sup>[[GitHub](https://github.com/zero-peak/ZeroOmega)]</sup> - forked from SwitchyOmega compatible with manifest v3
+	    > 		- pluwen/china-domain-allowlist<sup>[[GitHub](https://github.com/pluwen/china-domain-allowlist)]</sup> - 常用中国网站白名单，纯列表，用于 SwitchyOmega，控制不走代理的网站。 
+	    > 		- entr0pia/SwitchyOmega-Whitelist<sup>[[GitHub](https://github.com/entr0pia/SwitchyOmega-Whitelist)]</sup> - 中国大陆域名, SwitchyOmega 白名单规则, 自动更新 
 		> - [Reproductor M3U8 - HLS + DASH Player](https://chrome.google.com/webstore/detail/lcipembjfkmeggpihdpdgnjildgniffl)
 		> - [SetupVPN - Lifetime Free VPN](https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)<sup>[[Official](https://setupvpn.com/)]</sup>
 		> - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)<sup>[[Official](https://www.tampermonkey.net/)]</sup>
@@ -626,6 +630,13 @@
 	- #### v2rayN<a id="v2rayn"></a><sup>[[GitHub](https://github.com/2dust/v2rayN)]</sup>
 
 	- #### WinXray<a id="winxray"></a><sup>[[GitHub](https://github.com/TheMRLL/WinXray/releases)]</sup>
+
+- ### Science-etc
+- 
+    - #### [CloudFlare](https://dash.cloudflare.com/)
+
+		> - XIU2/CloudflareSpeedTest<sup>[[GitHub](https://github.com/XIU2/CloudflareSpeedTest)]</sup> - 「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP ~ 
+		> - cmliu/CFnat-Windows-GUI<sup>[[GitHub](https://github.com/cmliu/CFnat-Windows-GUI)]</sup> -  CFnat 为 Windows 用户设计的 GUI 程序界面。 
 
 - ### System
 
