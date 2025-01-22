@@ -2246,7 +2246,7 @@ docker exec -it [container ID or NAMES] bash
 <li><a href="https://dunwu.github.io/linux-tutorial/docker/">dunwu.github.io/linux-tutorial/docker</a> - Docker 教程</li>
 <li><a href="https://www.runoob.com/docker/docker-command-manual.html">www.runoob.com/docker/docker-command-manual.html</a> - Docker 命令大全</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><p>~ updateDate: 2025-01-20</p>
+<div style="break-before: page; page-break-before: always;"></div><p>~ updateDate: 2025-01-22</p>
 <h1 id="docker-software"><a class="header" href="#docker-software">docker-software</a></h1>
 <ul>
 <li><a href="https://hub.docker.com/">Docker Hub</a></li>
@@ -2413,6 +2413,150 @@ docker exec -it [container ID or NAMES] bash
 </li>
 <li>
 <h4 id="cfnatgithubdocker---cfnat-是为优化-cloudflare-数据中心性能而设计的-docker-镜像支持多架构通过实时筛选并连接低延迟-ip适用于网络加速与高效流量转发场景"><a class="header" href="#cfnatgithubdocker---cfnat-是为优化-cloudflare-数据中心性能而设计的-docker-镜像支持多架构通过实时筛选并连接低延迟-ip适用于网络加速与高效流量转发场景">CFnat<a id="cfnat"></a><sup>[<a href="https://github.com/cmliu/CFnat-docker">GitHub</a>]</sup><sup>[<a href="https://hub.docker.com/r/cmliu/cfnat">Docker</a>]</sup> - CFnat 是为优化 Cloudflare 数据中心性能而设计的 Docker 镜像，支持多架构，通过实时筛选并连接低延迟 IP，适用于网络加速与高效流量转发场景。</a></h4>
+  <details>
+  <summary> <strong>docker-compose</strong> </summary>
+<ul>
+<li>
+<p>bash</p>
+<pre><code class="language-bash">
+# 创建目录
+mkdir -p /DATA/cfnat
+
+# 进入该目录
+cd /DATA/cfnat
+
+# 上传docker-compose.yml文件
+# TODO: 上传docker-compose.yml文件
+
+# Running
+docker compose up -d
+
+# Update and Restart
+docker compose pull &amp;&amp; docker compose up -d
+
+</code></pre>
+</li>
+<li>
+<p>docker-compose.yml</p>
+<pre><code class="language-yml"># version: '3'
+
+services:
+    cfnat1:
+            container_name: cfnat_HKG
+            image: cmliu/cfnat:latest
+            environment:
+                - colo=HKG  # 筛选数据中心例如 HKG,SJC,LAX.电信/联通 推荐 SJC,LAX.移动/广电 推荐 HKG (多个数据中心用逗号隔开,留空则忽略匹配)
+                - delay=180  # 有效延迟（毫秒），超过此延迟将断开连接 (default 300)
+                #- ips=4  # 指定生成IPv4还是IPv6地址 (default "4")
+                - port=443  # 转发的目标端口 (default 443)
+                #- tls=true  # 是否为 TLS 端口 (default true)
+                #- random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
+                #- ipnum=10  # 提取的有效IP数量 (default 20)
+                #- num=10  # 目标负载 IP 数量 (default 10)
+                - task=50  # 并发请求最大协程数 (default 100)
+                #- code=200  # HTTP/HTTPS 响应状态码 (default 200)
+                #- domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
+            ports:
+                - "1234:1234"  # 将主机的 1234 端口映射到容器的 1234 端口
+            restart: always
+
+    cfnat2:
+            container_name: cfnat_SJC
+            image: cmliu/cfnat:latest
+            environment:
+                - colo=SJC  # 筛选数据中心例如 HKG,SJC,LAX.电信/联通 推荐 SJC,LAX.移动/广电 推荐 HKG (多个数据中心用逗号隔开,留空则忽略匹配)
+                - delay=200  # 有效延迟（毫秒），超过此延迟将断开连接 (default 300)
+                #- ips=4  # 指定生成IPv4还是IPv6地址 (default "4")
+                - port=443  # 转发的目标端口 (default 443)
+                # - tls=true  # 是否为 TLS 端口 (default true)
+                #- random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
+                #- ipnum=10  # 提取的有效IP数量 (default 20)
+                #- num=10  # 目标负载 IP 数量 (default 10)
+                - task=50  # 并发请求最大协程数 (default 100)
+                #- code=200  # HTTP/HTTPS 响应状态码 (default 200)
+                #- domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
+            ports:
+                - "2234:1234"  # 将主机的 2234 端口映射到容器的 1234 端口
+            restart: always
+
+</code></pre>
+</li>
+</ul>
+  </details>
+  <details>
+  <summary> <strong>docker-compose CasaOS</strong> </summary>
+<pre><code class="language-yml">    
+name: cfnat
+services:
+    cfnat1:
+        cpu_shares: 90
+        command: []
+        container_name: cfnat_HKG
+        deploy:
+            resources:
+                limits:
+                    memory: "3768582144"
+        environment:
+            colo: HKG
+            delay: "180"
+            port: "443"
+            task: "50"
+        hostname: cfnat_HKG
+        image: cmliu/cfnat:latest
+        labels:
+            icon: https://cdn.jsdelivr.net/gh/cmliu/CFnat-Windows-GUI@refs/heads/master/favicon.ico
+        networks:
+            default: null
+        ports:
+            - mode: ingress
+            target: 1234
+            published: "1234"
+            protocol: tcp
+        restart: always
+    cfnat2:
+        cpu_shares: 90
+        command: []
+        container_name: cfnat_SJC
+        deploy:
+            resources:
+                limits:
+                    memory: "3768582144"
+        environment:
+            colo: SJC
+            delay: "200"
+            port: "443"
+            task: "50"
+        hostname: cfnat_SJC
+        image: cmliu/cfnat:latest
+        labels:
+            icon: https://cdn.jsdelivr.net/gh/cmliu/CFnat-Windows-GUI@refs/heads/master/favicon.ico
+        networks:
+            default: null
+        ports:
+            - mode: ingress
+            target: 1234
+            published: "2234"
+            protocol: tcp
+        restart: always
+networks:
+    default:
+        name: cfnat_default
+x-casaos:
+    author: self
+    category: self
+    hostname: ""
+    icon: https://cdn.jsdelivr.net/gh/cmliu/CFnat-Windows-GUI@refs/heads/master/favicon.ico
+    index: /
+    is_uncontrolled: false
+    port_map: ""
+    scheme: http
+    title:
+        custom: CFnat
+
+
+
+</code></pre>
+  </details>
 </li>
 </ul>
 </li>
