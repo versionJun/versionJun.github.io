@@ -1,4 +1,4 @@
-~ updateDate: 2025-01-28
+~ updateDate: 2025-02-03
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -129,19 +129,19 @@
                             - colo=HKG  # 筛选数据中心例如 HKG,SJC,LAX.电信/联通 推荐 SJC,LAX.移动/广电 推荐 HKG (多个数据中心用逗号隔开,留空则忽略匹配)
                             - delay=300  # 有效延迟（毫秒），超过此延迟将断开连接 (default 300)
                             - ips=6  # 指定生成IPv4还是IPv6地址 (default "4")
-                            - port=443  # 转发的目标端口 (default 443)
-                            #- tls=true  # 是否为 TLS 端口 (default true)
-                            #- random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
-                            #- ipnum=10  # 提取的有效IP数量 (default 20)
-                            #- num=10  # 目标负载 IP 数量 (default 10)
+                            - port=443  # 转发的目标端口 (default 443) http_port: 80,8080,8880,2052,2082,2086,2095 https_port: 443,8443,2053,2083,2087,2096
+                            # - tls=true  # 是否为 TLS 端口 (default true)
+                            # - random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
+                            # - ipnum=10  # 提取的有效IP数量 (default 20)
+                            # - num=10  # 目标负载 IP 数量 (default 10)
                             - task=33  # 并发请求最大协程数 (default 100)
-                            #- code=200  # HTTP/HTTPS 响应状态码 (default 200)
-                            #- domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
+                            # - code=200  # HTTP/HTTPS 响应状态码 (default 200)
+                            # - domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
                         ports:
                             - "1234:1234"  # 将主机的 1234 端口映射到容器的 1234 端口
                         restart: always
                         networks:
-                            - nt
+                            - net
 
                 cfnat2:
                         container_name: cfnat2
@@ -150,19 +150,19 @@
                             - colo=SJC,LAX  # 筛选数据中心例如 HKG,SJC,LAX.电信/联通 推荐 SJC,LAX.移动/广电 推荐 HKG (多个数据中心用逗号隔开,留空则忽略匹配)
                             - delay=300  # 有效延迟（毫秒），超过此延迟将断开连接 (default 300)
                             - ips=6  # 指定生成IPv4还是IPv6地址 (default "4")
-                            - port=443  # 转发的目标端口 (default 443)
+                            - port=443  # 转发的目标端口 (default 443) http_port: 80,8080,8880,2052,2082,2086,2095 https_port: 443,8443,2053,2083,2087,2096
                             # - tls=true  # 是否为 TLS 端口 (default true)
-                            #- random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
-                            #- ipnum=10  # 提取的有效IP数量 (default 20)
-                            #- num=10  # 目标负载 IP 数量 (default 10)
+                            # - random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
+                            # - ipnum=10  # 提取的有效IP数量 (default 20)
+                            # - num=10  # 目标负载 IP 数量 (default 10)
                             - task=34  # 并发请求最大协程数 (default 100)
-                            #- code=200  # HTTP/HTTPS 响应状态码 (default 200)
-                            #- domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
+                            # - code=200  # HTTP/HTTPS 响应状态码 (default 200)
+                            # - domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
                         ports:
                             - "2234:1234"  # 将主机的 2234 端口映射到容器的 1234 端口
                         restart: always
                         networks:
-                            - nt
+                            - net
                         
                 cfnat3:
                         container_name: cfnat3
@@ -171,22 +171,22 @@
                             - colo=SIN  # 筛选数据中心例如 HKG,SJC,LAX.电信/联通 推荐 SJC,LAX.移动/广电 推荐 HKG (多个数据中心用逗号隔开,留空则忽略匹配)
                             - delay=300  # 有效延迟（毫秒），超过此延迟将断开连接 (default 300)
                             - ips=6  # 指定生成IPv4还是IPv6地址 (default "4")
-                            - port=443  # 转发的目标端口 (default 443)
+                            - port=443  # 转发的目标端口 (default 443) http_port: 80,8080,8880,2052,2082,2086,2095 https_port: 443,8443,2053,2083,2087,2096
                             # - tls=true  # 是否为 TLS 端口 (default true)
-                            #- random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
-                            #- ipnum=10  # 提取的有效IP数量 (default 20)
-                            #- num=10  # 目标负载 IP 数量 (default 10)
+                            # - random=true  # 是否随机生成IP，如果为false，则从CIDR中拆分出所有IP (default true)
+                            # - ipnum=10  # 提取的有效IP数量 (default 20)
+                            # - num=10  # 目标负载 IP 数量 (default 10)
                             - task=33  # 并发请求最大协程数 (default 100)
-                            #- code=200  # HTTP/HTTPS 响应状态码 (default 200)
-                            #- domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
+                            # - code=200  # HTTP/HTTPS 响应状态码 (default 200)
+                            # - domain=cloudflaremirrors.com/debian # 响应状态码检查的域名地址 (default "cloudflaremirrors.com/debian")
                         ports:
                             - "3234:1234"  # 将主机的 3234 端口映射到容器的 1234 端口
                         restart: always
                         networks:
-                            - nt
+                            - net
 
             networks:
-                nt:
+                net:
                     enable_ipv6: true
                     driver: bridge
                     driver_opts:
@@ -194,6 +194,7 @@
                     ipam:
                         config:
                             - subnet: 172.23.0.0/16
+                            gateway: 172.23.0.1
                             - subnet: "240e:3b1:f185:c8d0:4000::/66"
                             gateway: 240e:3b1:f185:c8d0:4000::1
 
@@ -229,7 +230,7 @@
                 labels:
                     icon: https://cdn.jsdelivr.net/gh/cmliu/CFnat-Windows-GUI@refs/heads/master/favicon.ico
                 networks:
-                    nt: null
+                    net: null
                 ports:
                     - mode: ingress
                     target: 1234
@@ -255,7 +256,7 @@
                 labels:
                     icon: https://cdn.jsdelivr.net/gh/cmliu/CFnat-Windows-GUI@refs/heads/master/favicon.ico
                 networks:
-                    nt: null
+                    net: null
                 ports:
                     - mode: ingress
                     target: 1234
@@ -281,7 +282,7 @@
                 labels:
                     icon: https://cdn.jsdelivr.net/gh/cmliu/CFnat-Windows-GUI@refs/heads/master/favicon.ico
                 networks:
-                    nt: null
+                    net: null
                 ports:
                     - mode: ingress
                     target: 1234
@@ -291,14 +292,15 @@
         networks:
             default:
                 name: cfnat_default
-            nt:
-                name: cfnat_nt
+            net:
+                name: cfnat_net
                 driver: bridge
                 driver_opts:
                     com.docker.network.enable_ipv6: "true"
                 ipam:
                     config:
                         - subnet: 172.23.0.0/16
+                        gateway: 172.23.0.1
                         - subnet: 240e:3b1:f185:c8d0:4000::/66
                         gateway: 240e:3b1:f185:c8d0:4000::1
                 enable_ipv6: true
