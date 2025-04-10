@@ -1,4 +1,4 @@
-~ updateDate: 2024-11-27
+~ updateDate: 2025-04-11
 
 # Android-Software
 
@@ -24,6 +24,7 @@
 		* [termux](#termux)
 		* [李跳跳](#李跳跳)
 		* [清浊](#清浊)
+		* [GKD](#gkd)
 	* [Map](#map)
 		* [Organic Maps](#organicmaps)
 	* [Media](#media)
@@ -101,6 +102,11 @@
 
 	- #### [清浊](https://www.dircleaner.com/) - 清理工具
 
+	- #### [GKD](https://gkd.li/)<sup>[[GitHub](https://github.com/gkd-kit/gkd/releases)]</sup> - 一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用
+
+		> 梦念逍遥 の GKD 订阅规则：[https://github.com/MengNianxiaoyao/gkd-subscription](https://github.com/MengNianxiaoyao/gkd-subscription)
+		>
+		> 更多规则：[https://github.com/topics/gkd-subscription](https://github.com/topics/gkd-subscription)
 - ### Map
 
 	- Organic Maps<a id="organicmaps"></a><sup>[[GitHub](https://github.com/organicmaps/organicmaps/releases)]</sup><sup>[[F-Droid](https://f-droid.org/en/packages/app.organicmaps/)]</sup>
