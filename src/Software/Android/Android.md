@@ -1,4 +1,4 @@
-~ updateDate: 2025-04-11
+~ updateDate: 2025-05-29
 
 # Android-Software
 
@@ -22,7 +22,7 @@
 	* [ETC](#etc)
 		* [质感文件](#质感文件)
 		* [termux](#termux)
-		* [李跳跳](#李跳跳)
+		* <s>[李跳跳](#李跳跳)</s>
 		* [清浊](#清浊)
 		* [GKD](#gkd)
 	* [Map](#map)
@@ -98,11 +98,11 @@
 		>		- WebUI-Aria2<sup>[[GitHub](https://github.com/ziahamza/webui-aria2)]</sup>
 		>		- AriaNg<sup>[[GitHub](https://github.com/mayswind/AriaNg)]</sup>
 	
-	- #### 李跳跳<a id="李跳跳"></a><sup>[[weibo](https://weibo.com/u/7266690401)]</sup>
+	- #### <s>李跳跳<a id="李跳跳"></a><sup>[[weibo](https://weibo.com/u/7266690401)]</sup></s>
 
 	- #### [清浊](https://www.dircleaner.com/) - 清理工具
 
-	- #### [GKD](https://gkd.li/)<sup>[[GitHub](https://github.com/gkd-kit/gkd/releases)]</sup> - 一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用
+	- #### [GKD](https://gkd.li/)<a id="gkd"></a><sup>[[GitHub](https://github.com/gkd-kit/gkd/releases)]</sup> - 一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用
 
 		> 梦念逍遥 の GKD 订阅规则：[https://github.com/MengNianxiaoyao/gkd-subscription](https://github.com/MengNianxiaoyao/gkd-subscription)
 		>
