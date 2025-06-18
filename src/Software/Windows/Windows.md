@@ -1,4 +1,4 @@
-~ updateDate: 2025-01-22
+~ updateDate: 2025-06-18
 
 # Windows-Software
 
@@ -15,7 +15,7 @@
 	* [Cloud Driver](#cloud-driver)
 		* [阿里云盘](#阿里云盘)
 		* [坚果云](#坚果云)
-		* [Alist](#alist)
+		* <s>[Alist](#alist)</s>
 		* [Rclone](#rclone)
 	* [Develop](#develop)
 		* [Eclipse](#eclipse)
@@ -131,6 +131,7 @@
 		> - [视频弹出工具](https://addons.mozilla.org/zh-CN/firefox/addon/popup-tool/)<sup>[[GitHub](https://github.com/harytfw/popup-tool/)]</sup>
 		> - [沙拉查词-聚合词典划词翻译](https://addons.mozilla.org/zh-CN/firefox/addon/ext-saladict/)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[GitHub](https://github.com/crimx/ext-saladict/releases)]</sup>
 		> - [沉浸式翻译](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[GitHub](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+		> - [Search by Image](https://addons.mozilla.org/zh-CN/firefox/addon/search_by_image/)<sup>[[GitHub](https://github.com/dessant/search-by-image?tab=readme-ov-file)]</sup>
 
 	- #### [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/)
 
@@ -156,6 +157,8 @@
 		> - [捕捉网页截图 - FireShot的](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg)<sup>[[Official](https://getfireshot.com/)]</sup>
 		> - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg)<sup>[[Official](https://saladict.crimx.com/)]</sup><sup>[[GitHub](https://github.com/crimx/ext-saladict/releases)]</sup>
 		> - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm_source=ext_app_menu)<sup>[[Official](https://immersivetranslate.com/)]</sup><sup>[[GitHub](https://github.com/immersive-translate/immersive-translate/releases)]</sup>
+		> - [Search by Image](https://chrome.google.com/webstore/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci)<sup>[[GitHub](https://github.com/dessant/search-by-image?tab=readme-ov-file)]</sup>
+		> - [AHA Music - 浏览器中的音乐雷达](https://chromewebstore.google.com/detail/aha-music-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9A%84%E9%9F%B3%E4%B9%90%E9%9B%B7%E8%BE%BE/dpacanjfikmhoddligfbehkpomnbgblf)<sup>[[Official](https://aha-music.com/)]</sup><sup>
 
 
 - ### Compression
@@ -174,9 +177,10 @@
 
 	- #### [坚果云](https://www.jianguoyun.com/)
 
-	- #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist/releases)]</sup>
+	- #### <s>[Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist/releases)]</sup></s> `已被出售`
 
 		> - ykxVK8yL5L/alist<sup>[[GitHub](https://github.com/ykxVK8yL5L/alist/releases)]</sup> - `ThunderX -> 离线下载 -> storage`
+		> - [OpenList](https://oplist.org/)<sup>[[GitHub](https://github.com/OpenListTeam/OpenList)]</sup> - 一个更可信、可持续的 AList 开源替代方案，防范未来可能的闭源、黑箱或不可信变更。
 
 		<details>
 
