@@ -225,40 +225,16 @@
 
 			--links
 
-			问题背景: 
-			在使用rclone进行Google Drive网络挂载时，Windows系统用户可能会遇到一个常见的错误提示："symlinks not supported without the --links flag"。这个错误表明系统尝试访问符号链接时遇到了限制
+			现象: symlinks not supported without the --links flag: /
 
-			技术原理:
-			符号链接（Symbolic Links）是文件系统中的一种特殊文件类型，它实际上是一个指向另一个文件或目录的引用。在类Unix系统中广泛使用，但在Windows系统中支持相对有限。rclone作为一个跨平台的文件同步工具，在Windows平台上通过WinFSP实现文件系统挂载功能。WinFSP是一个开源的Windows文件系统代理，它允许用户空间程序实现完整的文件系统。
-
-			问题分析:
+			Why:  
 			当rclone在Windows上以网络模式挂载远程存储时，默认情况下会禁用符号链接支持。这是因为：
 			Windows对符号链接的支持不如Unix系统完善
 			网络共享环境下符号链接可能带来安全隐患
 			不同操作系统间符号链接的实现存在差异
 			错误日志显示系统尝试读取根目录"/"作为符号链接，这触发了rclone的保护机制。
 
-			解决方案:
-			要解决这个问题，需要在挂载命令中显式启用符号链接支持。具体方法是在rclone mount命令后添加--links参数。
-
-			这个参数有以下作用：
-
-			- 允许文件系统处理符号链接
-			- 启用符号链接的创建和解析功能
-			- 保持与Unix系统行为的兼容性
-
-			最佳实践:
-			对于Windows用户使用rclone挂载远程存储时，建议：
-
-			1.明确是否需要符号链接功能
-			2.评估安全风险后再决定是否启用
-			3.使用完整命令格式：rclone mount remote: X: --network-mode --links
-			4.注意符号链接在跨平台环境中的兼容性问题
-
-			总结:
-			rclone在Windows平台上的符号链接支持是一个需要特别注意的功能点。
-			通过--links参数可以灵活控制符号链接的行为，既保证了安全性又提供了必要的功能支持。
-			理解这一机制有助于用户更好地利用rclone进行跨平台文件管理。
+			Fix: rclone mount命令后添加--links参数
 	
 		```
 
