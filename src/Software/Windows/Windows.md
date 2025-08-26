@@ -1,4 +1,4 @@
-~ updateDate: 2025-06-19
+~ updateDate: 2025-08-17
 
 # Windows-Software
 
@@ -447,6 +447,8 @@
 	- #### [FFmpeg](https://ffmpeg.org/download.html)
 
 		> - [HandBrake](https://handbrake.fr/downloads.php)<sup>[[GitHub](https://github.com/HandBrake/HandBrake/releases)]</sup> - GUI for ffmpeg   
+
+		> - FFmpegFreeUI<sup>[[GitHub](https://github.com/Lake1059/FFmpegFreeUI)]</sup> -  Windows 上的 FFmpeg 的专业交互外壳
 
 		<details>
 
