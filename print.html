@@ -39,6 +39,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -95,10 +96,13 @@
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
+                sidebar_toggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -152,7 +156,12 @@
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -190,7 +199,7 @@
 <p>tech-shrimp/me<sup>[<a href="https://github.com/tech-shrimp/me">GitHub</a>]</sup> - 爬爬虾技术资源汇总</p>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><p>~ updateDate: 2025-06-19</p>
+<div style="break-before: page; page-break-before: always;"></div><p>~ updateDate: 2025-08-17</p>
 <h1 id="windows-software"><a class="header" href="#windows-software">Windows-Software</a></h1>
 <h2 id="目录"><a class="header" href="#目录">目录</a></h2>
 <ul>
@@ -819,6 +828,11 @@ mp.add_key_binding("ctrl+v", openURL)
 <blockquote>
 <ul>
 <li><a href="https://handbrake.fr/downloads.php">HandBrake</a><sup>[<a href="https://github.com/HandBrake/HandBrake/releases">GitHub</a>]</sup> - GUI for ffmpeg</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>FFmpegFreeUI<sup>[<a href="https://github.com/Lake1059/FFmpegFreeUI">GitHub</a>]</sup> -  Windows 上的 FFmpeg 的专业交互外壳</li>
 </ul>
 </blockquote>
   <details>
@@ -3666,6 +3680,7 @@ $ git push -u origin main
             window.setTimeout(window.print, 100);
         });
         </script>
+
 
     </div>
     </body>
