@@ -1,4 +1,4 @@
-~ updateDate: 2025-08-26
+~ updateDate: 2025-09-07
 
 # Windows-Software
 
@@ -426,13 +426,9 @@
 
 		</details>
 		
-	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a><sup>[local]</sup><sup>[[吾爱](http://zhannei.baidu.com/cse/site?q=Spotify&cc=52pojie.cn&ie=gbk)]</sup>
+	- #### [Spotify](https://www.spotify.com/)<a id="spotify"></a>
 		
-		> local:
-		> - <s>Spotify for Windows 1.1.67.586.gbb5ef64e</s>
-		> - Spotify Windows (32 bit) 版 1.2.13.661.ga588f749
-
-		> SpotX <sup>[[GitHub](https://github.com/SpotX-Official/SpotX)]</sup> - SpotX是一款Windows平台Spotify修改版客户端，具备广告屏蔽、隐藏播客和有声书、阻止自动更新等功能。此外，它还激活了多项实验性特性，支持快速安装和更新，并提供多种安装选项。SpotX旨在优化Spotify使用体验，使其更加流畅和功能丰富。
+		> SpotX <sup>[[GitHub](https://github.com/SpotX-Official/SpotX)]</sup> - SpotX是一款Windows平台Spotify修改版客户端，具备广告屏蔽、隐藏播客和有声书、阻止自动更新等功能。此外，它还激活了多项实验性特性，支持快速安装和更新，并提供多种安装选项。
 
 	- #### [网易云](https://music.163.com/)
 
@@ -447,7 +443,6 @@
 	- #### [FFmpeg](https://ffmpeg.org/download.html)
 
 		> - [HandBrake](https://handbrake.fr/downloads.php)<sup>[[GitHub](https://github.com/HandBrake/HandBrake/releases)]</sup> - GUI for ffmpeg   
-
 		> - FFmpegFreeUI<sup>[[GitHub](https://github.com/Lake1059/FFmpegFreeUI)]</sup> -  Windows 上的 FFmpeg 的专业交互外壳
 
 		<details>
