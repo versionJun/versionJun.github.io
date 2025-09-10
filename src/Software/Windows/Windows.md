@@ -1,4 +1,4 @@
-~ updateDate: 2025-09-07
+~ updateDate: 2025-09-10
 
 # Windows-Software
 
@@ -137,7 +137,8 @@
 
 		> chrome://flags/#enable-parallel-downloading - 多线程下载
 
-		> - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)<sup>[[Official](https://blog.adblockplus.org/releases)]</sup>
+		> - <s>[Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)<sup>[[Official](https://blog.adblockplus.org/releases)]</sup></s> 
+		> - [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) - 基于最新浏览器扩展接口（Manifest Version 3）打造
 		> - [Aria2 Explorer](https://chrome.google.com/webstore/detail/aria2-explorer/mpkodccbngfoacfalldjimigbofkhgjn)<sup>[[GitHub](https://github.com/alexhua/Aria2-Explorer/releases)]</sup>
 		> - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)<sup>[[GitHub](https://github.com/darkreader/darkreader/releases)]</sup>
 		> - [Floating Player - Picture-in-Picture Mode](https://chrome.google.com/webstore/detail/picture-in-picture-floati/oobhedhmcdceknhbgjaeikeoaphaajlf) - 瀏覽器浮動視頻播放器
