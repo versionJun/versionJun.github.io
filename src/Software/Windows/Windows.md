@@ -1,4 +1,4 @@
-~ updateDate: 2025-09-10
+~ updateDate: 2025-09-17
 
 # Windows-Software
 
@@ -486,7 +486,7 @@
 		
 	- #### Whisper<a id="whisper"></a><sup>[[GitHub](https://github.com/Const-me/Whisper/releases)]</sup>  - [OpenAI's Whisper](https://github.com/openai/whisper) 自动语音识别
 	
-	- #### video-subtitle-extractor<a id="video-subtitle-extractor"></a><sup>[[GitHub](https://github.com/ggerganov/whisper.cpp)]</sup> - 视频硬字幕提取
+	- #### video-subtitle-extractor<a id="video-subtitle-extractor"></a><sup>[[GitHub](https://github.com/YaoFANGUK/video-subtitle-extractor)]</sup> - 视频硬字幕提取
 
 - ### Messaging
 
