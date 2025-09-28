@@ -1,4 +1,4 @@
-~ updateDate: 2025-09-28
+~ updateDate: 2025-09-29
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -373,9 +373,9 @@
 
             services:
                 # Mihomo Core
-                meta:
-                    container_name: meta
-                    image: docker.io/metacubex/mihomo
+                mihomo:
+                    container_name: mihomo
+                    image: docker.io/metacubex/mihomo:latest
                     restart: unless-stopped
                     pid: host
                     ipc: host
@@ -387,7 +387,7 @@
                     security_opt:
                     - apparmor=unconfined
                     volumes:
-                    - ./DATA/clash:/root/.config/mihomo
+                    - ./mihomo:/root/.config/mihomo
                     - /dev/net/tun:/dev/net/tun
                     # 共享host的时间环境
                     - /etc/timezone:/etc/timezone:ro
@@ -396,7 +396,7 @@
                 # metacubexd Dashboard
                 metacubexd:
                     container_name: metacubexd
-                    image: ghcr.io/metacubex/metacubexd
+                    image: ghcr.io/metacubex/metacubexd:latest
                     restart: unless-stopped
                     environment:
                     - TZ=Asia/Shanghai
@@ -404,6 +404,7 @@
                     ports:
                     - '9097:80'
                     volumes:
+                    - ./metacubexd:/config/caddy
                     # 共享host的时间环境
                     - /etc/timezone:/etc/timezone:ro
                     - /etc/localtime:/etc/localtime:ro
@@ -419,89 +420,14 @@
                     ports:
                     - '9098:80'
                     volumes:
+                    - ./zashboard:/config/caddy
                     # 共享host的时间环境
                     - /etc/timezone:/etc/timezone:ro
                     - /etc/localtime:/etc/localtime:ro
             ```
 
         </details>
-
-        <details>
-
-		<summary> <strong>docker-compose CasaOS</strong> </summary>
-
-        ```yml
-            
-        name: clash
-        services:
-            meta:
-                cap_add:
-                    - ALL
-                cpu_shares: 90
-                command: []
-                container_name: meta
-                deploy:
-                    resources:
-                        limits:
-                            memory: "3768582144"
-                hostname: meta
-                image: docker.io/metacubex/mihomo:latest
-                ipc: host
-                labels:
-                    icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
-                network_mode: host
-                pid: host
-                restart: always
-                volumes:
-                    - type: bind
-                    source: /DATA/AppData/clash/DATA/AppData/clash
-                    target: /root/.config/mihomo
-                    bind:
-                        create_host_path: true
-                    - type: bind
-                    source: /dev/net/tun
-                    target: /dev/net/tun
-                    bind:
-                        create_host_path: true
-            metacubexd:
-                cpu_shares: 90
-                command: []
-                container_name: metacubexd
-                deploy:
-                    resources:
-                        limits:
-                            memory: "3768582144"
-                hostname: metacubexd
-                image: ghcr.io/metacubex/metacubexd:latest
-                labels:
-                    icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
-                networks:
-                    default: null
-                ports:
-                    - mode: ingress
-                    target: 80
-                    published: "8888"
-                    protocol: tcp
-                restart: always
-        networks:
-            default:
-                name: clash_default
-        x-casaos:
-            author: self
-            category: self
-            hostname: ""
-            icon: https://cdn.jsdelivr.net/gh/MetaCubeX/metacubexd@main/public/pwa-192x192.png
-            index: /
-            is_uncontrolled: false
-            port_map: "8888"
-            scheme: http
-            title:
-                custom: clash
-
-
-        ```
-
-        </details>
+		
 
     - #### v2rayA<a id="v2raya"></a><sup>[[GitHub](https://github.com/v2rayA/v2rayA)]</sup><sup>[[Docker](https://hub.docker.com/r/mzz2017/v2raya)]</sup>
 
