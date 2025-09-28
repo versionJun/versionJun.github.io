@@ -1,4 +1,4 @@
-~ updateDate: 2025-02-03
+~ updateDate: 2025-09-28
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -337,6 +337,7 @@
 		> WEB UI Dashboard
 		> - metacubexd<sup>[[GitHub](https://github.com/MetaCubeX/metacubexd)]</sup><sup>[[在线预览](https://d.metacubex.one/)]</sup><sup>[[Docker](https://github.com/metacubex/metacubexd/pkgs/container/metacubexd)]</sup>
 		> - Yacd-meta<sup>[[GitHub](https://github.com/MetaCubeX/Yacd-meta)]</sup><sup>[[在线预览](https://yacd.metacubex.one)]</sup>
+		> - zashboard<sup>[[GitHub](https://github.com/Zephyruso/zashboard)]</sup><sup>[[在线预览](https://board.zash.run.place/)]</sup><sup>[[Docker](https://github.com/Zephyruso/zashboard/pkgs/container/zashboard)]</sup>
         >
         > [mihomo + metacubexd + docker compose + nginx 反代教程](https://github.com/MetaCubeX/metacubexd/discussions/638)
 
@@ -371,27 +372,56 @@
             # version: '3'
 
             services:
-                # Mihomo Dashboard
-                metacubexd:
-                    container_name: metacubexd
-                    image: ghcr.io/metacubex/metacubexd
-                    restart: always
-                    ports:
-                    - '80:80'
-
                 # Mihomo Core
                 meta:
                     container_name: meta
                     image: docker.io/metacubex/mihomo
-                    restart: always
+                    restart: unless-stopped
                     pid: host
                     ipc: host
                     network_mode: host
+                    environment:
+                    - TZ=Asia/Shanghai
                     cap_add:
                     - ALL
+                    security_opt:
+                    - apparmor=unconfined
                     volumes:
                     - ./DATA/clash:/root/.config/mihomo
                     - /dev/net/tun:/dev/net/tun
+                    # 共享host的时间环境
+                    - /etc/timezone:/etc/timezone:ro
+                    - /etc/localtime:/etc/localtime:ro
+
+                # metacubexd Dashboard
+                metacubexd:
+                    container_name: metacubexd
+                    image: ghcr.io/metacubex/metacubexd
+                    restart: unless-stopped
+                    environment:
+                    - TZ=Asia/Shanghai
+                    network_mode: bridge
+                    ports:
+                    - '9097:80'
+                    volumes:
+                    # 共享host的时间环境
+                    - /etc/timezone:/etc/timezone:ro
+                    - /etc/localtime:/etc/localtime:ro
+
+                # zashboard Dashboard
+                zashboard:
+                    container_name: zashboard
+                    image: ghcr.io/zephyruso/zashboard:latest
+                    restart: unless-stopped
+                    environment:
+                    - TZ=Asia/Shanghai
+                    network_mode: bridge
+                    ports:
+                    - '9098:80'
+                    volumes:
+                    # 共享host的时间环境
+                    - /etc/timezone:/etc/timezone:ro
+                    - /etc/localtime:/etc/localtime:ro
             ```
 
         </details>
