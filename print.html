@@ -2294,7 +2294,7 @@ docker exec -it [container ID or NAMES] bash
 <li><a href="https://dunwu.github.io/linux-tutorial/docker/">dunwu.github.io/linux-tutorial/docker</a> - Docker 教程</li>
 <li><a href="https://www.runoob.com/docker/docker-command-manual.html">www.runoob.com/docker/docker-command-manual.html</a> - Docker 命令大全</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><p>~ updateDate: 2025-09-29</p>
+<div style="break-before: page; page-break-before: always;"></div><p>~ updateDate: 2025-09-30</p>
 <h1 id="docker-software"><a class="header" href="#docker-software">docker-software</a></h1>
 <ul>
 <li><a href="https://hub.docker.com/">Docker Hub</a></li>
@@ -2308,7 +2308,7 @@ docker exec -it [container ID or NAMES] bash
 </li>
 <li><a href="Software/Linux/Docker/docker-software.html#%E7%BD%91%E7%9B%98%E7%B1%BB">网盘类</a>
 <ul>
-<li><a href="Software/Linux/Docker/docker-software.html#alist">Alist</a></li>
+<li><s><a href="Software/Linux/Docker/docker-software.html#alist">Alist</a></s></li>
 </ul>
 </li>
 <li><a href="Software/Linux/Docker/docker-software.html#%E8%84%9A%E6%9C%AC%E7%B1%BB">脚本类</a>
@@ -2371,12 +2371,55 @@ docker exec -it [container ID or NAMES] bash
 <h3 id="网盘类"><a class="header" href="#网盘类">网盘类</a></h3>
 <ul>
 <li>
-<h4 id="alistgithubdocker----一个支持多存储的文件列表webdav程序使用-gin-和-solidjs"><a class="header" href="#alistgithubdocker----一个支持多存储的文件列表webdav程序使用-gin-和-solidjs"><a href="https://alist.nn.ci/zh/">Alist</a><a id="alist"></a><sup>[<a href="https://github.com/alist-org/alist">GitHub</a>]</sup><sup>[<a href="https://hub.docker.com/r/xhofe/alist">Docker</a>]</sup> -  一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。</a></h4>
+<h4 id="alistgithubdocker-已被出售"><a class="header" href="#alistgithubdocker-已被出售"><s><a href="https://alist.nn.ci/zh/">Alist</a><a id="alist"></a><sup>[<a href="https://github.com/alist-org/alist">GitHub</a>]</sup><sup>[<a href="https://hub.docker.com/r/xhofe/alist">Docker</a>]</sup></s> <code>已被出售</code></a></h4>
 <blockquote>
-<ul>
-<li><a href="https://alist.xiaoya.pro/">小雅Alist</a><sup>[<a href="https://hub.docker.com/r/xiaoyaliu/alist">Docker</a>]</sup><sup>[<a href="https://xiaoyaliu.notion.site/xiaoya-docker-69404af849504fa5bcf9f2dd5ecaa75f">docker文档</a>]</sup><sup>[<a href="https://www.kdocs.cn/l/cvEe3cv6dGkH">小雅使用说明</a>]</sup></li>
-</ul>
+<p><a href="https://alist.xiaoya.pro/">小雅Alist</a><sup>[<a href="https://hub.docker.com/r/xiaoyaliu/alist">Docker</a>]</sup><sup>[<a href="https://xiaoyaliu.notion.site/xiaoya-docker-69404af849504fa5bcf9f2dd5ecaa75f">docker文档</a>]</sup><sup>[<a href="https://www.kdocs.cn/l/cvEe3cv6dGkH">小雅使用说明</a>]</sup></p>
+<p><a href="https://oplist.org/">OpenList</a><sup>[<a href="https://github.com/OpenListTeam/OpenList">GitHub</a>]</sup><sup>[<a href="https://hub.docker.com/r/openlistteam/openlist">Docker</a>]</sup> - 一个更可信、可持续的 AList 开源替代方案，防范未来可能的闭源、黑箱或不可信变更。</p>
 </blockquote>
+  <details>
+  <summary> <strong>docker-compose</strong> </summary>
+<ul>
+<li>
+<p>bash</p>
+<pre><code class="language-bash">
+# 创建目录
+mkdir -p /DATA/openlist
+
+# 进入该目录
+cd /DATA/openlist
+
+# 上传docker-compose.yml文件
+# TODO: 上传docker-compose.yml文件
+
+# Running
+docker compose up -d
+
+# Update and Restart
+docker compose pull &amp;&amp; docker compose up -d
+
+</code></pre>
+</li>
+<li>
+<p>docker-compose.yml</p>
+<pre><code class="language-yml">services:
+    openlist:
+        container_name: openlist
+        image: 'openlistteam/openlist:latest'
+        restart: unless-stopped
+        network_mode: bridge
+        ports:
+        - '5244:5244'
+        # user: '${UID}:${GID}' # 使用当前用户的UID和GID 也可以直接尝试root权限user:'0:0'
+        user: '0:0' 
+        environment:
+        - UMASK=022
+        volumes:
+        - './openlist:/opt/openlist/data'
+
+</code></pre>
+</li>
+</ul>
+  </details>
 </li>
 </ul>
 </li>
