@@ -1,4 +1,4 @@
-~ updateDate: 2025-09-29
+~ updateDate: 2025-09-30
 
 # docker-software
  - [Docker Hub](https://hub.docker.com/)
@@ -8,7 +8,7 @@
 * [面板类](#面板类)
 	* [Portainer](#portainer)
 * [网盘类](#网盘类)
-	* [Alist](#alist)
+	* <s>[Alist](#alist)</s>
 * [脚本类](#脚本类)
 	* [qinglong](#qinglong)
 * [下载类](#下载类)
@@ -44,10 +44,59 @@
 
 - ### 网盘类
 
-    - #### [Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist)]</sup><sup>[[Docker](https://hub.docker.com/r/xhofe/alist)]</sup> -  一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+    - #### <s>[Alist](https://alist.nn.ci/zh/)<a id="alist"></a><sup>[[GitHub](https://github.com/alist-org/alist)]</sup><sup>[[Docker](https://hub.docker.com/r/xhofe/alist)]</sup></s> `已被出售`
 
-        > - [小雅Alist](https://alist.xiaoya.pro/)<sup>[[Docker](https://hub.docker.com/r/xiaoyaliu/alist)]</sup><sup>[[docker文档](https://xiaoyaliu.notion.site/xiaoya-docker-69404af849504fa5bcf9f2dd5ecaa75f)]</sup><sup>[[小雅使用说明](https://www.kdocs.cn/l/cvEe3cv6dGkH)]</sup>
+        > [小雅Alist](https://alist.xiaoya.pro/)<sup>[[Docker](https://hub.docker.com/r/xiaoyaliu/alist)]</sup><sup>[[docker文档](https://xiaoyaliu.notion.site/xiaoya-docker-69404af849504fa5bcf9f2dd5ecaa75f)]</sup><sup>[[小雅使用说明](https://www.kdocs.cn/l/cvEe3cv6dGkH)]</sup>
+        >
+        > [OpenList](https://oplist.org/)<sup>[[GitHub](https://github.com/OpenListTeam/OpenList)]</sup><sup>[[Docker](https://hub.docker.com/r/openlistteam/openlist)]</sup> - 一个更可信、可持续的 AList 开源替代方案，防范未来可能的闭源、黑箱或不可信变更。
   
+        <details>
+
+		<summary> <strong>docker-compose</strong> </summary>
+
+        - bash
+        
+            ```bash
+
+            # 创建目录
+            mkdir -p /DATA/openlist
+
+            # 进入该目录
+            cd /DATA/openlist
+
+            # 上传docker-compose.yml文件
+            # TODO: 上传docker-compose.yml文件
+            
+            # Running
+            docker compose up -d
+
+            # Update and Restart
+            docker compose pull && docker compose up -d
+
+            ```
+        
+        - docker-compose.yml
+        
+            ```yml
+            services:
+                openlist:
+                    container_name: openlist
+                    image: 'openlistteam/openlist:latest'
+                    restart: unless-stopped
+                    network_mode: bridge
+                    ports:
+                    - '5244:5244'
+                    # user: '${UID}:${GID}' # 使用当前用户的UID和GID 也可以直接尝试root权限user:'0:0'
+                    user: '0:0' 
+                    environment:
+                    - UMASK=022
+                    volumes:
+                    - './openlist:/opt/openlist/data'
+            
+            ```
+
+        </details>
+        
 - ### 脚本类
 
     - #### qinglong<a id="qinglong"></a><sup>[[GitHub](https://github.com/whyour/qinglong)]</sup><sup>[[Docker](https://hub.docker.com/r/whyour/qinglong)]</sup> - 定时任务管理平台
