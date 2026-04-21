@@ -3,11 +3,10 @@ title= "versionjun.github.io"
 authors = ["versionJun"]
 description = "https://versionjun.github.io/"
 language = "en"
-multilingual = false
 src = "src"
+text-direction = "ltr"
 
 [output.html]
 additional-css = ["./assets/css/variables.css","./assets/css/general.css"]
 git-repository-url = "https://github.com/versionJun/versionJun.github.io"
 edit-url-template = "https://github.com/versionJun/versionJun.github.io/edit/main/{path}"
-
