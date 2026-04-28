@@ -1,10 +1,11 @@
-~ updateDate: 2025-09-17
+~ updateDate: 2026-04-28
 
 # Windows-Software
 
 ## 目录
 
 * [Windows](#windows)
+    * [Custom](#custom)
 	* [Browser](#browser)
 		* [Edge](#edge)
 		* [Firefox 国际版](#firefox-国际版)
@@ -112,7 +113,26 @@
 
 ##  Windows
 
-- ###  Browser
+- ### Custom
+
+	<details>
+
+	<summary>cmd</summary>
+	
+	```cmd
+		
+		# 禁用系统的休眠功能 执行此命令后，系统将删除 hiberfil.sys 文件，从而释放硬盘空间。
+		powercfg -h off
+	
+		# 启用系统的休眠功能
+		powercfg -h on
+
+	```
+
+	</details>
+
+
+- ### Browser
 
 	- #### [Edge](https://www.microsoft.com/zh-cn/edge/download)
 
